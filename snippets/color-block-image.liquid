@@ -1,0 +1,25 @@
+<br>
+<div class="cta-colorblock" style="{% if reverse %}flex-flow: row-reverse; flex-wrap: wrap-reverse;{% endif %}">
+  
+<div class="imageblock" style="background-image: url({{ image }});"></div>
+  
+<div class="colorblock">
+  
+<div>{{ title }}</div>
+  
+<p>{{ block.settings.blockText }}</p>
+{% if block.settings.blockLink != blank %}
+<a class="btn" href="{{ block.settings.blockLink }}">{{ block.settings.blockButtonLabel }}</a>
+{% endif %}
+
+</div>
+  
+</div>
+
+<style>
+  .cta-colorblock {
+    max-width: 1060px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+</style>

@@ -1,0 +1,347 @@
+<header class="site-header" role="banner" data-section-id="{{ section.id }}" data-section-type="header-section">
+  <div class="wrapper">
+
+    <div class="grid--full">
+      <div class="grid-item large--one-half">
+        {% if template.name == 'index' %}
+          <h1 class="header-logo" itemscope itemtype="http://schema.org/Organization">
+        {% else %}
+          <div class="h1 header-logo" itemscope itemtype="http://schema.org/Organization">
+        {% endif %}
+          {% if section.settings.logo %}
+          {% capture image_size %}{{ section.settings.logo_max_width | escape }}x{% endcapture %}
+          {%- assign img_url = section.settings.logo | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+          {% capture logo_alt %}{{ section.settings.logo.alt | default: shop.name }}{% endcapture %}
+          <a href="/" itemprop="url">
+            <div class="lazyload__image-wrapper no-js header-logo__image" style="max-width:{{ section.settings.logo_max_width }}px;">
+              <div style="padding-top:{{ 1 | divided_by: section.settings.logo.aspect_ratio | times: 100}}%;">
+                <img class="lazyload js"
+                  data-src="{{ img_url }}"
+                  data-widths="[180, 360, 540, 720, 900, 1080, 1296, 1512, 1728, 2048]"
+                  data-aspectratio="{{ section.settings.logo.aspect_ratio }}"
+                  data-sizes="auto"
+                  alt="{{ logo_alt | escape }}"
+                  style="width:{{ section.settings.logo_max_width }}px;">
+              </div>
+            </div>
+            <noscript>
+              {% capture image_size %}{{ section.settings.logo_max_width | escape }}x{% endcapture %}
+              <img src="{{ section.settings.logo | img_url: image_size }}"
+                srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
+                alt="{{ logo_alt | escape }}"
+                itemprop="logo"
+                style="max-width:{{ section.settings.logo_max_width }}px;">
+            </noscript>
+          </a>
+          {% else %}
+            <a href="/" itemprop="url" style="padding-bottom: 0.3em; font-family: 'Open Sans',sans-serif; font-size:30px;"><img src="{{ 'header-logo.png' | asset_img_url: '280x' }}" style="display:none;">Home Essential Oils</a>
+            <p style="font-size: 14px;background: #636363;color: white;padding: 0.2em;width: fit-content;border-radius: 24px;display: flex;align-items: center;">
+              <img src="{{ 'o.png' | asset_url }}" width="24px" style="background-color: white;border-radius: 50%;padding: 0.2em;">&nbsp;&nbsp;dōTERRA Certified Site&nbsp;&nbsp;</p>
+          {% endif %}
+        {% if template.name == 'index' %}
+          </h1>
+        {% else %}
+          </div>
+        {% endif %}
+      </div>
+
+      <div class="grid-item large--one-half text-center large--text-right">
+        {% if section.settings.show_announcement or shop.customer_accounts_enabled %}
+          <div class="site-header--text-links{% if section.settings.announcement_text == blank %} medium-down--hide{% endif %}" style="background-color: #ffffffb0; border-radius: 2px; font-size: 13px;">
+            {% if section.settings.show_announcement %}
+              {% if section.settings.announcement_link != blank %}
+                <a href="{{ section.settings.announcement_link }}">
+              {% endif %}
+                  <p style="display: none;">{{ section.settings.announcement_text | escape }}</p>
+                <p class="for-free" style="margin: 0.333em 1em; color: #333333; font-weight: bold;"></p>
+                  <div class="for-free-bar-bg" style="height: 4px; border-radius: 2px; margin: 2px; background-color: #0000001c;">
+                  <div class="for-free-bar" style="display:none; height: 4px; border-radius: 2px;">
+                  	<div style="width: 5%; height: 100%; border-radius: 2px; background-color: white; margin-left: auto;"></div>
+                  </div>
+                  </div>
+              {% if section.settings.announcement_link != blank %}
+                </a>
+              {% endif %}
+            {% endif %}
+
+            {% if shop.customer_accounts_enabled %}
+              <span class="site-header--meta-links medium-down--hide">
+                {% if customer %}
+                  {% capture first_name %}<a href="/account">{{ customer.first_name }}</a>{% endcapture %}
+                  {{ 'layout.customer.logged_in_as_html' | t: first_name: first_name }} &middot; {{ 'layout.customer.log_out' | t | customer_logout_link }}
+                {% else %}
+                  {{ 'layout.customer.sign_in' | t | customer_login_link }}
+                  <span class="site-header--spacer">{{ 'layout.customer.or' | t }}</span>
+                  {{ 'layout.customer.create_account' | t | customer_register_link }}
+                {% endif %}
+              </span>
+            {% endif %}
+          </div>
+
+          <br class="medium-down--hide">
+        {% endif %}
+		
+        <div style="flex-basis:100%"></div>
+        
+        {% include 'search-bar' %}
+
+        <a href="/cart" class="header-cart-btn cart-toggle">
+          <span class="icon icon-cart"></span>
+          {{ 'layout.cart.cart' | t }} <span class="cart-count cart-badge--desktop {% if cart.item_count == 0 %}hidden-count{% endif %}">{{ cart.item_count }}</span>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</header>
+
+<div id="mobileNavBar">
+  <div class="display-table-cell" style="width:30%;">
+<!--     <button class="menu-toggle mobileNavBar-link" aria-controls="navBar" aria-expanded="false"><span class="icon icon-hamburger" aria-hidden="true"></span>{{ 'layout.navigation.mobile_menu' | t }}</button> -->
+    <button class="menu-toggle mobileNavBar-link" aria-controls="navBar" aria-expanded="false"><span class="icon icon-hamburger" aria-hidden="true"></span></button>
+  </div>
+  <div class ="display-table-cell" style="width:40%">
+    <a href="/" class="home-toggle mobileNavBar-link">
+      <svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+           style="display: block; margin: auto;">
+       <g transform="translate(0 -848.7)">
+        <path d="m17.562 634.59-150 66.666v112.39h300v-112.39z" fill="#6a6a6a" stroke="#6a6a6a" stroke-linejoin="round" stroke-width="4"/>
+        <text x="-110.43826" y="790.6499" fill="#fdfcfd" font-family="Verdana" font-size="17.333px" letter-spacing="0px" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="-110.43826" y="790.6499" fill="#fdfcfd" font-family="'Open Sans'" font-size="96px">hōME</tspan></text>
+        <g stroke-linejoin="round">
+         <path d="m137.56 621.65v12.391l30 13.332v-25.723z" fill="#6a6a6a" stroke="#6a6a6a" stroke-width="4"/>
+         <path d="m17.562 596.71-184.06 81.805 8.1211 18.277 175.94-78.195 175.94 78.195 8.1211-18.277z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#6a6a6a" image-rendering="auto" shape-rendering="auto" solid-color="#000000" stroke="#6a6a6a" stroke-width="4" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+         <path d="m16 849.7-15 10.029v1.9706h2v18h26v-18h2v-1.9706z" fill="#fff" stroke="#fff" stroke-width=".55994"/>
+        </g>
+        <text x="7.2897201" y="876.26312" fill="#b6bc1e" font-family="Verdana" font-size="5.2075px" letter-spacing="0px" stroke-width=".30044" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="7.2897201" y="876.26312" fill="#b6bc1e" font-family="'Open Sans'" font-size="28.842px" stroke-width=".30044">ō</tspan></text>
+        <path d="m-24 849.7-15 10.029v1.9706h2v18h26v-18h2v-1.9706z" fill="#b6bc1e" stroke="#b6bc1e" stroke-linejoin="round" stroke-width=".55994"/>
+        <text x="-32.710281" y="876.26312" fill="#fdfcfd" font-family="Verdana" font-size="5.2075px" letter-spacing="0px" stroke-width=".30044" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="-32.710281" y="876.26312" fill="#fdfcfd" font-family="'Open Sans'" font-size="28.842px" stroke-width=".30044">ō</tspan></text>
+       </g>
+      </svg>
+    </a>
+  </div>
+  <div class="display-table-cell" style="width:30%;">
+    <a id="mobile-search-header-btn" href="/a/search" class="cart-toggle mobileNavBar-link">
+      <span class="icon icon-search"></span>
+    </a>
+    <a href="/cart" class="cart-toggle mobileNavBar-link">
+      <span class="icon icon-cart"></span>
+      <span class="cart-count {% if cart.item_count == 0 %}hidden-count{% endif %}">{{ cart.item_count }}</span>
+    </a>
+  </div>
+  
+  <div class="search-box" style="display: block">
+    <form action="/search" method="get" role="search">
+      <input type="search" name="q" placeholder="Search" aria-label="Search" autocomplete="off">
+      <button type="submit">
+        <svg aria-hidden="true" focusable="false" role="presentation" viewBox="0 0 37 40"><path d="M35.6 36l-9.8-9.8c4.1-5.4 3.6-13.2-1.3-18.1-5.4-5.4-14.2-5.4-19.7 0-5.4 5.4-5.4 14.2 0 19.7 2.6 2.6 6.1 4.1 9.8 4.1 3 0 5.9-1 8.3-2.8l9.8 9.8c.4.4.9.6 1.4.6s1-.2 1.4-.6c.9-.9.9-2.1.1-2.9zm-20.9-8.2c-2.6 0-5.1-1-7-2.9-3.9-3.9-3.9-10.1 0-14C9.6 9 12.2 8 14.7 8s5.1 1 7 2.9c3.9 3.9 3.9 10.1 0 14-1.9 1.9-4.4 2.9-7 2.9z"></path></svg>
+      </button>
+    </form>
+  </div>
+</div>
+
+<nav class="nav-bar" id="navBar" role="navigation">
+  <div class="wrapper">
+    {% include 'search-bar' %}
+    {% include 'mobile-nav' %}
+    {% include 'site-nav' %}
+  </div>
+</nav>
+
+
+
+
+{% schema %}
+{
+  "name": {
+    "de": "Titel",
+    "en": "Header",
+    "es": "Encabezado",
+    "fr": "En-tête",
+    "it": "Header",
+    "ja": "ヘッダー",
+    "nl": "Koptekst",
+    "pt-BR": "Cabeçalho",
+    "zh-CN": "标头",
+    "zh-TW": "標頭"
+  },
+  "class": "header-section",
+  "settings": [
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": {
+        "de": "Menü",
+        "en": "Menu",
+        "es": "Menú",
+        "fr": "Menu",
+        "it": "Menu",
+        "ja": "メニュー",
+        "nl": "Menu",
+        "pt-BR": "Menu",
+        "zh-CN": "菜单",
+        "zh-TW": "選單"
+      },
+      "default": "main-menu"
+    },
+    {
+      "type": "header",
+      "content": {
+        "de": "Logo",
+        "en": "Logo",
+        "es": "Logotipo",
+        "fr": "Logo",
+        "it": "Logo",
+        "ja": "ロゴ",
+        "nl": "Logo",
+        "pt-BR": "Logotipo",
+        "zh-CN": "徽标",
+        "zh-TW": "商標"
+      }
+    },
+    {
+      "type": "image_picker",
+      "id": "logo",
+      "label": {
+        "de": "Benutzerdefiniertes Logo",
+        "en": "Custom logo",
+        "es": "Logotipo personalizado",
+        "fr": "Logo personnalisé",
+        "it": "Logo personalizzato",
+        "ja": "ロゴをカスタムする",
+        "nl": "Aangepast logo",
+        "pt-BR": "Logotipo personalizado",
+        "zh-CN": "自定义徽标",
+        "zh-TW": "自訂商標"
+      },
+      "info": {
+        "de": "400px breite .png empfohlen",
+        "en": "400px wide .png recommended",
+        "es": "400px de ancho .png recomendado",
+        "fr": "400 px de largeur .png recommandé",
+        "it": "Consigliato file .png con larghezza 400 pixel",
+        "ja": "400ピクセル幅.png推奨",
+        "nl": "400px breed .png aanbevolen",
+        "pt-BR": ".png com 400 px de largura recomendado",
+        "zh-CN": "建议使用 400 px 宽的 .png",
+        "zh-TW": "400px wide .png建議"
+      }
+    },
+    {
+      "type": "text",
+      "id": "logo_max_width",
+      "label": {
+        "de": "Logobreite",
+        "en": "Custom logo width",
+        "es": "Ancho del logotipo personalizado",
+        "fr": "Largeur personnalisée du logo",
+        "it": "Larghezza logo personalizzato",
+        "ja": "ロゴの幅をカスタムする",
+        "nl": "Aangepaste logo-breedte",
+        "pt-BR": "Largura do logotipo personalizado",
+        "zh-CN": "自定义徽标宽度",
+        "zh-TW": "自訂商標寬度"
+      },
+      "default": {
+        "de": "305",
+        "en": "305",
+        "es": "305",
+        "fr": "305",
+        "it": "305",
+        "ja": "305",
+        "nl": "305",
+        "pt-BR": "305",
+        "zh-CN": "305",
+        "zh-TW": "305"
+      }
+    },
+    {
+      "type": "header",
+      "content": {
+        "de": "Ankündigungsbereich",
+        "en": "Announcement bar",
+        "es": "Barra de anuncios",
+        "fr": "Barre d'annonces",
+        "it": "Barra degli annunci",
+        "ja": "告知バー",
+        "nl": "Aankondigingsbalk",
+        "pt-BR": "Barra de anúncios",
+        "zh-CN": "公告栏",
+        "zh-TW": "公告列"
+      }
+    },
+    {
+      "type": "checkbox",
+      "id": "show_announcement",
+      "label": {
+        "de": "Ankündigung anzeigen",
+        "en": "Show announcement",
+        "es": "Mostrar anuncio",
+        "fr": "Afficher l'annonce",
+        "it": "Mostra annuncio",
+        "ja": "告知を表示する",
+        "nl": "Aankondiging weergeven",
+        "pt-BR": "Exibir anúncio",
+        "zh-CN": "显示公告",
+        "zh-TW": "顯示公告"
+      },
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "announcement_text",
+      "label": {
+        "de": "Text",
+        "en": "Text",
+        "es": "Texto",
+        "fr": "Texte",
+        "it": "Testo",
+        "ja": "テキスト",
+        "nl": "Tekst",
+        "pt-BR": "Texto",
+        "zh-CN": "文本",
+        "zh-TW": "文字"
+      },
+      "default": {
+        "de": "Hier etwas ankündigen",
+        "en": "Announce something here",
+        "es": "Anuncia algo aquí",
+        "fr": "Annoncez quelque chose ici",
+        "it": "Annuncia qualcosa qui",
+        "ja": "ここで告知してください",
+        "nl": "Kondig hier iets aan",
+        "pt-BR": "Anuncie algo aqui",
+        "zh-CN": "在此处进行公告",
+        "zh-TW": "在此公告資訊"
+      }
+    },
+    {
+      "type": "url",
+      "id": "announcement_link",
+      "label": {
+        "de": "Link",
+        "en": "Link",
+        "es": "Enlace",
+        "fr": "Lien",
+        "it": "Link",
+        "ja": "リンク",
+        "nl": "Link",
+        "pt-BR": "Link",
+        "zh-CN": "链接",
+        "zh-TW": "連結"
+      },
+      "info": {
+        "de": "Optional",
+        "en": "Optional",
+        "es": "Opcional",
+        "fr": "Facultatif",
+        "it": "Facoltativo",
+        "ja": "選択させる",
+        "nl": "Optioneel",
+        "pt-BR": "Opcional",
+        "zh-CN": "可选",
+        "zh-TW": "(選填)"
+      }
+    }
+  ]
+}
+{% endschema %}

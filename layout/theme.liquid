@@ -1,0 +1,267 @@
+<!doctype html>
+<html class="no-touch no-js">
+<head>
+  <script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>
+  <!-- Basic page needs ================================================== -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  {% if settings.favicon %}
+  <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
+  {% endif %}
+
+  <!-- Title and description ================================================== -->
+  <title>
+    {{ page_title }}{% if current_tags %}{% assign current_tags_joined = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: current_tags_joined }}{% endif %}
+  </title>
+  
+  {% comment %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% endcomment %}
+
+  {% if page_description %}
+    <meta name="description" content="{{ page_description | escape }}">
+  {% endif %}
+
+  <!-- Product meta ================================================== -->
+  {% include 'social-meta-tags' %}
+
+  <!-- Helpers ================================================== -->
+  <link rel="canonical" href="{{ canonical_url }}">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <!-- CSS ================================================== -->
+  {{ 'theme.scss.css' | asset_url | stylesheet_tag }}
+
+  <!-- Header hook for plugins ================================================== -->
+  {{ content_for_header }}
+
+  {% comment %}
+    If you store has customers disabled, you can remove the following JS file
+  {% endcomment %}
+  {% if template.directory == 'customers' %}
+    {{ 'shopify_common.js' | shopify_asset_url | script_tag }}
+    {{ 'customer_area.js'  | shopify_asset_url | script_tag }}
+  {% endif %}
+
+  {{ 'jquery-2.2.3.min.js' | asset_url | script_tag }}
+  
+  <script src="{{ 'fitty.min.js' | asset_url }}"></script>
+
+  <script src="{{ 'lazysizes.min.js' | asset_url }}" async="async"></script>
+  <script src="{{ 'vendor.js' | asset_url }}" defer="defer"></script>
+  <script src="{{ 'theme.js' | asset_url }}" defer="defer"></script>
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>(adsbygoogle = window.adsbygoogle || []).push({google_ad_client: "pub-8325299918592997",enable_page_level_ads: true});</script>
+  
+  <meta name="google-site-verification" content="L-6fkxcbZkvx8mFW8RBYRy_BYoDbyfS2xz-i-RZHa58" />
+  <meta name="p:domain_verify" content="514a7ff12867990986e5055c4fd0c785"/>
+
+</head>
+
+<body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" >
+
+  {% section 'header' %}
+
+  <main class="wrapper main-content{% if template.name == blank %} main-content--no-template{% endif %}" role="main">
+
+    {{ content_for_layout }}
+
+  </main>
+
+  {% section 'footer' %}
+
+  <script>
+
+  var moneyFormat = '{{ shop.money_format }}';
+
+  var theme = {
+    strings:{
+      product:{
+        unavailable: {{ 'products.product.unavailable' | t | json }},
+        will_be_in_stock_after:{{ 'products.product.will_be_in_stock_after' | t: date: '[date]' | json }},
+        only_left:{{ 'products.product.only_left' | t: count: '1' | json }}
+      },
+      navigation:{
+        more_link: {{ 'layout.navigation.more' | t | json }}
+      },
+      map:{
+        addressError: {{ 'map.errors.address_error' | t | json }},
+        addressNoResults: {{ 'map.errors.address_no_results' | t | json }},
+        addressQueryLimit: {{ 'map.errors.address_query_limit_html' | t | json }},
+        authError: {{ 'map.errors.auth_error_html' | t | json }}
+      }
+    },
+    settings:{
+      cartType: {{ settings.ajax_cart_method | json }}
+    }
+  }
+  </script>
+
+  {% if settings.ajax_cart_method != 'page' %}
+
+    {% include 'ajax-cart-template' %}
+
+  {% endif %}
+  
+  {% include 'ajaxify-cart' %}
+
+  <ul hidden>
+    <li id="a11y-refresh-page-message">{{ 'general.accessibility.refresh_page' | t }}</li>
+  </ul>
+
+
+  <script>
+    fitty('.h0', {
+  		minSize: 24,
+  		maxSize: 72
+    });
+    
+    var maxRows = 5;
+    $('.site-nav ul.site-nav--dropdown').each( function() {
+      var totalRows = $(this).children('li').length;
+      var columns = Math.ceil(totalRows/maxRows).toString();
+      $(this).css({
+        "-webkit-column-count": columns,
+        "-moz-column-count": columns,
+        "column-count": columns
+      });
+    });
+  </script>
+  
+  <script>  
+      function readMore(id, element) {
+        var x = document.getElementById(id);
+        
+        if (x.style.display === "block") {
+          x.style.display = "none";
+//           element.innerHTML = "+";
+        } else {          
+          x.style.display = "block";
+//           element.innerHTML = "-";
+        }
+      }
+  </script>
+  <script type="text/javascript">
+    var slideIndex = 1;
+    showSlides();
+    
+    // Next/previous controls
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    // Thumbnail image controls
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+    }
+  </script>
+  
+  <script>
+      if (window.location.href.indexOf('/products/gift-card')) {
+        //Hide the element.
+        //$('#shipping-notice').hide();
+      }
+  </script>
+  
+<script>
+  var once = false
+  var flip = false
+  var flashPause = 0
+  updateForFree()
+  setInterval(updateForFree, 3000)
+  function updateForFree () {
+    jQuery.getJSON('/cart.js', function(cart) {
+      var total = cart.total_price
+      
+      var bar = $('.for-free-bar')
+      bar.children().css({
+        opacity: 0,
+        "margin-left": 0,
+        width: "5%"
+      })
+      bar.children().clearQueue()
+      
+      var barBG = $('.for-free-bar-bg')
+      barBG.css("background-color", "#cccccc")
+      
+      if (total == 0) {
+        total = "Free shipping on orders over $50"
+        bar.css("display", "none")
+      }
+      else if (total < 5000){
+        var percent = total / 50
+        total = 5000 - total
+		total = "$" + (total / 100).toFixed(2) + " away from Free Shipping"
+        
+        bar.css({
+          "display": "",
+          "width": percent + "%",
+          "background-color": "#c18dc2"
+        })
+        
+        if (flashPause <= 0)
+        {
+          bar.children().animate({ opacity: 1, "margin-left": "95%" }, 1500, 'swing')
+          flashPause = 10
+        }
+        flashPause--
+      }
+      else {
+        total = "Order eligible for Free Shipping!"
+       	
+        bar.css({
+          "display": "",
+          "width": "auto",
+          "background-color": "#b6bc1e"
+        })
+        
+        if (!once)
+        {
+          bar.children().css({
+            opacity: 1,
+            width: "auto"
+          })
+          
+          once = true
+        }
+      }
+      
+      
+      bar.children().animate({ opacity: 0 }, 500)
+      
+      total += "<img src='https://i.imgur.com/1oQE3zq.png' height='26px' style='vertical-align: middle;'>"
+      
+	  $('.for-free')[0].innerHTML = total
+      $('.for-free')[1].innerHTML = total
+      $('.for-free')[2].innerHTML = total
+//       $('.for-free').css("color", "#636363")
+      
+      flip = !flip
+    })
+  }
+</script>
+  
+  
+
+<!-- **BEGIN** Hextom USB Integration // Main Include - DO NOT MODIFY -->
+    {% render 'hextom_usb_main', product: product, customer: customer %}
+    <!-- **END** Hextom USB Integration // Main Include - DO NOT MODIFY -->
+
+
+</body>
+</html>

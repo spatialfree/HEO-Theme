@@ -1,0 +1,25 @@
+<br>
+<div class="cta-colorblock" style="{% if left %}flex-flow: row-reverse; flex-wrap: wrap-reverse;{% endif %}">
+  
+<div class="imageblock" style="background-image: url({{ image }}); background-size: contain; background-repeat: no-repeat;"></div>
+  
+<div class="colorblock" style="background-color: white; color: #333333;">
+
+<img width="auto" height="64px" src="{{ icon }}" style="margin: 1em;">
+  
+<div style="line-height: 1.25; padding-bottom: 0.5em;">{{ title }}</div>
+  
+<div style="font-size: 1.2em; font-weight: normal;">{{ text }}</div>
+
+</div>
+</div>
+<br>
+
+<style>
+  .cta-colorblock {
+    max-width: 1060px;
+    margin: 0 auto;
+    padding: 1em;
+    flex-wrap: wrap;
+  }
+</style>

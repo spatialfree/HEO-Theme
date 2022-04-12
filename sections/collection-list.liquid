@@ -1,0 +1,221 @@
+<div data-section-id="{{ section.id }}" data-section-type="collections-list-template">
+  <hr>
+  {% if section.settings.title != blank %}
+    <div class="section-header">
+      <p class="h1{% if more_link %} section-header--left{% endif %}">{{ section.settings.title | escape }}</p>
+      
+    </div>
+  {% endif %}
+<!--   <div class="section-header">
+    <h2 class="h1  section-header--left"></h2>
+  </div> -->
+  <div class="grid-uniform text-center">
+
+    {%- assign index = 0 -%}
+    {%- assign index = section.blocks.size -%}
+
+    {% case index %}
+      {% when 1 %}
+        {%- assign featured_collection_width = 'one-whole' -%}
+        {%- assign featured_collection_size = '1024x' -%}
+        {%- assign width = '1000' %}
+        {%- assign height = '1000' %}
+      {% when 2 %}
+        {%- assign featured_collection_width = 'one-half' -%}
+        {%- assign featured_collection_size = '540x' -%}
+        {%- assign width = '480' %}
+        {%- assign height = '480' %}
+      {% when 3 %}
+        {%- assign featured_collection_width = 'small--one-half one-third' -%}
+        {%- assign featured_collection_size = '345x' -%}
+        {%- assign width = '310' -%}
+        {%- assign height = '310' -%}
+      {% when 4 %}
+        {%- assign featured_collection_width = 'small--one-third one-quarter' -%}
+        {%- assign featured_collection_size = '250x' -%}
+        {%- assign width = '225' -%}
+        {%- assign height = '225' -%}
+      {% when 5 %}
+        {%- assign featured_collection_width = 'small--one-third medium--one-quarter large--one-fifth' -%}
+        {%- assign featured_collection_size = '195x' -%}
+        {%- assign width = '175' -%}
+        {%- assign height = '175' -%}
+      {% when 6 %}
+        {%- assign featured_collection_width = 'small--one-third medium--one-quarter large--one-sixth' -%}
+        {%- assign featured_collection_size = '195x' -%}
+        {%- assign width = '140' -%}
+        {%- assign height = '140' -%}
+    {% endcase %}
+
+    {% if index > 0 %}
+      {% for block in section.blocks %}
+        {%- assign featured = block.settings.collection %}
+        {% include 'featured-collection' with width: width, height: height %}
+      {% endfor %}
+    {% comment %}
+    {% else %}
+      {%- assign index = 0 %}
+      {% for collection in collections limit:7 %}
+        {% unless index >= 6 %}
+          {% unless collection.handle == 'frontpage' %}
+            {%- assign featured = collection.handle %}
+            {% include 'featured-collection' %}
+            {%- assign index = index | plus: 1 %}
+          {% endunless %}
+        {% endunless %}
+      {% endfor %}
+      {% endcomment %}
+    {% endif %}
+
+    {% if index == 0 %}
+      <div class="grid-item text-center">
+        <p>{{ 'homepage.featured_collections.no_collections_html' | t }}</p>
+      </div>
+      <div class="grid-item">
+        <div class="grid-uniform">
+          {% for i in (1..6) %}
+            <div class="grid-item small--one-half medium--one-third large--one-sixth text-center">
+              {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
+              {{ 'collection-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+              <p><a href="/admin/collections">{{ 'homepage.featured_collections.example_collection' | t }}</a></p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+  <div>
+    
+    {% if section.settings.link %}
+    <a href="{{ section.settings.link }}">View All &rsaquo;</a>
+    {% endif %}
+    
+    </div>
+</div>
+
+
+
+{% schema %}
+{
+  "name": {
+    "de": "Kategorien-Liste",
+    "en": "Collection list",
+    "es": "Lista de colecciones",
+    "fr": "Page des collections",
+    "it": "Elenco delle collezioni",
+    "ja": "コレクションリスト",
+    "nl": "Collectielijst",
+    "pt-BR": "Lista de coleções",
+    "zh-CN": "产品系列列表",
+    "zh-TW": "商品系列清單"
+  },
+  "settings": [
+	{
+      "type": "text",
+      "id": "title",
+      "label": {
+        "de": "Titel",
+        "en": "Heading",
+        "es": "Título",
+        "fr": "Titre",
+        "it": "Heading",
+        "ja": "見出し",
+        "nl": "Kop",
+        "pt-BR": "Título",
+        "zh-CN": "标题",
+        "zh-TW": "標題"
+      },
+      "default": {
+        "de": "Featured Kategorie",
+        "en": "Featured collection",
+        "es": "Colección destacada",
+        "fr": "Collection en vedette",
+        "it": "Collezione in evidenza",
+        "ja": "特集コレクション",
+        "nl": "Uitgelichte collectie",
+        "pt-BR": "Coleção em destaque",
+        "zh-CN": "特色产品系列",
+        "zh-TW": "精選商品系列"
+      }
+    },
+	{
+      "type": "url",
+      "id": "link",
+      "label": "Link URL"
+    }
+  ],
+  "class": "collection-list-section",
+  "max_blocks": 6,
+  "presets": [
+    {
+      "name": {
+        "de": "Kategorien-Liste",
+        "en": "Collection list",
+        "es": "Lista de colecciones",
+        "fr": "Page des collections",
+        "it": "Elenco delle collezioni",
+        "ja": "コレクションリスト",
+        "nl": "Collectielijst",
+        "pt-BR": "Lista de coleções",
+        "zh-CN": "产品系列列表",
+        "zh-TW": "商品系列清單"
+      },
+      "category": {
+        "de": "Sammlungen",
+        "en": "Collections",
+        "es": "Colecciones",
+        "fr": "Collections",
+        "it": "Collezioni",
+        "ja": "コレクション",
+        "nl": "Collecties",
+        "pt-BR": "Coleções",
+        "zh-CN": "产品系列",
+        "zh-TW": "商品系列"
+      },
+      "blocks": [
+        {
+          "type": "collection"
+        },
+        {
+          "type": "collection"
+        }
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": {
+        "de": "Kategorie",
+        "en": "Collection",
+        "es": "Colección",
+        "fr": "Collection",
+        "it": "Collezione",
+        "ja": "コレクション",
+        "nl": "Collectie",
+        "pt-BR": "Coleção",
+        "zh-CN": "收藏",
+        "zh-TW": "商品系列"
+      },
+      "settings": [
+        {
+          "id": "collection",
+          "type": "collection",
+          "label": {
+            "de": "Kategorie",
+            "en": "Collection",
+            "es": "Colección",
+            "fr": "Collection",
+            "it": "Collezione",
+            "ja": "コレクション",
+            "nl": "Collectie",
+            "pt-BR": "Coleção",
+            "zh-CN": "收藏",
+            "zh-TW": "商品系列"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

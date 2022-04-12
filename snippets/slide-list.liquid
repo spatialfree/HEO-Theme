@@ -1,0 +1,47 @@
+{% assign splitImages = images | split: ", " %}
+{% assign splitLabels = labels | split: "|" %}
+{% assign splitInfos = infos | split: "|" %}
+
+{% assign index = 0 %}
+
+<div style="
+  display: flex; justify-content: space-around; flex-flow: row wrap; 
+  max-width: 1060px;
+  margin: 0 auto;
+  padding: 1em;">
+
+{% assign count0 = splitLabels | size | minus: 1 %}
+
+{% for i in (0..count0) %}
+  <div class="slide-img" value="{{ i }}">
+  {% if splitImages.size > 1 %}
+  <img height="{{ height }}px" width="auto" src="{{ splitImages[i] }}">
+  {% else %}
+  <div style="height: {{ height }}px; margin-bottom: 0.5em; font-size: 4em; line-height: {{ height }}px; text-align: center; font-weight: bold; border: 3px solid black; border-radius: 3em;">{{ i | plus: 1 }}</div>
+  {% endif %}
+  <div style="margin: auto; text-align: center; font-weight: bold; width: {{ height }}px;">{{ splitLabels[i] }}</div>
+  <br>
+  </div>
+{% endfor %}
+
+{% comment %} Refactor styles to be more consistent and accessible  {% endcomment %}
+<div style="flex-basis: 100%; height: 0;"></div>
+<div class="text-center">
+<div id="slideTitle" class="center-title">{{ index | plus: 1 }}. {{ splitLabels[index] }}</div>
+<div id="slideText" class="center-text">{{ splitInfos[index] }}</div>
+</div>
+
+</div>
+
+<script>
+var splitLabels = {{ splitLabels | json }}
+var splitInfos = {{ splitInfos | json }}
+$(document).ready( function() {
+  $('.slide-img').click(function() {
+    var index = $(this).attr('value')
+    var number = parseInt(index) + 1
+    $('#slideTitle').html(number + ". " + splitLabels[index])
+    $('#slideText').html(splitInfos[index])
+  })
+})
+</script>
