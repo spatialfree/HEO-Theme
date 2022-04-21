@@ -30,7 +30,7 @@
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "rich_text": {
@@ -39,14 +39,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "¿Por qué doTERRA?",
+            "heading": "Welcome!",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Nuestros productos de aceites esenciales de CPTG Probado y Certificado como Puro y de Calidad® ofrecen soluciones naturales para usted y sus seres queridos<\/p>"
+            "text": "<p>Shop all your favorite doTERRA products at the lowest retail price. Enjoy free & fast shipping.<\/p>"
           }
         },
         "button": {
