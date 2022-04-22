@@ -4,11 +4,13 @@
     "colors_accent_1": "#bd8bca",
     "colors_accent_2": "#bd8bca",
     "colors_text": "#354657",
-    "colors_outline_button_labels": "#121212",
+    "colors_outline_button_labels": "#bd8bca",
     "colors_background_1": "#FFFFFF",
     "colors_background_2": "#F3F3F3",
     "type_header_font": "raleway_n9",
     "type_body_font": "raleway_n4",
+    "sale_badge_color_scheme": "accent-2",
+    "sold_out_badge_color_scheme": "inverse",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -19,7 +21,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/CA-logo_d1df7669-1aaa-40be-a20f-0e6bfb881cb9.png",
+          "logo": "shopify:\/\/shop_images\/CA-logo_51f83ad0-efb2-4fbc-b7b3-9de87d61cfe7.png",
           "logo_width": 160,
           "logo_position": "top-center",
           "menu": "main-menu",
