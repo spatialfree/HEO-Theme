@@ -1182,20 +1182,14 @@ deferred-media {
   font: inherit;
   padding: 0.9rem 3rem 1.1rem;
   text-decoration: none;
-  border: 0.1rem solid transparent;
+  border: 0.2rem solid transparent;
   border-radius: 0;
   background-color: rgba(var(--color-button), var(--alpha-button-background));
-  box-shadow: 0 0 0 0.1rem rgba(var(--color-button), var(--alpha-button-border));
+  box-shadow: 0 0 0 0.2rem rgba(var(--color-button), var(--alpha-button-border));
   color: rgb(var(--color-button-text));
   min-width: 12rem;
   min-height: 4.5rem;
   transition: box-shadow var(--duration-short) ease;
-  -webkit-appearance: none;
-  /* custom override */
-  appearance: none;
-  border: 2px solid #BD8BCA;
-  background-color: white;
-  color: #bd8bca;
   font-weight: bold;
   border-radius: 500px;
 }
