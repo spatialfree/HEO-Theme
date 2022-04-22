@@ -2265,6 +2265,10 @@ details[open] > .header__icon--menu .icon-hamburger {
   right: 2rem;
 }
 
+.list-menu__item a[href="/pages/doterra-wholesale-membership"] {
+  font-weight: bold;
+}
+
 details-disclosure > details {
   position: relative;
 }
@@ -2296,7 +2300,7 @@ details-disclosure > details {
   }
 
   .product:not(.product--no-media):not(.featured-product) .product__media-wrapper {
-    max-width: 420px !important;
+    max-width: 360px !important;
   }
 }
 
