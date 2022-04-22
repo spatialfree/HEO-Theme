@@ -2265,7 +2265,7 @@ details[open] > .header__icon--menu .icon-hamburger {
   right: 2rem;
 }
 
-.list-menu__item a[href="/pages/doterra-wholesale-membership"] {
+.list-menu a[href="/pages/doterra-wholesale-membership"] {
   font-weight: bold;
 }
 
