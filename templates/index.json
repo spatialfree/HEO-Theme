@@ -73,6 +73,7 @@
     },
     "1651000506f2504315": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1651000506d798c327-0": {
           "type": "heading",
@@ -168,6 +169,45 @@
         "swipe_on_mobile": true
       }
     },
+    "16510092283f60c961": {
+      "type": "multicolumn",
+      "blocks": {
+        "1651009228dbf04db8-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/safety-course.jpg",
+            "title": "¿Cómo Usar Aceites Esenciales?",
+            "text": "<p>No necesita un título en química o una amplia capacitación para saber cómo usar los aceites esenciales de manera efectiva.<\/p>",
+            "link_label": "Aprender Mas",
+            "link": "shopify:\/\/pages\/como-usar-aceites-esenciales"
+          }
+        },
+        "1651009228dbf04db8-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/aromatouch-technique-kit-course.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651009228dbf04db8-0",
+        "1651009228dbf04db8-1"
+      ],
+      "settings": {
+        "title": "Learn",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "swipe_on_mobile": true
+      }
+    },
     "1651007253341ec544": {
       "type": "image-banner",
       "blocks": {
@@ -242,6 +282,7 @@
     "rich_text",
     "1651000506f2504315",
     "multi_column",
+    "16510092283f60c961",
     "1651007253341ec544",
     "1648519157685828d3"
   ]
