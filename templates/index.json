@@ -71,104 +71,6 @@
         "full_width": true
       }
     },
-    "1651000506f2504315": {
-      "type": "image-with-text",
-      "disabled": true,
-      "blocks": {
-        "1651000506d798c327-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "¿Cómo Usar Aceites Esenciales?"
-          }
-        },
-        "1651000506d798c327-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>No necesita un título en química o una amplia capacitación para saber cómo usar los aceites esenciales de manera efectiva.<\/p>"
-          }
-        },
-        "1651000506d798c327-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Aprende más",
-            "button_link": "shopify:\/\/pages\/como-usar-aceites-esenciales"
-          }
-        }
-      },
-      "block_order": [
-        "1651000506d798c327-0",
-        "1651000506d798c327-1",
-        "1651000506d798c327-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/safety-course.jpg",
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
-    "multi_column": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lemon.png",
-            "title": "Limón",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/lavender.png",
-            "title": "Lavanda",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "a4d07a0d-d0d6-4090-918a-78a434597e3c": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/menta.png",
-            "title": "Menta",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "779adaa7-abb7-45e2-a738-50a22c2f5a0f": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/frankincense.png",
-            "title": "Incienso",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "a4d07a0d-d0d6-4090-918a-78a434597e3c",
-        "779adaa7-abb7-45e2-a738-50a22c2f5a0f"
-      ],
-      "settings": {
-        "title": "Los 10 Aceites Más Populares",
-        "image_width": "third",
-        "image_ratio": "portrait",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "Ver Más",
-        "button_link": "shopify:\/\/collections",
-        "swipe_on_mobile": true
-      }
-    },
     "16510092283f60c961": {
       "type": "multicolumn",
       "blocks": {
@@ -198,7 +100,7 @@
         "1651009228dbf04db8-0"
       ],
       "settings": {
-        "title": "Lost",
+        "title": "",
         "image_width": "full",
         "image_ratio": "adapt",
         "column_alignment": "left",
@@ -280,8 +182,6 @@
   "order": [
     "image_banner",
     "rich_text",
-    "1651000506f2504315",
-    "multi_column",
     "16510092283f60c961",
     "1651007253341ec544",
     "1648519157685828d3"
