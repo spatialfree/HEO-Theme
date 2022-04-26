@@ -14,40 +14,6 @@
         "show_text_below": false
       }
     },
-    "1651000506f2504315": {
-      "type": "image-with-text",
-      "blocks": {
-        "1651000506d798c327-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text"
-          }
-        },
-        "1651000506d798c327-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "1651000506d798c327-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1651000506d798c327-0",
-        "1651000506d798c327-1",
-        "1651000506d798c327-2"
-      ],
-      "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
-    },
     "rich_text": {
       "type": "rich-text",
       "blocks": {
@@ -74,20 +40,39 @@
         "full_width": true
       }
     },
-    "16505048267ac2b4c8": {
-      "type": "featured-collection",
+    "1651000506f2504315": {
+      "type": "image-with-text",
+      "blocks": {
+        "1651000506d798c327-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Cómo Usar Aceites Esenciales?"
+          }
+        },
+        "1651000506d798c327-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No necesita un título en química o una amplia capacitación para saber cómo usar los aceites esenciales de manera efectiva.<\/p>"
+          }
+        },
+        "1651000506d798c327-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Aprende más",
+            "button_link": "shopify:\/\/pages\/como-usar-aceites-esenciales"
+          }
+        }
+      },
+      "block_order": [
+        "1651000506d798c327-0",
+        "1651000506d798c327-1",
+        "1651000506d798c327-2"
+      ],
       "settings": {
-        "title": "Best Selling Products",
-        "collection": "best-selling-products",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": true,
-        "show_image_outline": true,
-        "show_vendor": false,
-        "show_rating": false
+        "image": "shopify:\/\/shop_images\/safety-course.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
       }
     },
     "multi_column": {
@@ -188,9 +173,8 @@
   },
   "order": [
     "image_banner",
-    "1651000506f2504315",
     "rich_text",
-    "16505048267ac2b4c8",
+    "1651000506f2504315",
     "multi_column",
     "1648519157685828d3"
   ]
