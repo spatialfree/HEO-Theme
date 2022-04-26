@@ -51,14 +51,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Welcome!",
+            "heading": "¡Bienvenido!",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Shop all your favorite doTERRA products at the lowest retail price. Enjoy free & fast shipping.<\/p>"
+            "text": "<p>Inscríbase para comprar directamente de doTERRA a precios de mayorista para empoderar a ti y tus seres queridos con la salud y el bienestar.<\/p>"
           }
         }
       },
