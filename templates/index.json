@@ -120,15 +120,15 @@
         "164851915779571a28-0": {
           "type": "heading",
           "settings": {
-            "heading": "What are essential oils?",
+            "heading": "Seguridad de Aceites Esencials",
             "heading_size": "medium"
           }
         },
         "164851915779571a28-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Learn",
-            "button_link_1": "shopify:\/\/pages\/what-are-essential-oils",
+            "button_label_1": "Aprende Más",
+            "button_link_1": "shopify:\/\/pages\/seguridad-de-aceite-esencial",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -141,6 +141,7 @@
         "164851915779571a28-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/safety-tips.jpg",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
@@ -150,6 +151,40 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "1651000506f2504315": {
+      "type": "image-with-text",
+      "blocks": {
+        "1651000506d798c327-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "1651000506d798c327-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1651000506d798c327-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651000506d798c327-0",
+        "1651000506d798c327-1",
+        "1651000506d798c327-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
@@ -157,6 +192,7 @@
     "rich_text",
     "16505048267ac2b4c8",
     "multi_column",
-    "1648519157685828d3"
+    "1648519157685828d3",
+    "1651000506f2504315"
   ]
 }
