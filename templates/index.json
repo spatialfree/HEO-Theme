@@ -112,6 +112,7 @@
         "column1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/lemon.png",
             "title": "Clear Breathing",
             "text": "",
             "link_label": "",
