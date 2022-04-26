@@ -3,8 +3,7 @@
     "image_banner": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/safety-tips.jpg",
-        "image_2": "shopify:\/\/shop_images\/safety-course.jpg",
+        "image": "shopify:\/\/shop_images\/safety-course.jpg",
         "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-start",
@@ -13,6 +12,40 @@
         "color_scheme": "background-1",
         "stack_images_on_mobile": false,
         "show_text_below": false
+      }
+    },
+    "1651000506f2504315": {
+      "type": "image-with-text",
+      "blocks": {
+        "1651000506d798c327-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text"
+          }
+        },
+        "1651000506d798c327-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        },
+        "1651000506d798c327-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651000506d798c327-0",
+        "1651000506d798c327-1",
+        "1651000506d798c327-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
       }
     },
     "rich_text": {
@@ -151,48 +184,14 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "1651000506f2504315": {
-      "type": "image-with-text",
-      "blocks": {
-        "1651000506d798c327-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text"
-          }
-        },
-        "1651000506d798c327-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
-          }
-        },
-        "1651000506d798c327-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "1651000506d798c327-0",
-        "1651000506d798c327-1",
-        "1651000506d798c327-2"
-      ],
-      "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
-      }
     }
   },
   "order": [
     "image_banner",
+    "1651000506f2504315",
     "rich_text",
     "16505048267ac2b4c8",
     "multi_column",
-    "1648519157685828d3",
-    "1651000506f2504315"
+    "1648519157685828d3"
   ]
 }
