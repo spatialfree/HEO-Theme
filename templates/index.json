@@ -113,7 +113,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/lemon.png",
-            "title": "Clear Breathing",
+            "title": "Limón",
             "text": "",
             "link_label": "",
             "link": ""
@@ -122,7 +122,8 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Digestive",
+            "image": "shopify:\/\/shop_images\/lavender.png",
+            "title": "Lavanda",
             "text": "",
             "link_label": "",
             "link": ""
@@ -131,7 +132,8 @@
         "a4d07a0d-d0d6-4090-918a-78a434597e3c": {
           "type": "column",
           "settings": {
-            "title": "Sleep",
+            "image": "shopify:\/\/shop_images\/menta.png",
+            "title": "Menta",
             "text": "",
             "link_label": "",
             "link": ""
@@ -140,17 +142,9 @@
         "779adaa7-abb7-45e2-a738-50a22c2f5a0f": {
           "type": "column",
           "settings": {
-            "title": "Muscles & Joints",
+            "image": "shopify:\/\/shop_images\/frankincense.png",
+            "title": "Incienso",
             "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "a3d55c1d-0581-490d-bb29-dc7732ac47cd": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -160,8 +154,7 @@
         "column1",
         "column2",
         "a4d07a0d-d0d6-4090-918a-78a434597e3c",
-        "779adaa7-abb7-45e2-a738-50a22c2f5a0f",
-        "a3d55c1d-0581-490d-bb29-dc7732ac47cd"
+        "779adaa7-abb7-45e2-a738-50a22c2f5a0f"
       ],
       "settings": {
         "title": "Los 10 aceites más populares",
