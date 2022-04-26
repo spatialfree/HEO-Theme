@@ -178,18 +178,12 @@
             "heading_size": "medium"
           }
         },
-        "1651007253c22e1b9d-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template."
-          }
-        },
         "1651007253c22e1b9d-2": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Aprende Más",
             "button_link_1": "",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -198,7 +192,6 @@
       },
       "block_order": [
         "1651007253c22e1b9d-0",
-        "1651007253c22e1b9d-1",
         "1651007253c22e1b9d-2"
       ],
       "settings": {
