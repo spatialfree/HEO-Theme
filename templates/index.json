@@ -108,6 +108,7 @@
     },
     "multi_column": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
@@ -173,7 +174,7 @@
         "1651007253c22e1b9d-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Los 10 Aceites Más Populares",
             "heading_size": "medium"
           }
         },
@@ -186,10 +187,10 @@
         "1651007253c22e1b9d-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "Aprende Más",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -203,9 +204,9 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_design_82.png",
         "image_height": "medium",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "desktop_text_box_position": "center",
-        "show_text_box": true,
+        "show_text_box": false,
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
