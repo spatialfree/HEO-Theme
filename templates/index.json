@@ -123,10 +123,18 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "9d6b7b3d-d1cf-4d75-aa88-0ac0b6a483e8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Los 10 Aceites Más Populares",
+            "heading_size": "medium"
+          }
         }
       },
       "block_order": [
-        "1651007253c22e1b9d-2"
+        "1651007253c22e1b9d-2",
+        "9d6b7b3d-d1cf-4d75-aa88-0ac0b6a483e8"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Untitled_design_83.png",
