@@ -81,29 +81,10 @@
               "menu": "footer",
               "width": "50%"
             }
-          },
-          "newsletter": {
-            "type": "newsletter",
-            "settings": {
-              "title": "",
-              "subtext": "<p><strong>Be the first to hear about our monthly promos<\/strong><\/p>",
-              "width": "50%"
-            }
-          },
-          "d229cac4-4774-496d-bca4-cc8ffa166f1c": {
-            "type": "text",
-            "disabled": true,
-            "settings": {
-              "title": "",
-              "richtext": "<p><strong>Be a VIP<\/strong> - Be the first to hear about our promos, plus get a free Essential Oils 101 eBook - <a href=\"https:\/\/shop.home-essential-oils.com\/pages\/receive-monthly-promotions-via-text\" title=\"https:\/\/shop.home-essential-oils.com\/pages\/receive-monthly-promotions-via-text\"><strong>SIGN UP<\/strong><\/a><\/p><p><br\/><br\/><\/p>",
-              "width": "50%"
-            }
           }
         },
         "block_order": [
-          "menu",
-          "newsletter",
-          "d229cac4-4774-496d-bca4-cc8ffa166f1c"
+          "menu"
         ],
         "settings": {
           "social_enabled": false,
