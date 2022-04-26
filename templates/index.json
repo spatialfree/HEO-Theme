@@ -16,15 +16,22 @@
             "button_label_1": "Seleccione su país",
             "button_link_1": "shopify:\/\/pages\/como-inscribirse",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
+          }
+        },
+        "359269cd-418d-4174-b922-17f9a8f0f2e1": {
+          "type": "text",
+          "settings": {
+            "text": "Inscríbase para comprar directamente de doTERRA a precios de mayorista"
           }
         }
       },
       "block_order": [
         "6d53e233-bacb-4480-bd1c-ae81f7832eb3",
-        "954d8e55-e6ab-4730-be17-c6ea5be707c7"
+        "954d8e55-e6ab-4730-be17-c6ea5be707c7",
+        "359269cd-418d-4174-b922-17f9a8f0f2e1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/free-membership.jpg",
