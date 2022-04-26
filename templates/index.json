@@ -2,34 +2,16 @@
   "sections": {
     "image_banner": {
       "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Free Shipping",
-            "heading_size": "medium"
-          }
-        },
-        "09d02be6-897d-46bb-856b-9e341a966fdc": {
-          "type": "text",
-          "settings": {
-            "text": "on orders over $50"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "09d02be6-897d-46bb-856b-9e341a966fdc"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/shipping-promo-wide_529c2d54-0c67-4be0-819f-96bec73d0dee.png",
+        "image": "shopify:\/\/shop_images\/safety-tips.jpg",
+        "image_2": "shopify:\/\/shop_images\/safety-course.jpg",
         "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "flex-start",
         "show_text_box": false,
         "image_overlay_opacity": 0,
         "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
         "show_text_below": false
       }
     },
@@ -81,7 +63,6 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/breathe-thumbnail.png",
             "title": "Clear Breathing",
             "text": "",
             "link_label": "",
@@ -91,7 +72,6 @@
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/digestion-thumbnail.png",
             "title": "Digestive",
             "text": "",
             "link_label": "",
@@ -101,7 +81,6 @@
         "a4d07a0d-d0d6-4090-918a-78a434597e3c": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sleep-thumbnail.png",
             "title": "Sleep",
             "text": "",
             "link_label": "",
@@ -111,7 +90,6 @@
         "779adaa7-abb7-45e2-a738-50a22c2f5a0f": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/muscles-thumbnail.png",
             "title": "Muscles & Joints",
             "text": "",
             "link_label": "",
@@ -163,7 +141,6 @@
         "164851915779571a28-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/16x9-best-kept-secrets-lifestyle-us-english-web.jpg",
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_text_box_position": "center",
