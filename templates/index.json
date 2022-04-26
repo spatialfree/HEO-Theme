@@ -171,13 +171,6 @@
     "1651007253341ec544": {
       "type": "image-banner",
       "blocks": {
-        "1651007253c22e1b9d-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Los 10 Aceites Más Populares",
-            "heading_size": "medium"
-          }
-        },
         "1651007253c22e1b9d-2": {
           "type": "buttons",
           "settings": {
@@ -191,7 +184,6 @@
         }
       },
       "block_order": [
-        "1651007253c22e1b9d-0",
         "1651007253c22e1b9d-2"
       ],
       "settings": {
