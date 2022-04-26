@@ -157,12 +157,12 @@
         "779adaa7-abb7-45e2-a738-50a22c2f5a0f"
       ],
       "settings": {
-        "title": "Los 10 aceites más populares",
+        "title": "Los 10 Aceites Más Populares",
         "image_width": "third",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
+        "background_style": "none",
+        "button_label": "Ver Más",
         "button_link": "shopify:\/\/collections",
         "swipe_on_mobile": true
       }
