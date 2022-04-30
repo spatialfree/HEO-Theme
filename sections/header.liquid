@@ -552,7 +552,7 @@
         </a>
       {%- endif -%}
       {%- if section.settings.show_enroll -%}
-        <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
+        <a href="{{ section.settings.enroll_url }}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
           {% render 'icon-account' %}
           <span class="visually-hidden">
             {%- liquid
@@ -839,6 +839,12 @@
       "id": "show_enroll",
       "default": false,
       "label": "Show Enroll"
+    },
+    {
+      "type": "url",
+      "id": "enroll_url",
+      "default": "",
+      "label": "Enroll URL"
     },
     {
       "type": "header",
