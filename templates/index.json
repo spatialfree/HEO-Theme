@@ -159,23 +159,16 @@
         "16513018788bc6d28d-0": {
           "type": "heading",
           "settings": {
-            "heading": "Ahorra un 25 % con el precio de miembro doTERRA",
+            "heading": "What are essential oils?",
             "heading_size": "h1"
-          }
-        },
-        "16513018788bc6d28d-1": {
-          "type": "text",
-          "settings": {
-            "text": "Inscríbete como Cliente Mayorista o Distribuidor Independiente de dōTERRA",
-            "text_style": "body"
           }
         },
         "16513018788bc6d28d-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "¡Comienza!",
+            "button_label_1": "Learn",
             "button_link_1": "https:\/\/www.doterra.com\/US\/es\/selectRegion\/WC",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -184,15 +177,15 @@
       },
       "block_order": [
         "16513018788bc6d28d-0",
-        "16513018788bc6d28d-1",
         "16513018788bc6d28d-2"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/16x9-best-kept-secrets-lifestyle-us-english-web.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
