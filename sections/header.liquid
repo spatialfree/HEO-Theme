@@ -551,7 +551,21 @@
           </span>
         </a>
       {%- endif -%}
-	  {% if section.settings.show_cart %}
+      {%- if section.settings.show_enroll -%}
+        <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
+          {% render 'icon-account' %}
+          <span class="visually-hidden">
+            {%- liquid
+              if customer
+                echo 'customer.account_fallback' | t
+              else
+                echo 'customer.log_in' | t
+              endif
+            -%}
+          </span>
+        </a>
+      {%- endif -%}
+	    {% if section.settings.show_cart %}
         <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
           {%- liquid
             if cart == empty
@@ -819,6 +833,12 @@
       "id": "show_cart",
       "default": true,
       "label": "Show Cart"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_enroll",
+      "default": false,
+      "label": "Show Enroll"
     },
     {
       "type": "header",
