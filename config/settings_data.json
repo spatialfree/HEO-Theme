@@ -128,6 +128,7 @@
           "show_line_separator": true,
           "enable_sticky_header": true,
           "show_cart": true,
+          "show_enroll": true,
           "margin_bottom": 0
         }
       },
