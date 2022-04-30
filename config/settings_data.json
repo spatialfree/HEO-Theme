@@ -129,6 +129,7 @@
           "enable_sticky_header": true,
           "show_cart": true,
           "show_enroll": true,
+          "enroll_url": "shopify:\/\/pages\/doterra-wholesale-membership",
           "margin_bottom": 0
         }
       },
