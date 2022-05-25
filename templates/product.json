@@ -52,9 +52,9 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materials",
-            "icon": "leather",
-            "content": "",
+            "heading": "Plant Part",
+            "icon": "leaf",
+            "content": "<p>Wood<\/p>",
             "page": ""
           }
         },
