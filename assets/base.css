@@ -2122,9 +2122,9 @@ input[type='checkbox'] {
   align-items: center;
   font-size: 0.9rem;
   line-height: calc(1 + 0.1 / var(--font-body-scale));
+  bottom: 0.8rem;
   /* background-color: #d19aca;
   border-radius: 100%;
-  bottom: 0.8rem;
   left: 2.2rem; */
 }
 
