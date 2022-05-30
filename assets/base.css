@@ -2123,9 +2123,6 @@ input[type='checkbox'] {
   font-size: 0.9rem;
   line-height: calc(1 + 0.1 / var(--font-body-scale));
   bottom: 0.8rem;
-  /* background-color: #d19aca;
-  border-radius: 100%;
-  left: 2.2rem; */
 }
 
 /* section-announcement-bar */
