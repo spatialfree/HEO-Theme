@@ -2119,9 +2119,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="99.056211"
-     inkscape:cy="-53.619575"
+     inkscape:zoom="0.35355339"
+     inkscape:cx="308.11019"
+     inkscape:cy="461.84758"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2231,7 +2231,7 @@
     <path
        sodipodi:nodetypes="ccccc"
        style="opacity:1;fill:#d5a761;fill-opacity:1;stroke:#d5a761;stroke-width:0.57650298;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 378.20466,879.6511 -0.072,2.88408 17.35456,0.43348 0.072,-2.88408 z"
+       d="m 378.80822,879.6511 -0.072,2.88408 17.35456,0.43348 0.072,-2.88408 z"
        id="path3446"
        inkscape:connector-curvature="0" />
     <path
@@ -2244,7 +2244,7 @@
        sodipodi:nodetypes="cccccccccc"
        inkscape:connector-curvature="0"
        style="fill:#c18dc2;fill-opacity:1;stroke:#c18dc2;stroke-width:3.63958478;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 292,714.70086 -97.49995,65.19135 v 9.80865 h 13 V 909.70084 H 376.50002 V 789.70086 h 13 v -9.80865 z"
+       d="m 292,708.70086 -97.49995,65.19135 v 9.80865 h 13 V 903.70084 H 376.50002 V 783.70086 h 13 v -9.80865 z"
        id="path832-0" />
     <path
        id="path1299"
@@ -2256,7 +2256,7 @@
        aria-label="ō"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.31610298px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#fdfcfd;fill-opacity:1;stroke:#fdfcfd;stroke-width:3.69276524;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="text836-5"
-       transform="translate(0,12)">
+       transform="translate(0,6)">
       <path
          d="m 314.7931,768.13864 h -45.50691 v 9.19652 h 45.50691 z"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:162.36610413px;font-family:'SF Pro Display';-inkscape-font-specification:'SF Pro Display';fill:#fdfcfd;fill-opacity:1;stroke:#fdfcfd;stroke-width:3.69276524;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -2545,7 +2545,7 @@
        id="g3442"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.31610298px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#fdfcfd;fill-opacity:1;stroke:#fdfcfd;stroke-width:3.69276524;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        aria-label="ō"
-       transform="translate(20,12)">
+       transform="translate(20,6)">
       <path
          id="path3440"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:162.36610413px;font-family:'SF Pro Display';-inkscape-font-specification:'SF Pro Display';fill:#fdfcfd;fill-opacity:1;stroke:none;stroke-width:3.69300008;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
