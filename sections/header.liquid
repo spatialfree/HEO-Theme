@@ -276,9 +276,10 @@
                 <use href="#icon-search">
               </svg> {% endcomment %}
               {% render 'icon-search' %}
-              <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false" role="presentation">
+              {% comment %} <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false" role="presentation">
                 <use href="#icon-close">
-              </svg>
+              </svg> {% endcomment %}
+              {% render 'icon-close' %}
             </span>
           </summary>
           <div class="search-modal modal__content gradient" role="dialog" aria-modal="true" aria-label="{{ 'general.search.search' | t }}">
@@ -334,9 +335,10 @@
                 </predictive-search>
               {%- endif -%}
               <button type="button" class="modal__close-button link link--text focus-inset" aria-label="{{ 'accessibility.close' | t }}">
-                <svg class="icon icon-close" aria-hidden="true" focusable="false" role="presentation">
+                {% comment %} <svg class="icon icon-close" aria-hidden="true" focusable="false" role="presentation">
                   <use href="#icon-close">
-                </svg>
+                </svg> {% endcomment %}
+                {% render 'icon-close' %}
               </button>
             </div>
           </div>
@@ -478,9 +480,10 @@
                 <use href="#icon-search">
               </svg> {% endcomment %}
               {% render 'icon-search' %}
-              <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false" role="presentation">
+              {% comment %} <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false" role="presentation">
                 <use href="#icon-close">
-              </svg>
+              </svg> {% endcomment %}
+              {% render 'icon-close' %}
             </span>
           </summary>
           <div class="search-modal modal__content gradient" role="dialog" aria-modal="true" aria-label="{{ 'general.search.search' | t }}">
@@ -536,9 +539,10 @@
                 </predictive-search>
               {%- endif -%}
               <button type="button" class="search-modal__close-button modal__close-button link link--text focus-inset" aria-label="{{ 'accessibility.close' | t }}">
-                <svg class="icon icon-close" aria-hidden="true" focusable="false" role="presentation">
+                {% comment %} <svg class="icon icon-close" aria-hidden="true" focusable="false" role="presentation">
                   <use href="#icon-close">
-                </svg>
+                </svg> {% endcomment %}
+                {% render 'icon-close' %}
               </button>
             </div>
           </div>
