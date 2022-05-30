@@ -348,12 +348,14 @@
           </div>
         </details>
       </details-modal>
-      <a href="">
-        <img src="{{ 'icon-help.svg' | asset_url }}"
-          class=""
-          alt="help"
-        >
-      </a>
+      <details-modal>
+        <a href="">
+          <img src="{{ 'icon-help.svg' | asset_url }}"
+            class=""
+            alt="help"
+          >
+        </a>
+      </details-modal>
     {%- endif -%}
 
     {%- if request.page_type == 'index' -%}
