@@ -576,6 +576,10 @@
               render 'icon-cart-empty'
             else
               render 'icon-cart'
+              <img src="{{ 'cart-icon.svg' | asset_url }}"
+                class="header__icon"
+                alt="cart"
+              >
             endif
           -%}
           <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
