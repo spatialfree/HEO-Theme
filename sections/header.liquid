@@ -576,12 +576,12 @@
               render 'icon-cart-empty'
             else
               render 'icon-cart'
-              <img src="{{ 'cart-icon.svg' | asset_url }}"
-                class="header__icon"
-                alt="cart"
-              >
             endif
           -%}
+          <img src="{{ 'cart-icon.svg' | asset_url }}"
+                class=""
+                alt="cart"
+              >
           <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
           {%- if cart != empty -%}
             <div class="cart-count-bubble">
