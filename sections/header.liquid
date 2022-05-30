@@ -279,7 +279,9 @@
               {% comment %} <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false" role="presentation">
                 <use href="#icon-close">
               </svg> {% endcomment %}
-              {% render 'icon-close' %}
+              <div class="modal__toggle-close">
+                {% render 'icon-close' %}
+              </div>  
             </span>
           </summary>
           <div class="search-modal modal__content gradient" role="dialog" aria-modal="true" aria-label="{{ 'general.search.search' | t }}">
