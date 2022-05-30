@@ -186,11 +186,6 @@
                         -%}
                       </a>
                     {%- endif -%}
-                    {%- if section.settings.show_enroll -%}
-                      <a href="{{ section.settings.enroll_url }}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
-                        {% render 'icon-account' %}
-                      </a>
-                    {%- endif -%}
                     <ul class="list list-social list-unstyled" role="list">
                       {%- if settings.social_twitter_link != blank -%}
                         <li class="list-social__item">
@@ -484,7 +479,7 @@
     {%- endif -%}
 
     <div class="header__icons">
-      <details-modal class="header__search">
+      <details-modal class="header__search small-hide">
         <details>
           <summary class="header__icon header__icon--search header__icon--summary link focus-inset modal__toggle" aria-haspopup="dialog" aria-label="{{ 'general.search.search' | t }}">
             <span>
@@ -578,7 +573,7 @@
         </a>
       {%- endif -%}
       {%- if section.settings.show_enroll -%}
-        <a href="{{ section.settings.enroll_url }}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
+        <a href="{{ section.settings.enroll_url }}" class="header__icon header__icon--account link focus-inset">
           {% render 'icon-account' %}
         </a>
       {%- endif -%}
