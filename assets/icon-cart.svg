@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="32"
-   height="32"
-   viewBox="0 0 32.000002 32"
+   width="40"
+   height="40"
+   viewBox="0 0 40.000003 40"
    version="1.1"
    id="svg8"
    inkscape:export-filename="B:\HEO\doTERRA\hoME\CA-logo.png"
@@ -282,7 +282,7 @@
          id="feComposite9507" />
     </filter>
     <color-profile
-       id="color-profile55"
+       id="color-profile54"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
        name="sRGB-IEC61966-2.1" />
     <linearGradient
@@ -750,7 +750,7 @@
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile146" />
+       id="color-profile145" />
     <filter
        id="filter6404-9"
        inkscape:label="Noise Fill"
@@ -2120,7 +2120,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="6.5789416"
-     inkscape:cx="17.91638"
+     inkscape:cx="-18.335652"
      inkscape:cy="14.027754"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -2163,16 +2163,16 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(28,-916.70078)">
+     transform="translate(28,-908.70078)">
     <path
        style="opacity:1;fill:#c18dc2;fill-opacity:1;stroke:#d19aca;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="m -20.760386,927.09481 h 17.8650788 l 1.26106,15.5531 H -22.021446 Z"
+       d="M -16.932539,923.7933 H 0.9325394 l 1.26106,15.5531 H -18.193599 Z"
        id="rect1350"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
        style="fill:none;stroke:#d19aca;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -15.768646,927.09469 c 0,-3.83254 1.34304,-5.73802 3.85412,-5.73802 2.5859888,0 3.9224587,1.92026 3.9224587,5.73802"
+       d="m -11.940799,923.79318 c 0,-3.83254 1.34304,-5.73802 3.8541196,-5.73802 2.5859888,0 3.9224587,1.92026 3.9224587,5.73802"
        id="path1353"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csc" />

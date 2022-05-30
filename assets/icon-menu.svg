@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="32"
-   height="32"
-   viewBox="0 0 32.000002 32"
+   width="40"
+   height="40"
+   viewBox="0 0 40.000003 40"
    version="1.1"
    id="svg8"
    inkscape:export-filename="B:\HEO\doTERRA\hoME\CA-logo.png"
@@ -282,7 +282,7 @@
          id="feComposite9507" />
     </filter>
     <color-profile
-       id="color-profile55"
+       id="color-profile54"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
        name="sRGB-IEC61966-2.1" />
     <linearGradient
@@ -750,7 +750,7 @@
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile146" />
+       id="color-profile145" />
     <filter
        id="filter6404-9"
        inkscape:label="Noise Fill"
@@ -2119,9 +2119,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.8223677"
-     inkscape:cx="94.906679"
-     inkscape:cy="-37.896732"
+     inkscape:zoom="13.335928"
+     inkscape:cx="9.7562211"
+     inkscape:cy="17.761569"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2155,7 +2155,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2163,20 +2163,20 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(28,-916.70078)">
+     transform="translate(28,-908.70078)">
     <path
        style="fill:none;stroke:#d19aca;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M -23.21569,926.204 H -0.83715014"
+       d="M -19.18927,921.6587 H 3.1892699"
        id="path1371"
        inkscape:connector-curvature="0" />
     <path
        inkscape:connector-curvature="0"
        id="path1373"
-       d="M -23.21569,933.35472 H -0.83715014"
+       d="M -19.18927,928.80942 H 3.1892699"
        style="fill:none;stroke:#d19aca;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        style="fill:none;stroke:#d19aca;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M -23.21569,940.28817 H -0.83715014"
+       d="M -19.18927,935.74287 H 3.1892699"
        id="path1375"
        inkscape:connector-curvature="0" />
   </g>
