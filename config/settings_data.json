@@ -120,7 +120,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/CA-logo_51f83ad0-efb2-4fbc-b7b3-9de87d61cfe7.png",
+          "logo": "shopify:\/\/shop_images\/CA-logo_68db50b8-1f6d-48d4-a94a-2f467840fa4c.png",
           "logo_width": 160,
           "logo_position": "top-center",
           "menu": "main-menu",
@@ -143,30 +143,23 @@
               "menu": "footer"
             }
           },
-          "footer-1": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Info",
-              "menu": "footer"
-            }
-          },
           "footer-2": {
             "type": "text",
+            "disabled": true,
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "Home Essential Oils",
+              "subtext": "<p>Shop all your favorite doTERRA essential oils and products at lowest retail price.<\/p>"
             }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-1",
           "footer-2"
         ],
         "settings": {
           "color_scheme": "background-1",
-          "newsletter_enable": false,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_enable": true,
+          "newsletter_heading": "Be the first to hear about our promos",
           "show_social": false,
           "enable_country_selector": false,
           "enable_language_selector": false,
