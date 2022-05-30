@@ -102,11 +102,7 @@
         <details id="Details-menu-drawer-container" class="menu-drawer-container">
           <summary class="header__icon header__icon--menu header__icon--summary link focus-inset" aria-label="{{ 'sections.header.menu' | t }}">
             <span>
-              {% comment %} {% render 'icon-hamburger' %} {% endcomment %}
-              <img src="{{ 'icon-menu.svg' | asset_url }}"
-                class=""
-                alt="menu"
-              >
+              {% render 'icon-hamburger' %}
               {% render 'icon-close' %}
             </span>
           </summary>
@@ -278,7 +274,7 @@
             <span>
               <svg class="modal__toggle-open icon icon-search" aria-hidden="true" focusable="false" role="presentation">
                 <use href="#icon-search">
-                </svg>
+              </svg>
               <svg class="modal__toggle-close icon icon-close" aria-hidden="true" focusable="false" role="presentation">
                 <use href="#icon-close">
               </svg>
