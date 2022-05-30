@@ -1671,6 +1671,9 @@ details[open] > .share-button__fallback {
   box-shadow: 0 0 0 var(--inputs-border-width) rgba(var(--color-foreground), var(--inputs-border-opacity));
   transition: box-shadow var(--duration-short) ease;
   z-index: 1;
+  
+  box-shadow: 3px 3px 9px inset #eee;
+  border-radius: 32px;
 }
 
 .select__select {
