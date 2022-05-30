@@ -2351,6 +2351,7 @@ input[type='checkbox'] {
 .header__icon--cart {
   position: relative;
   margin-right: -1.2rem;
+  margin-right: 0;
 }
 
 @media screen and (max-width: 989px) {
