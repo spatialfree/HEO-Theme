@@ -292,6 +292,8 @@
           {%- endif -%} {% endcomment %}
           <img src="{{ 'CA-logo.svg' | asset_url }}"
             class="header__heading-logo"
+            width="{{ section.settings.logo.width }}"
+            height="{{ section.settings.logo.height }}"
             alt="{{ shop.name }}"
           >
         </a>
