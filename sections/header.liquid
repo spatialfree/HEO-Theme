@@ -359,9 +359,11 @@
           <img src="{{ 'CA-logo.svg' | asset_url }}"
             style="display: none;"
             class="header__heading-logo"
+            alt="{{ shop.name }}"
           >
           <img src="{{ 'CA-logo-desktop.svg' | asset_url }}"
             class="header__heading-logo"
+            alt="{{ shop.name }}"
           >
         </a>
     {%- if request.page_type == 'index' -%}
