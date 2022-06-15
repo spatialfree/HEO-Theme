@@ -2295,6 +2295,10 @@ input[type='checkbox'] {
   #search-desktop {
     display: none;
   }
+
+  #logo-mobile {
+    display: block;
+  }
 }
 
 @media screen and (min-width: 990px) {
@@ -2305,6 +2309,10 @@ input[type='checkbox'] {
   .header__heading,
   .header__heading-link {
     justify-self: start;
+  }
+
+  #logo-desktop {
+    display: block;
   }
 
   .header--top-center .header__heading-link,
