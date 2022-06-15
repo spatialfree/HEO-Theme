@@ -282,7 +282,7 @@
          id="feComposite9507" />
     </filter>
     <color-profile
-       id="color-profile54"
+       id="color-profile55"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
        name="sRGB-IEC61966-2.1" />
     <linearGradient
@@ -750,7 +750,7 @@
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile145" />
+       id="color-profile146" />
     <filter
        id="filter6404-9"
        inkscape:label="Noise Fill"
@@ -2119,9 +2119,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.99999999"
-     inkscape:cx="-170.15111"
-     inkscape:cy="-5.7103892"
+     inkscape:zoom="5.6568542"
+     inkscape:cx="44.034181"
+     inkscape:cy="-0.60197807"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2184,12 +2184,12 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
     <path
-       style="fill:none;stroke:#fbe2f5;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#faf0f8;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 49.531402,923.09716 h 4.937196"
        id="path1378"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#fbe2f5;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#faf0f8;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        d="m 56.43087,931.14093 a 4.2755807,4.2755807 0 0 1 -4.275581,4.27559 4.2755807,4.2755807 0 0 1 -4.275582,-4.27559 4.2755807,4.2755807 0 0 1 4.275582,-4.27557 4.2755807,4.2755807 0 0 1 4.275581,4.27557 z"
        id="path1381"
        inkscape:connector-curvature="0" />
