@@ -2119,9 +2119,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4"
-     inkscape:cx="71.285351"
-     inkscape:cy="12.719453"
+     inkscape:zoom="0.99999999"
+     inkscape:cx="-181.48414"
+     inkscape:cy="-2.4774043"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2173,12 +2173,12 @@
        sodipodi:nodetypes="cccccc" />
     <g
        id="g3442"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.31610298px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#885987;fill-opacity:1;stroke:none;stroke-width:2.45135971;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.31610298px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#885987;fill-opacity:1;stroke:none;stroke-width:2.45135975;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        aria-label="ō"
-       transform="matrix(0.1227361,0,0,0.1227361,18.615788,829.66528)">
+       transform="matrix(0.1227361,0,0,0.1227361,-21.384212,829.66528)">
       <path
          id="path3440"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:162.36610413px;font-family:'SF Pro Display';-inkscape-font-specification:'SF Pro Display';fill:#885987;fill-opacity:1;stroke:none;stroke-width:2.45135971;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:162.36610413px;font-family:'SF Pro Display';-inkscape-font-specification:'SF Pro Display';fill:#885987;fill-opacity:1;stroke:none;stroke-width:2.45135975;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="m 272.03641,870.51847 c 20.9013,0 35.0297,-15.07515 35.0297,-39.18081 0,-24.1785 -14.1284,-39.18082 -35.0297,-39.18082 -20.97411,0 -35.10251,15.00232 -35.10251,39.18082 0,24.10566 14.1284,39.18081 35.10251,39.18081 z m 0,-11.1425 c -13.40013,0 -22.21216,-10.19574 -22.21216,-28.03831 0,-17.84257 8.81203,-28.03832 22.21216,-28.03832 13.40013,0 22.13935,10.19575 22.13935,28.03832 0,17.84257 -8.73922,28.03831 -22.13935,28.03831 z"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="ssssssssss" />
@@ -2195,17 +2195,16 @@
        id="path1375"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
-    <g
-       aria-label="ō"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.31610298px;line-height:1.25;font-family:Verdana;-inkscape-font-specification:Verdana;letter-spacing:0px;word-spacing:0px;fill:#885987;fill-opacity:1;stroke:none;stroke-width:7.59885883;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="text836-5"
-       transform="matrix(0.1111282,0,0,0.15584001,19.675636,804.22908)">
-      <path
-         d="m 314.7931,768.13864 h -45.50691 v 9.19652 h 45.50691 z"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:162.36610413px;font-family:'SF Pro Display';-inkscape-font-specification:'SF Pro Display';fill:#885987;fill-opacity:1;stroke:none;stroke-width:7.59885883;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="path3437"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="ccccc" />
-    </g>
+    <path
+       style="fill:none;stroke:#885987;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 50.130662,924.64891 h 3.986752"
+       id="path1378"
+       inkscape:connector-curvature="0" />
+    <circle
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#885987;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="path1381"
+       cx="52.124039"
+       cy="931.57581"
+       r="3.4525032" />
   </g>
 </svg>
