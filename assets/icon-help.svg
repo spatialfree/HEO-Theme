@@ -282,7 +282,7 @@
          id="feComposite9507" />
     </filter>
     <color-profile
-       id="color-profile54"
+       id="color-profile55"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
        name="sRGB-IEC61966-2.1" />
     <linearGradient
@@ -750,7 +750,7 @@
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile145" />
+       id="color-profile146" />
     <filter
        id="filter6404-9"
        inkscape:label="Noise Fill"
@@ -2119,9 +2119,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.3260071"
-     inkscape:cx="25.885194"
-     inkscape:cy="64.88719"
+     inkscape:zoom="9.3040284"
+     inkscape:cx="10.258009"
+     inkscape:cy="17.012863"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2155,7 +2155,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2172,14 +2172,14 @@
        r="5.4161015" />
     <path
        style="fill:none;stroke:#d19aca;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -9.4087875,926.37617 c 0,0 0.4264701,-0.53771 1.3826801,-0.53771 0.71464,0 1.7260198,0.36208 1.7260198,1.64495 0,1.52148 -1.8796498,1.81175 -1.8796498,1.81175 v 0.55983"
-       id="path1364"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csscc" />
-    <path
-       style="fill:none;stroke:#d19aca;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -8.2308374,931.43018 v 0.19011"
+       d="m -8.0036087,926.26628 v -0.19011"
        id="path1366"
        inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#d19aca;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -7.9963913,928.14022 v 3.26511"
+       id="path1240"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
   </g>
 </svg>
