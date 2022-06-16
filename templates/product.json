@@ -54,7 +54,7 @@
           "settings": {
             "heading": "Plant Part",
             "icon": "leaf",
-            "content": "<p>Wood<\/p>",
+            "content": "<p>{{ product.metafields.my_fields.plant_part | metafield_tag }}<\/p>",
             "page": ""
           }
         },
