@@ -132,7 +132,7 @@
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Sign up as a doTERRA wholesale member today. Membership and shipping is free with any starter kit.<\/p>",
+            "text": "<p>Take a few minutes to sign up as a doTERRA member today. Membership is free with any starter kit, plus free shipping.<\/p>",
             "text_style": "body"
           }
         },
