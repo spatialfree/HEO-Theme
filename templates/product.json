@@ -134,11 +134,19 @@
             "text": "<p>Sign up as a doTERRA wholesale member today. Membership and shipping is free with any starter kit.<\/p>",
             "text_style": "body"
           }
+        },
+        "c925fc52-1f23-4f1e-97fe-8e7f2de7f731": {
+          "type": "button",
+          "settings": {
+            "button_label": "Enroll Today!",
+            "button_link": "https:\/\/www.doterra.com\/CA\/en\/selectRegion\/WC\/13237"
+          }
         }
       },
       "block_order": [
         "image-with-text-0",
-        "image-with-text-1"
+        "image-with-text-1",
+        "c925fc52-1f23-4f1e-97fe-8e7f2de7f731"
       ],
       "settings": {
         "height": "small",
