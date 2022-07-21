@@ -53,7 +53,7 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Plant Part",
+            "heading": "Education Resources",
             "icon": "leaf",
             "content": "<p>{{ product.metafields.my_fields.plant_part | metafield_tag }}<\/p>",
             "page": ""
@@ -70,6 +70,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
@@ -79,6 +80,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
