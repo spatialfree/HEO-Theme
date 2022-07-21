@@ -53,7 +53,7 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Education Resources",
+            "heading": "Educational Resources",
             "icon": "leaf",
             "content": "",
             "page": ""
@@ -70,10 +70,9 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
+            "heading": "Warehouse",
+            "icon": "map_pin",
             "content": "",
             "page": ""
           }
