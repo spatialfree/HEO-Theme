@@ -169,7 +169,7 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping",
-            "text": "<p>Earn free shipping with any order of $50 or more<\/p>",
+            "text": "<p>Earn free shipping with any order of $50 or more.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -177,8 +177,8 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "Tax",
-            "text": "<p>Tax is calculated at checkout. Order over $50 also receive no tax.<\/p>",
+            "title": "Sales Tax",
+            "text": "<p>Tax is calculated at checkout. Orders over $50 qualify for no tax.<\/p>",
             "link_label": "",
             "link": ""
           }
