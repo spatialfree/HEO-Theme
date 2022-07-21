@@ -55,7 +55,7 @@
           "settings": {
             "heading": "Education Resources",
             "icon": "leaf",
-            "content": "<p>{{ product.metafields.my_fields.plant_part | metafield_tag }}<\/p>",
+            "content": "",
             "page": ""
           }
         },
