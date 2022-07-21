@@ -59,6 +59,15 @@
             "page": ""
           }
         },
+        "70450cd9-bef9-4eef-b2a3-c5764df1cd65": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Retail vs. Wholesale",
+            "icon": "price_tag",
+            "content": "",
+            "page": ""
+          }
+        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
@@ -103,6 +112,7 @@
         "buy_buttons",
         "description",
         "collapsible-row-0",
+        "70450cd9-bef9-4eef-b2a3-c5764df1cd65",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
