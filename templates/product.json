@@ -71,9 +71,9 @@
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Warehouse",
-            "icon": "map_pin",
-            "content": "",
+            "heading": "Safety Instructions",
+            "icon": "clipboard",
+            "content": "<p>Follow the directions for use located on the label of each products. Do not use a product in a way not intended.<\/p>",
             "page": ""
           }
         },
