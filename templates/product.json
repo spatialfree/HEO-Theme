@@ -169,7 +169,7 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping",
-            "text": "<p>Earn free shipping with any order of $50 or more.<\/p>",
+            "text": "<p>Earn free express shipping with any order of $50 or more.<\/p>",
             "link_label": "",
             "link": ""
           }
