@@ -79,11 +79,10 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "",
+            "heading": "Need help?",
+            "icon": "question_mark",
+            "content": "<p>If you have questions about a product please <a href=\"https:\/\/ca.home-essential-oils.com\/pages\/contact-us\" title=\"https:\/\/ca.home-essential-oils.com\/pages\/contact-us\">contact us.<\/a><\/p>",
             "page": ""
           }
         },
