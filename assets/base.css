@@ -2299,6 +2299,10 @@ input[type='checkbox'] {
   #logo-desktop {
     display: none;
   }
+
+  #doterra-certified {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 990px) {
