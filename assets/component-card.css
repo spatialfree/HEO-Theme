@@ -97,6 +97,7 @@
   width: 100%;
   flex-grow: 1;
   height: 168px;
+  margin-bottom: 4rem;
 }
 
 .card__content--auto-margins {
@@ -317,4 +318,8 @@
 
 .card-article-info {
   margin-top: 1rem;
+}
+
+.card__information {
+  padding: 0;
 }

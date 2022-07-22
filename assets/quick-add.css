@@ -4,6 +4,7 @@
   margin: auto auto 1rem;
   z-index: 1;
   width: 60%;
+  transform: scale(0.75);
 }
 
 .card--card .quick-add {
