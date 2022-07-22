@@ -6,7 +6,7 @@
         "1658472393e1147b2e-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2022-01-15_at_5.40.29_PM.jpg",
+            "image": "shopify:\/\/shop_images\/shipping-promo-wide-textless.png",
             "heading": "Welcome!",
             "heading_size": "h1",
             "subheading": "Shop all your favorite doTERRA products at the lowest retail price. With free & fast shipping.",
@@ -51,54 +51,6 @@
         "change_slides_speed": 5,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Welcome!",
-            "heading_size": "h1"
-          }
-        },
-        "17fd8b5f-1930-4f2b-9c95-a823c0acd2c7": {
-          "type": "text",
-          "settings": {
-            "text": "Shop all your favorite doTERRA products at the lowest retail price. With free & fast shipping.",
-            "text_style": "body"
-          }
-        },
-        "bd8c99cd-a214-43d8-b2fe-61ca233bfc70": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/best-selling-products",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "17fd8b5f-1930-4f2b-9c95-a823c0acd2c7",
-        "bd8c99cd-a214-43d8-b2fe-61ca233bfc70"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/shipping-promo-wide_2a66635b-42b1-45ef-ac8a-66498395546b.png",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "top-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
       }
     },
     "16513048140b475ee3": {
@@ -249,7 +201,6 @@
   },
   "order": [
     "1658472394ff6d1fec",
-    "image_banner",
     "16513048140b475ee3",
     "multicolumn",
     "1651301878a509b284"
