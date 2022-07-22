@@ -2301,7 +2301,7 @@ input[type='checkbox'] {
   }
 
   #doterra-certified {
-    display: none;
+    display: none !important;
   }
 }
 
