@@ -60,6 +60,15 @@
             "page": ""
           }
         },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Safety Instructions",
+            "icon": "clipboard",
+            "content": "<p>Follow the directions for use located on the label of each products. Do not use a product in a way not intended.<\/p>",
+            "page": ""
+          }
+        },
         "70450cd9-bef9-4eef-b2a3-c5764df1cd65": {
           "type": "collapsible_tab",
           "settings": {
@@ -75,15 +84,6 @@
             "heading": "Shipping and Tax",
             "icon": "truck",
             "content": "<p>All orders are shipped via Canada Post Express. Order are processed the same day and shipped the next. Free shipping and tax with orders over $50. Orders are shipped from doTERRA Warehouses located in Ontario and British Colombia.<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Safety Instructions",
-            "icon": "clipboard",
-            "content": "<p>Follow the directions for use located on the label of each products. Do not use a product in a way not intended.<\/p>",
             "page": ""
           }
         },
@@ -113,9 +113,9 @@
         "buy_buttons",
         "description",
         "collapsible-row-0",
+        "collapsible-row-2",
         "70450cd9-bef9-4eef-b2a3-c5764df1cd65",
         "collapsible-row-1",
-        "collapsible-row-2",
         "collapsible-row-3",
         "share"
       ],
