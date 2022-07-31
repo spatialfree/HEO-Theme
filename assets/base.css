@@ -2286,6 +2286,19 @@ input[type='checkbox'] {
   width: auto;
 }
 
+#doterra-certified {
+  font-size: 12px;
+  margin-right: 0.4em;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  background-color: #c18dc2;
+  border: 2px solid #d19aca;
+  color: white;
+  line-height: 12px;
+  width: 158px;
+}
+
 @media screen and (max-width: 989px) {
   .header__heading,
   .header__heading-link {
