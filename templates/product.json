@@ -209,7 +209,7 @@
         "16584735765b6323a2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/shipping-promo-enroll_ac1417ec-6626-4500-9f53-b9ec7d63c40b.png",
+        "image": "shopify:\/\/shop_images\/shipping-promo-enroll_0523940a-50c7-4bbc-b8e6-c856786e9a6c.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -234,6 +234,7 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": true,
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 28
