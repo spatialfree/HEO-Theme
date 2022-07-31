@@ -3,7 +3,6 @@
   grid-row-start: 4;
   margin: auto auto 1rem;
   z-index: 1;
-  width: 60%;
   transform: scale(0.75);
 }
 
@@ -197,7 +196,7 @@ quick-add-modal .product-form__buttons {
 }
 
 .quick-add__submit {
+  margin: 0 auto;
   padding: 0.8rem;
-  min-width: 100%;
   box-sizing: border-box;
 }
