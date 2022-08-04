@@ -79,10 +79,9 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Educational Resources",
-            "icon": "leaf",
+            "heading": "Product Education",
+            "icon": "apple",
             "content": "",
             "page": ""
           }
