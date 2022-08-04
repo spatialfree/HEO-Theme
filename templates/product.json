@@ -59,6 +59,15 @@
             "page": ""
           }
         },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product Education",
+            "icon": "apple",
+            "content": "",
+            "page": ""
+          }
+        },
         "70450cd9-bef9-4eef-b2a3-c5764df1cd65": {
           "type": "collapsible_tab",
           "settings": {
@@ -74,15 +83,6 @@
             "heading": "Free Shipping",
             "icon": "truck",
             "content": "<p>Get free shipping and pay no tax on all order of $50 or more. All orders are shipped via Canada Post Express. Orders are processed the same day and shipped the next. Orders under $50 have a fixed rate. Orders are shipped from doTERRA warehouses either in Toronto, Ontario or Calgary, Alberta. <\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Product Education",
-            "icon": "apple",
-            "content": "",
             "page": ""
           }
         },
@@ -112,9 +112,9 @@
         "buy_buttons",
         "description",
         "collapsible-row-2",
+        "collapsible-row-0",
         "70450cd9-bef9-4eef-b2a3-c5764df1cd65",
         "collapsible-row-1",
-        "collapsible-row-0",
         "collapsible-row-3",
         "share"
       ],
