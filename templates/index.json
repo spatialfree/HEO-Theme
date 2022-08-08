@@ -56,12 +56,31 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
+        },
+        "92842091-9677-4e31-8806-a53b55e51fa8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Canada-doterra-enroll.png",
+            "heading": "Free Membership!",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Enroll Now",
+            "link": "https:\/\/www.doterra.com\/CA\/en\/selectRegion\/13237",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "1658472393e1147b2e-0",
         "1658472393e1147b2e-1",
-        "5129a209-ca1f-4a65-ae52-cb467985a75a"
+        "5129a209-ca1f-4a65-ae52-cb467985a75a",
+        "92842091-9677-4e31-8806-a53b55e51fa8"
       ],
       "settings": {
         "layout": "full_bleed",
