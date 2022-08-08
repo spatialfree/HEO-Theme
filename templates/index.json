@@ -74,13 +74,32 @@
             "color_scheme": "inverse",
             "text_alignment_mobile": "center"
           }
+        },
+        "173a8352-e34d-403a-b515-edaf691999ee": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Canada-doterra-diffusers.png",
+            "heading": "Diffusers for Every Occasion",
+            "heading_size": "h1",
+            "subheading": "Select from a variety of ultra-sonic diffuser collections",
+            "button_label": "Shop Now",
+            "link": "https:\/\/ca.home-essential-oils.com\/collections\/diffusers",
+            "button_style_secondary": false,
+            "box_align": "top-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "1658472393e1147b2e-0",
         "1658472393e1147b2e-1",
         "5129a209-ca1f-4a65-ae52-cb467985a75a",
-        "92842091-9677-4e31-8806-a53b55e51fa8"
+        "92842091-9677-4e31-8806-a53b55e51fa8",
+        "173a8352-e34d-403a-b515-edaf691999ee"
       ],
       "settings": {
         "layout": "full_bleed",
