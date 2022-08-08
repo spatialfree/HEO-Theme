@@ -24,7 +24,7 @@
         "1658472393e1147b2e-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/WhatsApp_Image_2022-01-15_at_5.40.29_PM_14e23655-0412-4b8d-a5cc-3ee544a3390c.jpg",
+            "image": "shopify:\/\/shop_images\/shipping-promo-wide-textless.png",
             "heading": "Welcome!",
             "heading_size": "h1",
             "subheading": "Shop all your favorite doTERRA products at the lowest retail price. Free shipping on $50 orders",
@@ -32,7 +32,7 @@
             "link": "shopify:\/\/collections\/best-selling-products",
             "button_style_secondary": false,
             "box_align": "top-center",
-            "show_text_box": false,
+            "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
