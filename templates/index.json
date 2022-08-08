@@ -23,6 +23,7 @@
         },
         "1658472393e1147b2e-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/shipping-promo-wide-textless.png",
             "heading": "Welcome!",
