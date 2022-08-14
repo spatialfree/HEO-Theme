@@ -282,7 +282,7 @@
          id="feComposite9507" />
     </filter>
     <color-profile
-       id="color-profile54"
+       id="color-profile55"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
        name="sRGB-IEC61966-2.1" />
     <linearGradient
@@ -750,7 +750,7 @@
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile145" />
+       id="color-profile146" />
     <filter
        id="filter6404-9"
        inkscape:label="Noise Fill"
@@ -2120,8 +2120,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="6.5789416"
-     inkscape:cx="-18.335652"
-     inkscape:cy="14.027754"
+     inkscape:cx="-6.3479524"
+     inkscape:cy="6.5780605"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2155,7 +2155,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2165,16 +2165,40 @@
      id="layer1"
      transform="translate(28,-908.70078)">
     <path
+       style="fill:none;stroke:#d19aca;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -23.794685,917.7412 4.705021,0.0269 3.611122,20.33422 H 0.41153047"
+       id="path1239"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
        style="opacity:1;fill:#c18dc2;fill-opacity:1;stroke:#d19aca;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="M -16.932539,923.7933 H 0.9325394 l 1.26106,15.5531 H -18.193599 Z"
+       d="M -18.276542,921.7933 H 4.2765423 L 2.1935994,933.3464 H -16.193599 Z"
        id="rect1350"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="fill:none;stroke:#d19aca;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -11.940799,923.79318 c 0,-3.83254 1.34304,-5.73802 3.8541196,-5.73802 2.5859888,0 3.9224587,1.92026 3.9224587,5.73802"
-       id="path1353"
+       sodipodi:nodetypes="ccccc"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csc" />
+       id="path1229"
+       d="m -56.932539,923.7933 h 17.865078 l 1.26106,15.5531 h -20.387198 z"
+       style="opacity:1;fill:#c18dc2;fill-opacity:1;stroke:#d19aca;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+    <path
+       sodipodi:nodetypes="csc"
+       inkscape:connector-curvature="0"
+       id="path1231"
+       d="m -51.940799,923.79318 c 0,-3.83254 1.34304,-5.73802 3.85412,-5.73802 2.585988,0 3.922458,1.92026 3.922458,5.73802"
+       style="fill:none;stroke:#d19aca;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <circle
+       style="opacity:1;fill:#d19aca;fill-opacity:1;stroke:none;stroke-width:2.50873446;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.25087344, 0.25087344;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       id="path1233"
+       cx="-0.92487943"
+       cy="941.09735"
+       r="2.2486858" />
+    <circle
+       r="2.2486858"
+       cy="941.09735"
+       cx="-14.076641"
+       id="circle1241"
+       style="opacity:1;fill:#d19aca;fill-opacity:1;stroke:none;stroke-width:2.50873446;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:0.25087344, 0.25087344;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
   </g>
 </svg>
