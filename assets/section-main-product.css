@@ -217,8 +217,9 @@ fieldset.product-form__input .form__label {
 }
 
 .product-form__input input[type='radio']:checked + label {
-  background-color: rgb(var(--color-foreground));
-  color: rgb(var(--color-background));
+  /* background-color: rgb(var(--color-foreground));
+  color: rgb(var(--color-background)); */
+  font-weight: bold;
 }
 
 @media screen and (forced-colors: active) {
