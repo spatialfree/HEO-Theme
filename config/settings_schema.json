@@ -940,6 +940,10 @@
           {
             "value": "top right",
             "label": "t:settings_schema.badges.settings.position.options__4.label"
+          },
+          {
+            "value": "center",
+            "label": "center"
           }
         ],
         "default": "bottom left",
