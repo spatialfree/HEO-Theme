@@ -50,22 +50,21 @@
           "settings": {
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Educational Resources",
-            "icon": "leaf",
-            "content": "",
-            "page": ""
-          }
-        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Safety Instructions",
+            "heading": "Product Safety",
             "icon": "clipboard",
             "content": "<p>Follow the directions printed on the label. Do not use the product in a way not intended. If you have concerns, discontinue use of the products or contact doTERRA 1-800-411-8151<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Product Education",
+            "icon": "apple",
+            "content": "<p>To learn how to use doTERRA essential oils and products in depth check out our <a href=\"https:\/\/ca.home-essential-oils.com\/pages\/getting-started\" title=\"https:\/\/ca.home-essential-oils.com\/pages\/getting-started\">help center<\/a><\/p>",
             "page": ""
           }
         },
@@ -74,16 +73,16 @@
           "settings": {
             "heading": "Retail vs. Wholesale",
             "icon": "price_tag",
-            "content": "<p>Our site sells all doTERRA products at the suggested retail price. Wholesale prices can easily be obtained by <a href=\"https:\/\/ca.home-essential-oils.com\/pages\/doterra-wholesale-membership\" title=\"https:\/\/ca.home-essential-oils.com\/pages\/doterra-wholesale-membership\">setting up a wholesale account.<\/a><\/p>",
+            "content": "<p>You may purchase doTERRA products either at retail or wholesale price. To purchase at wholesale you must first <a href=\"https:\/\/ca.home-essential-oils.com\/pages\/doterra-wholesale-membership\" title=\"https:\/\/ca.home-essential-oils.com\/pages\/doterra-wholesale-membership\">create a wholesale account.<\/a><\/p>",
             "page": ""
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Shipping and Tax",
+            "heading": "Free Shipping",
             "icon": "truck",
-            "content": "<p>All orders are shipped via Canada Post Express. Order are processed the same day and shipped the next. Free shipping and tax with orders over $50. Orders are shipped from doTERRA Warehouses located in Ontario and British Colombia.<\/p>",
+            "content": "<p>Free shipping and no tax on orders over $50. Orders are shipped via Canada Post Express. Orders are processed the same day and shipped the next. Orders are shipped from doTERRA warehouses in Toronto and Calgary.<\/p>",
             "page": ""
           }
         },
@@ -112,8 +111,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "collapsible-row-0",
         "collapsible-row-2",
+        "collapsible-row-0",
         "70450cd9-bef9-4eef-b2a3-c5764df1cd65",
         "collapsible-row-1",
         "collapsible-row-3",
@@ -180,14 +179,14 @@
         "16584735765b6323a2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Want to pay 25-55% less?",
+            "heading": "Save 25% on this product",
             "heading_size": "h1"
           }
         },
         "16584735765b6323a2-1": {
           "type": "text",
           "settings": {
-            "text": "You can! Just take 5 minutes to set up your doTERRA wholesale account. Shop at the lowest prices all the time!",
+            "text": "Take a few minutes and create a doTERRA wholesale account. Shop at the wholesale all the time.",
             "text_style": "body"
           }
         },

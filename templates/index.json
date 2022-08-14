@@ -9,12 +9,12 @@
             "image": "shopify:\/\/shop_images\/shipping-promo-wide-textless.png",
             "heading": "Welcome!",
             "heading_size": "h1",
-            "subheading": "Shop all your favorite doTERRA products at the lowest retail price. With free & fast shipping.",
+            "subheading": "Shop all your favorite doTERRA products at the lowest retail price. Free shipping on $50 orders",
             "button_label": "Shop now",
             "link": "shopify:\/\/collections\/best-selling-products",
-            "button_style_secondary": true,
+            "button_style_secondary": false,
             "box_align": "top-center",
-            "show_text_box": false,
+            "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
@@ -24,10 +24,10 @@
         "1658472393e1147b2e-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_Copy_of_Copy_of_Copy_of_Bloom_9.png",
-            "heading": "Shop Exclusive doTERRA U.S. Products",
+            "image": "shopify:\/\/shop_images\/Canada-doterra-us-products.png",
+            "heading": "Get U.S. products delivered to your home",
             "heading_size": "h1",
-            "subheading": "Plus get free shipping to Canada",
+            "subheading": "Free shipping to Canada included",
             "button_label": "Browse Collection",
             "link": "https:\/\/ca.home-essential-oils.com\/collections\/doterra-u-s-products",
             "button_style_secondary": false,
@@ -35,18 +35,75 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "accent-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "5129a209-ca1f-4a65-ae52-cb467985a75a": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Canada-doterra.png",
+            "heading": "10% Off",
+            "heading_size": "h1",
+            "subheading": "Helichrysum Essential Oil 5 mL",
+            "button_label": "Show Now",
+            "link": "https:\/\/ca.home-essential-oils.com\/products\/helichrysum",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "92842091-9677-4e31-8806-a53b55e51fa8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Canada-doterra-enroll.png",
+            "heading": "Free Membership!",
+            "heading_size": "h1",
+            "subheading": "New members who enroll with 150 PV or more by Aug 30 will have the $35 enrollment fee waived",
+            "button_label": "Enroll Now",
+            "link": "https:\/\/www.doterra.com\/CA\/en\/selectRegion\/13237",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "inverse",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "173a8352-e34d-403a-b515-edaf691999ee": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Canada-doterra-diffusers.png",
+            "heading": "Diffusers for Every Occasion",
+            "heading_size": "h1",
+            "subheading": "Select from a variety of ultra-sonic diffuser collections",
+            "button_label": "Shop Now",
+            "link": "https:\/\/ca.home-essential-oils.com\/collections\/diffusers",
+            "button_style_secondary": false,
+            "box_align": "top-right",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-2",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
         "1658472393e1147b2e-0",
-        "1658472393e1147b2e-1"
+        "1658472393e1147b2e-1",
+        "5129a209-ca1f-4a65-ae52-cb467985a75a",
+        "92842091-9677-4e31-8806-a53b55e51fa8",
+        "173a8352-e34d-403a-b515-edaf691999ee"
       ],
       "settings": {
         "layout": "full_bleed",
-        "slide_height": "adapt_image",
+        "slide_height": "medium",
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 5,
