@@ -942,8 +942,8 @@
             "label": "t:settings_schema.badges.settings.position.options__4.label"
           },
           {
-            "value": "center",
-            "label": "center"
+            "value": "bottom center",
+            "label": "Center"
           }
         ],
         "default": "bottom left",
