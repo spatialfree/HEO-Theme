@@ -28,6 +28,7 @@ class CartItems extends HTMLElement {
 
   onChange(event) {
     this.updateQuantity(event.target.dataset.index, event.target.value, document.activeElement.getAttribute('name'));
+    document.getElementById('cart-icon-bubble').innerHTML += "<span class='icon-label'>Cart</span>";
   }
 
   getSectionsToRender() {
@@ -87,12 +88,11 @@ class CartItems extends HTMLElement {
         this.updateLiveRegions(line, parsedState.item_count);
         const lineItem =  document.getElementById(`CartItem-${line}`);
         if (lineItem && lineItem.querySelector(`[name="${name}"]`)) lineItem.querySelector(`[name="${name}"]`).focus();
-        this.disableLoading();
+        this.disableLoading();        
       }).catch(() => {
         this.querySelectorAll('.loading-overlay').forEach((overlay) => overlay.classList.add('hidden'));
         document.getElementById('cart-errors').textContent = window.cartStrings.error;
         this.disableLoading();
-        document.getElementById('cart-icon-bubble').innerHTML += "<span class='icon-label'>Cart</span>";
       });
   }
 
