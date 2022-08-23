@@ -3,8 +3,9 @@ class CartRemoveButton extends HTMLElement {
     super();
     this.addEventListener('click', (event) => {
       event.preventDefault();
-      this.closest('cart-items').updateQuantity(this.dataset.index, 0);
-      document.getElementById('cart-icon-bubble').innerHTML += "<span class='icon-label'>Cart</span>";
+      this.closest('cart-items').updateQuantity(this.dataset.index, 0).then(() => {
+        document.getElementById('cart-icon-bubble').innerHTML += "<span class='icon-label'>Cart</span>";
+      });
     });
   }
 }
