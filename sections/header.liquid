@@ -494,7 +494,7 @@
       {%- if section.settings.show_enroll -%}
         <a href="{{ section.settings.enroll_url }}" class="header__icon header__icon--account link focus-inset icon-wlabel">
           {% render 'icon-account' %}
-          Account
+          <span class="icon-label">Account</span>
         </a>
       {%- endif -%}
 	    {% if section.settings.show_cart %}
@@ -515,7 +515,7 @@
               <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
             </div>
           {%- endif -%}
-          Cart
+          <span class="icon-label">Cart</span>
         </a>
       {% endif %}
     </div>

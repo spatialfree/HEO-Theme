@@ -2309,6 +2309,10 @@ input[type='checkbox'] {
     display: none;
   }
 
+  .icon-label {
+    display: none;
+  }
+
   #logo-desktop {
     display: none;
   }
