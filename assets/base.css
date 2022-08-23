@@ -2358,6 +2358,14 @@ input[type='checkbox'] {
   width: -webkit-fill-available;
 }
 
+.icon-wlabel {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 12px;
+  text-decoration: none;
+}
+
 .header__icon:not(.header__icon--summary),
 .header__icon span {
   display: flex;
