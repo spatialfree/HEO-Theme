@@ -111,7 +111,7 @@ class CartItems extends HTMLElement {
     const cartStatus = document.getElementById('cart-live-region-text');
     cartStatus.setAttribute('aria-hidden', false);
 
-    document.getElementById('cart-icon-bubble').innerHTML += "<span class='icon-label'>Cart</span>";
+    document.getElementById('cart-icon-bubble').innerHTML = "<span class='icon-label'>Cart</span>";
 
     setTimeout(() => {
       cartStatus.setAttribute('aria-hidden', true);
