@@ -81,7 +81,7 @@ class CartItems extends HTMLElement {
             document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
 
           elementToReplace.innerHTML =
-            this.getSectionInnerHTML(parsedState.sections[section.section], section.selector) + "<span class='icon-label'>Cart</span>";
+            this.getSectionInnerHTML(parsedState.sections[section.section], section.selector);
         }));
 
         this.updateLiveRegions(line, parsedState.item_count);
@@ -110,6 +110,8 @@ class CartItems extends HTMLElement {
 
     const cartStatus = document.getElementById('cart-live-region-text');
     cartStatus.setAttribute('aria-hidden', false);
+
+    document.getElementById('cart-icon-bubble').innerHTML += "<span class='icon-label'>Cart</span>";
 
     setTimeout(() => {
       cartStatus.setAttribute('aria-hidden', true);
