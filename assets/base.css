@@ -2314,7 +2314,7 @@ input[type='checkbox'] {
   }
 
   .cart-count-bubble {
-    bottom: 0;
+    bottom: 1.2rem;
   }
 
   #logo-desktop {
