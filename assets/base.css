@@ -2313,6 +2313,10 @@ input[type='checkbox'] {
     display: none !important;
   }
 
+  .cart-count-bubble {
+    bottom: 0;
+  }
+
   #logo-desktop {
     display: none;
   }
