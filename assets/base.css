@@ -2125,7 +2125,7 @@ input[type='checkbox'] {
   align-items: center;
   font-size: 0.9rem;
   line-height: calc(1 + 0.1 / var(--font-body-scale));
-  bottom: 0.8rem;
+  bottom: 2.4rem;
 }
 
 /* section-announcement-bar */
@@ -2353,6 +2353,9 @@ input[type='checkbox'] {
   display: flex;
   grid-area: icons;
   justify-self: end;
+
+  justify-content: space-between;
+  width: -webkit-fill-available;
 }
 
 .header__icon:not(.header__icon--summary),

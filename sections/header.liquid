@@ -492,12 +492,13 @@
         </a>
       {%- endif -%}
       {%- if section.settings.show_enroll -%}
-        <a href="{{ section.settings.enroll_url }}" class="header__icon header__icon--account link focus-inset">
+        <a href="{{ section.settings.enroll_url }}" class="header__icon header__icon--account link focus-inset icon-wlabel">
           {% render 'icon-account' %}
+          Account
         </a>
       {%- endif -%}
 	    {% if section.settings.show_cart %}
-        <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset" id="cart-icon-bubble">
+        <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset icon-wlabel" id="cart-icon-bubble">
           {%- liquid
             if cart == empty
               render 'icon-cart-empty'
@@ -514,6 +515,7 @@
               <span class="visually-hidden">{{ 'sections.header.cart_count' | t: count: cart.item_count }}</span>
             </div>
           {%- endif -%}
+          Cart
         </a>
       {% endif %}
     </div>
