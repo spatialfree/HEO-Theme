@@ -2310,7 +2310,7 @@ input[type='checkbox'] {
   }
 
   .icon-label {
-    display: none;
+    display: none !important;
   }
 
   #logo-desktop {
