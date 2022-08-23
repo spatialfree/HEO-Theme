@@ -40,6 +40,8 @@ class CartNotification extends HTMLElement {
 
       if (this.header) this.header.reveal();
       this.open();
+      
+      document.getElementById('cart-icon-bubble').innerHTML += "<span class='icon-label'>Cart</span>";
   }
 
   getSectionsToRender() {
