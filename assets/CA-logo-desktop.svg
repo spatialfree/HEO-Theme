@@ -282,7 +282,7 @@
          id="feComposite9507" />
     </filter>
     <color-profile
-       id="color-profile54"
+       id="color-profile55"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
        name="sRGB-IEC61966-2.1" />
     <linearGradient
@@ -750,7 +750,7 @@
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile145" />
+       id="color-profile146" />
     <filter
        id="filter6404-9"
        inkscape:label="Noise Fill"
@@ -2373,7 +2373,7 @@
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile467" />
+       id="color-profile468" />
     <filter
        style="color-interpolation-filters:sRGB"
        inkscape:label="Noise Fill"
@@ -2754,7 +2754,7 @@
          result="composite2" />
     </filter>
     <color-profile
-       id="color-profile540"
+       id="color-profile541"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
        name="sRGB-IEC61966-2.1" />
     <filter
@@ -4125,9 +4125,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.0000001"
-     inkscape:cx="233.28152"
-     inkscape:cy="48.549339"
+     inkscape:zoom="2.0000002"
+     inkscape:cx="214.15171"
+     inkscape:cy="43.844794"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -4198,7 +4198,7 @@
        sodipodi:nodetypes="sccs" />
     <path
        style="fill:none;stroke:#a47d67;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M -17.828158,934.11644 H 281.82816"
+       d="M -17.828158,974.11644 H 281.82816"
        id="path876"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
@@ -4323,13 +4323,13 @@
        sodipodi:nodetypes="cccc" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 8.1141575,904.44779 H 16.165368"
+       d="M 8.1141575,904.07279 H 16.165368"
        id="path1378"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
-       d="m 18.560287,916.06498 c 3e-6,3.1594 -2.127878,6.97232 -6.420521,6.97232 -4.3810336,0 -6.4205307,-3.81292 -6.4205273,-6.97232 3.4e-6,-3.1594 2.1278938,-6.97229 6.4205273,-6.97229 4.292631,0 6.420518,3.8129 6.420521,6.97229 z"
+       d="m 18.029957,915.68998 c 3e-6,3.04243 -1.597548,6.97232 -5.890191,6.97232 -4.3810336,0 -5.8902005,-3.92989 -5.8901973,-6.97232 3.3e-6,-3.04243 1.5975638,-6.97229 5.8901973,-6.97229 4.292631,0 5.890188,3.92986 5.890191,6.97229 z"
        id="path1381"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="asasa" />
