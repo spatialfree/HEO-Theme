@@ -92,9 +92,8 @@ class CartItems extends HTMLElement {
         this.querySelectorAll('.loading-overlay').forEach((overlay) => overlay.classList.add('hidden'));
         document.getElementById('cart-errors').textContent = window.cartStrings.error;
         this.disableLoading();
+        document.getElementById('cart-icon-bubble').innerHTML += "<span class='icon-label'>Cart</span>";
       });
-    
-    document.getElementById('cart-icon-bubble').innerHTML += "<span class='icon-label'>Cart</span>";
   }
 
   updateLiveRegions(line, itemCount) {
