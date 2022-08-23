@@ -81,7 +81,7 @@ class CartItems extends HTMLElement {
             document.getElementById(section.id).querySelector(section.selector) || document.getElementById(section.id);
 
           elementToReplace.innerHTML =
-            this.getSectionInnerHTML(parsedState.sections[section.section], section.selector);
+            this.getSectionInnerHTML(parsedState.sections[section.section], section.selector) + "<span class='icon-label'>Cart</span>";
         }));
 
         this.updateLiveRegions(line, parsedState.item_count);

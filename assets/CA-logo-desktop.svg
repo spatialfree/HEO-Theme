@@ -282,7 +282,7 @@
          id="feComposite9507" />
     </filter>
     <color-profile
-       id="color-profile55"
+       id="color-profile54"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
        name="sRGB-IEC61966-2.1" />
     <linearGradient
@@ -750,7 +750,7 @@
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile146" />
+       id="color-profile145" />
     <filter
        id="filter6404-9"
        inkscape:label="Noise Fill"
@@ -2373,7 +2373,7 @@
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile468" />
+       id="color-profile467" />
     <filter
        style="color-interpolation-filters:sRGB"
        inkscape:label="Noise Fill"
@@ -2754,7 +2754,7 @@
          result="composite2" />
     </filter>
     <color-profile
-       id="color-profile541"
+       id="color-profile540"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
        name="sRGB-IEC61966-2.1" />
     <filter
@@ -4125,9 +4125,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8284274"
-     inkscape:cx="145.29379"
-     inkscape:cy="13.103891"
+     inkscape:zoom="4.0000004"
+     inkscape:cx="183.0101"
+     inkscape:cy="16.995341"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -4190,12 +4190,6 @@
        id="path887"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sccs" />
-    <path
-       style="fill:none;stroke:#a47d67;stroke-width:5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M -17.828158,974.11644 H 281.82816"
-       id="path876"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc" />
     <path
        inkscape:connector-curvature="0"
        id="path1687"
