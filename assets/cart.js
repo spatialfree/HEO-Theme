@@ -3,9 +3,7 @@ class CartRemoveButton extends HTMLElement {
     super();
     this.addEventListener('click', (event) => {
       event.preventDefault();
-      this.closest('cart-items').updateQuantity(this.dataset.index, 0).then(() => {
-        document.getElementById('cart-icon-bubble').innerHTML += "<span class='icon-label'>Cart</span>";
-      });
+      this.closest('cart-items').updateQuantity(this.dataset.index, 0);
     });
   }
 }
@@ -23,6 +21,7 @@ class CartItems extends HTMLElement {
 
     this.debouncedOnChange = debounce((event) => {
       this.onChange(event);
+      document.getElementById('cart-icon-bubble').innerHTML += "<span class='icon-label'>Cart</span>";
     }, 300);
 
     this.addEventListener('change', this.debouncedOnChange.bind(this));
