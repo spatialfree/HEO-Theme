@@ -4,6 +4,7 @@ class CartRemoveButton extends HTMLElement {
     this.addEventListener('click', (event) => {
       event.preventDefault();
       this.closest('cart-items').updateQuantity(this.dataset.index, 0);
+      document.getElementById('cart-icon-bubble').innerHTML += "<span class='icon-label'>Cart</span>";
     });
   }
 }
@@ -28,7 +29,6 @@ class CartItems extends HTMLElement {
 
   onChange(event) {
     this.updateQuantity(event.target.dataset.index, event.target.value, document.activeElement.getAttribute('name'));
-    document.getElementById('cart-icon-bubble').innerHTML += "<span class='icon-label'>Cart</span>";
   }
 
   getSectionsToRender() {
