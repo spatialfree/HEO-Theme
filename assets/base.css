@@ -2325,6 +2325,10 @@ input[type='checkbox'] {
   #doterra-certified {
     display: none !important;
   }
+
+  .banner__media img {
+    object-position: right;
+  }
 }
 
 @media screen and (min-width: 990px) {
