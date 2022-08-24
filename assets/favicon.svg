@@ -282,7 +282,7 @@
          id="feComposite9507" />
     </filter>
     <color-profile
-       id="color-profile55"
+       id="color-profile54"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
        name="sRGB-IEC61966-2.1" />
     <linearGradient
@@ -750,7 +750,7 @@
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile146" />
+       id="color-profile145" />
     <filter
        id="filter6404-9"
        inkscape:label="Noise Fill"
@@ -2119,9 +2119,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="-153.09575"
-     inkscape:cy="19.244384"
+     inkscape:zoom="4"
+     inkscape:cx="-38.554693"
+     inkscape:cy="29.394294"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2156,7 +2156,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2186,16 +2186,17 @@
          id="path1375"
          d="m 42.023175,922.47348 v 16.7119 h 19.953649 v -16.7119"
          style="fill:none;stroke:#d19aca;stroke-width:2;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path1378"
-         d="m 49.531402,923.09716 h 4.937196"
-         style="fill:none;stroke:#faf0f8;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path1381"
-         d="m 56.43087,931.14093 a 4.2755807,4.2755807 0 0 1 -4.275581,4.27559 4.2755807,4.2755807 0 0 1 -4.275582,-4.27559 4.2755807,4.2755807 0 0 1 4.275582,-4.27557 4.2755807,4.2755807 0 0 1 4.275581,4.27557 z"
-         style="opacity:1;fill:none;fill-opacity:1;stroke:#faf0f8;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
     </g>
+    <path
+       inkscape:connector-curvature="0"
+       id="path1378-8"
+       d="m -14.947812,927.63859 h 5.546703"
+       style="fill:none;stroke:#faf0f8;stroke-width:2.24690413;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path1381-2"
+       d="m -7.444841,936.17538 c 6e-6,2.65285 -1.604405,4.80342 -4.55516,4.80342 -3.000405,0 -4.555167,-2.15057 -4.555161,-4.80342 7e-6,-2.65284 1.356165,-4.8034 4.555161,-4.8034 3.099697,0 4.555153,2.15056 4.55516,4.8034 z"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#faf0f8;stroke-width:2.24690413;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       sodipodi:nodetypes="sssss" />
   </g>
 </svg>

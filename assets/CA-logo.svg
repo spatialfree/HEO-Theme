@@ -282,7 +282,7 @@
          id="feComposite9507" />
     </filter>
     <color-profile
-       id="color-profile54"
+       id="color-profile55"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
        name="sRGB-IEC61966-2.1" />
     <linearGradient
@@ -750,7 +750,7 @@
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile145" />
+       id="color-profile146" />
     <filter
        id="filter6404-9"
        inkscape:label="Noise Fill"
@@ -2120,10 +2120,10 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="7.9999999"
-     inkscape:cx="69.698967"
-     inkscape:cy="17.442256"
+     inkscape:cx="80.130847"
+     inkscape:cy="23.252095"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g1249"
      showgrid="false"
      units="px"
      borderlayer="true"
@@ -2188,13 +2188,14 @@
       <path
          inkscape:connector-curvature="0"
          id="path1378"
-         d="m 49.531402,923.09716 h 4.937196"
+         d="m 49.376113,923.09716 h 4.937196"
          style="fill:none;stroke:#faf0f8;stroke-width:2;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <path
          inkscape:connector-curvature="0"
          id="path1381"
-         d="m 56.43087,931.14093 a 4.2755807,4.2755807 0 0 1 -4.275581,4.27559 4.2755807,4.2755807 0 0 1 -4.275582,-4.27559 4.2755807,4.2755807 0 0 1 4.275582,-4.27557 4.2755807,4.2755807 0 0 1 4.275581,4.27557 z"
-         style="opacity:1;fill:none;fill-opacity:1;stroke:#faf0f8;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal" />
+         d="m 56.05461,930.89093 c 5e-6,2.36134 -1.428103,4.27559 -4.05461,4.27559 -2.670701,0 -4.054616,-1.91425 -4.054611,-4.27559 6e-6,-2.36133 1.207141,-4.27557 4.054611,-4.27557 2.759082,0 4.054604,1.91424 4.05461,4.27557 z"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#faf0f8;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+         sodipodi:nodetypes="sssss" />
     </g>
   </g>
 </svg>

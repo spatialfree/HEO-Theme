@@ -2205,7 +2205,7 @@ input[type='checkbox'] {
 .header {
   display: grid;
   grid-template-areas: 'left-icon heading icons';
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 25% 50% 25%;
   align-items: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -2354,6 +2354,10 @@ input[type='checkbox'] {
   #logo-mobile {
     display: none;
   }
+
+  .header__icons {
+    width: -webkit-fill-available;
+  }
 }
 
 /* Header icons */
@@ -2363,7 +2367,6 @@ input[type='checkbox'] {
   justify-self: end;
 
   justify-content: space-between;
-  width: -webkit-fill-available;
 }
 
 .icon-wlabel {
