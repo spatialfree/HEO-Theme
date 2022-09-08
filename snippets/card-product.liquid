@@ -149,14 +149,10 @@
                 {%- form 'product', card_product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                   <input type="hidden" name="id" value="{{ card_product.selected_or_first_available_variant.id }}" disabled>
                   <button
-                    id="{{ product_form_id }}-submit"
+                    id="submit"
                     type="submit"
                     name="add"
                     class="quick-add__submit button button--full-width button--secondary"
-                    aria-haspopup="dialog"
-                    aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
-                    aria-live="polite"
-                    data-sold-out-message="true"
                     {% if card_product.selected_or_first_available_variant.available == false %}disabled{% endif %}
                   >
                     <span>
@@ -258,4 +254,3 @@
   </div>
 
 {%- endif -%}
-
