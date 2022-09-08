@@ -206,5 +206,5 @@ quick-add-modal .product-form__buttons {
 }
 
 .quick-add__submit:hover {
-  --border-offset: 0.2rem;
+  --border-offset: 0;
 }
