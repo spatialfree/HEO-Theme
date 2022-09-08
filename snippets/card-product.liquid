@@ -257,9 +257,3 @@
     </div>
   </div>
 {%- endif -%}
-
-<!-- quick add to cart button -->
-<form style="display:none;" action="/cart/add" method="post" target="_top" enctype="multipart/form-data">
-  <input type="hidden" name="id" value="{{ card_product.selected_or_first_available_variant.id }}" />
-  <input type="submit" value="Add to cart" class="btn" />
-</form>
