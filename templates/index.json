@@ -223,7 +223,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/digestion-collection.webp",
             "title": "Digestive",
-            "text": "<p>Digestive<\/p>",
+            "text": "",
             "link_label": "Digestive",
             "link": "shopify:\/\/collections\/best-doterra-essential-oils-for-doterra-digestion"
           }
