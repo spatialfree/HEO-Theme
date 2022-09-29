@@ -7,9 +7,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/shipping-promo-wide-textless.png",
-            "heading": "Welcome!",
+            "heading": "Free Shipping",
             "heading_size": "h1",
-            "subheading": "Shop all your favorite doTERRA products at the lowest retail price. Free shipping on $50 orders",
+            "subheading": "Free shipping on orders of $50 or more",
             "button_label": "Shop now",
             "link": "shopify:\/\/collections\/best-selling-products",
             "button_style_secondary": false,
