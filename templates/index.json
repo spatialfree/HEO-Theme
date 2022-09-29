@@ -111,11 +111,65 @@
         "accessibility_info": "doTERRA Promotions Slildeshow"
       }
     },
+    "16644407558be18696": {
+      "type": "collection-list",
+      "blocks": {
+        "16644407553dada8ff-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "deep-blue®-products"
+          }
+        },
+        "16644407553dada8ff-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "on-guard-products"
+          }
+        },
+        "16644407553dada8ff-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "doterra-u-s-products"
+          }
+        },
+        "7dc5cb82-ede6-4541-a300-a5e7b0fe8515": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "adaptiv-products"
+          }
+        },
+        "c4a6e1d4-b56c-4598-a327-047b04c5285d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "zengest®products"
+          }
+        }
+      },
+      "block_order": [
+        "16644407553dada8ff-0",
+        "16644407553dada8ff-1",
+        "16644407553dada8ff-2",
+        "7dc5cb82-ede6-4541-a300-a5e7b0fe8515",
+        "c4a6e1d4-b56c-4598-a327-047b04c5285d"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16513048140b475ee3": {
       "type": "featured-collection",
       "settings": {
         "title": "Best Selling Products",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
@@ -201,7 +255,7 @@
       ],
       "settings": {
         "title": "Essential Oils by Health Concern",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 5,
@@ -255,67 +309,13 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
-    },
-    "16644407558be18696": {
-      "type": "collection-list",
-      "blocks": {
-        "16644407553dada8ff-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "deep-blue®-products"
-          }
-        },
-        "16644407553dada8ff-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "on-guard-products"
-          }
-        },
-        "16644407553dada8ff-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "doterra-u-s-products"
-          }
-        },
-        "7dc5cb82-ede6-4541-a300-a5e7b0fe8515": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "adaptiv-products"
-          }
-        },
-        "c4a6e1d4-b56c-4598-a327-047b04c5285d": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "zengest®products"
-          }
-        }
-      },
-      "block_order": [
-        "16644407553dada8ff-0",
-        "16644407553dada8ff-1",
-        "16644407553dada8ff-2",
-        "7dc5cb82-ede6-4541-a300-a5e7b0fe8515",
-        "c4a6e1d4-b56c-4598-a327-047b04c5285d"
-      ],
-      "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 5,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "1658472394ff6d1fec",
+    "16644407558be18696",
     "16513048140b475ee3",
     "multicolumn",
-    "1651301878a509b284",
-    "16644407558be18696"
+    "1651301878a509b284"
   ]
 }
