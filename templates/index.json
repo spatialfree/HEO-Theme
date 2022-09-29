@@ -165,33 +165,6 @@
         "padding_bottom": 36
       }
     },
-    "16513048140b475ee3": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Best Selling Products",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "best-selling-products",
-        "products_to_show": 5,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -244,6 +217,16 @@
             "link_label": "Immune Support",
             "link": "shopify:\/\/collections\/best-doterra-essential-oils-to-boost-immune-system"
           }
+        },
+        "4ea4d6ab-8e65-4d7e-abd2-78530883611e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/digestion-collection.webp",
+            "title": "Digestive",
+            "text": "<p>Digestive<\/p>",
+            "link_label": "Digestive",
+            "link": "shopify:\/\/collections\/best-doterra-essential-oils-for-doterra-digestion"
+          }
         }
       },
       "block_order": [
@@ -251,20 +234,48 @@
         "column2",
         "column3",
         "d0679242-6070-4281-a7b7-59d545d09a1a",
-        "19e415db-477e-44b3-9416-ca660b07c779"
+        "19e415db-477e-44b3-9416-ca660b07c779",
+        "4ea4d6ab-8e65-4d7e-abd2-78530883611e"
       ],
       "settings": {
         "title": "Shop By Health Topic",
         "heading_size": "h1",
-        "image_width": "half",
+        "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 5,
+        "columns_desktop": 6,
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16513048140b475ee3": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Selling Products",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-selling-products",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
@@ -314,8 +325,8 @@
   "order": [
     "1658472394ff6d1fec",
     "16644407558be18696",
-    "16513048140b475ee3",
     "multicolumn",
+    "16513048140b475ee3",
     "1651301878a509b284"
   ]
 }
