@@ -287,8 +287,15 @@
         "16513018788bc6d28d-0": {
           "type": "heading",
           "settings": {
-            "heading": "What are essential oils?",
+            "heading": "Save 25% with Wholesale price",
             "heading_size": "h1"
+          }
+        },
+        "4f59414a-e834-4ec2-9ef9-b58932fb62b6": {
+          "type": "text",
+          "settings": {
+            "text": "Save 25% on all products by becoming a doTERRA Wholesale Customer",
+            "text_style": "body"
           }
         },
         "16513018788bc6d28d-2": {
@@ -305,15 +312,16 @@
       },
       "block_order": [
         "16513018788bc6d28d-0",
+        "4f59414a-e834-4ec2-9ef9-b58932fb62b6",
         "16513018788bc6d28d-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/16x9-best-kept-secrets-lifestyle-us-english-web.jpg",
+        "image": "shopify:\/\/shop_images\/doterra-emprender.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
-        "show_text_box": false,
+        "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
