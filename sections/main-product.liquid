@@ -419,6 +419,16 @@
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
                   <div class="product-form__buttons" style="width: 50%;">
+                  
+                    {%- if product.metafields.custom.wholesale_sku > 0 -%}
+                      <div>
+                        <a style="text-decoration: none;" href="https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1">
+                          <div class="product-form__submit button button--full-width">Wholesale</div>
+                        </a>
+                        <div style="color: gray; font-size: 13px;">links to doTTERA's main site *membership enrollment required</div>
+                      </div>
+                    {%- endif -%}
+                  
                     <button
                       type="submit"
                       name="add"
@@ -441,16 +451,6 @@
                     {%- if block.settings.show_dynamic_checkout -%}
                       {{ form | payment_button }}
                     {%- endif -%}
-
-                    {%- if product.metafields.custom.wholesale_sku > 0 -%}
-                      <div>
-                        <a style="text-decoration: none;" href="https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1">
-                          <div class="product-form__submit button button--full-width">Wholesale</div>
-                        </a>
-                        <div style="color: gray; font-size: 13px;">links to doTTERA's main site *membership enrollment required</div>
-                      </div>
-                    {%- endif -%}
-
                   </div>
                 {%- endform -%}
               </product-form>
