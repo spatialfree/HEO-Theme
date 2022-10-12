@@ -444,7 +444,13 @@
                   </div>
                 {%- endform -%}
               </product-form>
-              <div>...</div>
+            
+              {%- if product.metafields.custom.wholesale_sku > 0 -%}
+                <div>
+                  <a href="https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1"><div>Wholesale</div></a>
+                  <div>links to doTTERA's main site *basic enrollment required</div>
+                </div>
+              {%- endif -%}
 
               {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
