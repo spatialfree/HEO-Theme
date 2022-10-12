@@ -23,7 +23,12 @@
   {%- endstyle -%}
 
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
-  <script>console.log("SKU {{ product.metafields.custom.wholesale_sku }}")</script>
+  <script>
+    console.log("SKU {{ product.metafields.custom.wholesale_sku }}")
+    console.log("https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&60217631=1")
+    console.log("generated: ")
+    console.log("https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1")
+  </script>
 
   {%- assign first_3d_model = product.media | where: "media_type", "model" | first -%}
   {%- if first_3d_model -%}
