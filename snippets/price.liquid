@@ -68,10 +68,12 @@
         {{ money_price }}
       </span>
     </div>
-    <div class="price__regular">
+    <div style="display: flex;">
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.wholesale_price' | t }}</span>
       <span class="price-item price-item--regular" style="font-weight: normal;">
         Wholesale: {{ wholesale }}
+      </span>
+      <div>&nbsp;</div>
       {%- if product.metafields.custom.wholesale_sku > 0 -%}
         <div>
   <!--         {{ product.metafields.custom.wholesale_sku }} -->
@@ -81,7 +83,6 @@
   <!--         <div class="caption" style="margin-bottom: 2rem; text-align: center;">*dōTERRA membership enrollment</div> -->
         </div>
       {%- endif -%}
-      </span>
     </div>
     <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
       <span class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</span>
