@@ -68,10 +68,11 @@
     </div>
     {%- if product.metafields.custom.wholesale_sku > 0 -%}
       <div>
-        <a style="text-decoration: none;" target="_blank" href="https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1">
+        {{ product.product.metafields.custom.wholesale_sku }}
+<!--         <a style="text-decoration: none;" target="_blank" href="https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1">
           <div class="product-form__submit button">Wholesale</div>
-        </a>
-        <div class="caption" style="margin-bottom: 2rem; text-align: center;">*dōTERRA membership enrollment</div>
+        </a> -->
+<!--         <div class="caption" style="margin-bottom: 2rem; text-align: center;">*dōTERRA membership enrollment</div> -->
       </div>
     {%- endif -%}
     <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
