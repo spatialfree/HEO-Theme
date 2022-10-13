@@ -71,7 +71,7 @@
     <div class="price__regular">
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
       <span class="price-item price-item--regular" style="">
-        Wholesale: {{ 'products.product.price.from_price_html' | t: price: wholesale}}
+        Wholesale: {{ 'products.product.price.from_price_html' | t: price: wholesale | money_with_currency}}
       </span>
     </div>
     {%- if product.metafields.custom.wholesale_sku > 0 -%}
