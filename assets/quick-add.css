@@ -197,6 +197,8 @@ quick-add-modal .product-form__buttons {
 
 .quick-add__submit {
   margin: 0 auto;
-  padding: 0.8rem;
   box-sizing: border-box;
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 0;
 }
