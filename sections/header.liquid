@@ -471,12 +471,6 @@
     {%- endif -%}
 
     <div class="header__icons">
-
-      <p id="doterra-certified">
-        <img src="//cdn.shopify.com/s/files/1/0227/7189/2298/t/3/assets/o.png?v=168930120132858791821623122461" width="24px" style="background-color: white;border-radius: 50%;padding: 0.2em;">
-        &nbsp;&nbsp;dōTERRA Certified&nbsp;&nbsp;
-      </p>
-
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
           {% render 'icon-account' %}
