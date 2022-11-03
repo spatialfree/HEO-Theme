@@ -2361,7 +2361,7 @@ input[type='checkbox'] {
   }
 
   .header__icons {
-    width: -webkit-fill-available;
+    width: auto;
   }
 }
 
