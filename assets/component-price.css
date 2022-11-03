@@ -43,7 +43,7 @@
   letter-spacing: 0.13rem;
 }
 
-.price--large .wholesale-btn {
+.price--large div.wholesale-btn {
   display: none;
 }
 
