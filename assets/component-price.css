@@ -43,6 +43,10 @@
   letter-spacing: 0.13rem;
 }
 
+.price--large .wholesale-btn {
+  display: none;
+}
+
 @media screen and (min-width: 750px) {
   .price--large {
     font-size: 1.8rem;
