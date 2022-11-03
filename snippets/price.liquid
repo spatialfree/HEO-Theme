@@ -70,10 +70,10 @@
     </div>
     <div style="display: flex; flex-direction: column;">
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.wholesale_price' | t }}</span>
+      <span class="price-item price-item--regular" style="font-weight: normal; line-height: 3.4rem;">
+        Wholesale: {{ wholesale | replace: "CA", "" }}
+      </span>
       {%- if product.metafields.custom.wholesale_sku > 0 -%}
-        <span class="price-item price-item--regular" style="font-weight: normal; line-height: 3.4rem;">
-          Wholesale: {{ wholesale | replace: "CA", "" }}
-        </span>
         <div class="wholesale-btn">
           <a style="text-decoration: none;" target="_blank" href="https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1">
             <div class="product-form__submit button secondary button--secondary" style="font-size: 14px; padding: 0 2rem; margin: 0; min-height: 36px;">Buy Wholesale</div>
