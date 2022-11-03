@@ -97,7 +97,7 @@
   width: 100%;
   flex-grow: 1;
   height: 153px;
-  margin-bottom: 2rem;
+  margin-bottom: -2rem;
 }
 
 .card__content--auto-margins {
@@ -163,6 +163,9 @@
 .card__heading {
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0;
 }
 
 .card__heading:last-child {
