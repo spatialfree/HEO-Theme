@@ -2323,7 +2323,7 @@ input[type='checkbox'] {
   }
 
   #doterra-certified {
-    display: none !important;
+/*     display: none !important; */
   }
 
   .banner__media img {
