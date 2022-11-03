@@ -43,8 +43,12 @@
   letter-spacing: 0.13rem;
 }
 
-.price--large div.wholesale-btn {
+.wholesale-btn {
   display: none;
+}
+
+.price--large .wholesale-btn {
+  display: unset;
 }
 
 @media screen and (min-width: 750px) {
