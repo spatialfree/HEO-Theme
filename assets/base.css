@@ -2932,3 +2932,7 @@ details-disclosure > details {
 iframe {
   width: 100%;
 }
+
+.wellness-topics {
+  margin: 0 auto;
+}
