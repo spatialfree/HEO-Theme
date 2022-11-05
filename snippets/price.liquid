@@ -47,7 +47,7 @@
     <div class="price__regular">
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
       <span class="price-item price-item--regular">
-        {%- if product.metafields.custom.wholesale_price != nil -%}Retail: {%- endif -%}{{ money_price }}
+        {%- if product.metafields.custom.wholesale_price != nil -%}Retail:&nbsp;{%- endif -%}{{ money_price }}
       </span>
     </div>
     <div class="price__sale">
