@@ -1,44 +1,5 @@
 {
   "sections": {
-    "165929946541bdb2c3": {
-      "type": "rich-text",
-      "disabled": true,
-      "blocks": {
-        "165929946571263fdb-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Create a doTERRA Wholesale Account",
-            "heading_size": "h0"
-          }
-        },
-        "165929946571263fdb-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Set up a doTERRA wholesale account to shop all doTERRA essential oils and products at 25-55% off.<\/p>"
-          }
-        },
-        "165929946571263fdb-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Create a doTERRA Wholesale Account Today",
-            "button_link": "https:\/\/www.doterra.com\/CA\/en\/selectRegion\/WC\/13237",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "165929946571263fdb-0",
-        "165929946571263fdb-1",
-        "165929946571263fdb-2"
-      ],
-      "settings": {
-        "center_align": false,
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -48,7 +9,6 @@
     }
   },
   "order": [
-    "165929946541bdb2c3",
     "main"
   ]
 }
