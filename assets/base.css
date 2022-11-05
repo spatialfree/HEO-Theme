@@ -2935,5 +2935,8 @@ iframe {
 
 .wellness-topics {
   height: 32px;
+}
+
+td a {
   text-decoration: none;
 }
