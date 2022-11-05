@@ -93,7 +93,7 @@
             </a>
           </h3>
           {%- if card_collection.description != blank -%}
-            <p>
+            <p style="margin: 0.333em 0;">
               {{- card_collection.description | strip_html | truncatewords: 8 -}}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span>
             </p>
           {%- endif -%}
