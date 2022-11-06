@@ -41,7 +41,7 @@
   -%}
   <ul class="collection-list grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down" role="list">
     {%- for collection in collections -%}
-      {% if collection.metafields.custom.collection_type == "Health Topic" %}
+      {% if collection.metafields.custom.collection_type == section.settings.collection_type %}
         <li class="collection-list__item grid__item">
           {% render 'card-collection', card_collection: collection, media_aspect_ratio: section.settings.image_ratio, columns: 3 %}
         </li>
@@ -84,12 +84,6 @@
       "type": "text",
       "id": "collection_type",
       "label": "Collection type"
-    },
-    {
-      "type": "text",
-      "id": "title",
-      "label": "t:sections.main-list-collections.settings.title.label",
-      "default": "Collections"
     },
     {
       "type": "select",
