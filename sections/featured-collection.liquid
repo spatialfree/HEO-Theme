@@ -43,6 +43,9 @@
   if section.settings.enable_desktop_slider and products_to_display > section.settings.columns_desktop
     assign show_desktop_slider = true
   endif
+
+
+  assign show_desktop_slider = false
 -%}
 
 <div class="color-{{ section.settings.color_scheme }} isolate gradient">
@@ -51,6 +54,9 @@
         {%- if section.settings.title != blank -%}
           <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
         {%- endif -%}
+        
+        <a href="{{ section.settings.collection.url }}" class="link underlined-link">View all</a>
+        
         {%- if section.settings.description != blank or section.settings.show_description and section.settings.collection.description != empty -%}
           <div class="collection__description {{ section.settings.description_style }}">{%- if section.settings.show_description -%}{{ section.settings.collection.description }}{%- else -%}{{ section.settings.description }}{% endif %}</div>
         {%- endif -%}
