@@ -2940,3 +2940,8 @@ iframe {
 td a {
   text-decoration: none;
 }
+
+.wellness-topics-header {
+  height: 128px;
+  width: 128px;
+}
