@@ -3,7 +3,6 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 
 <link rel="stylesheet" href="{{ 'component-search.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'quick-add.css' | asset_url }}" media="print" onload="this.media='all'">
 
 <noscript>{{ 'component-search.css' | asset_url | stylesheet_tag }}</noscript>
 
@@ -217,6 +216,7 @@
                           show_secondary_image: section.settings.show_secondary_image,
                           show_vendor: section.settings.show_vendor,
                           show_rating: section.settings.show_rating,
+                          show_quick_add: true,
                           lazy_load: lazy_load
                         %}
                       {%- when 'article' -%}
