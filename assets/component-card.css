@@ -82,7 +82,8 @@
 }
 
 .card__inner {
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .card--media .card__inner .card__content {
