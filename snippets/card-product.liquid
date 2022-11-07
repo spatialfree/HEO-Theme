@@ -141,7 +141,7 @@
             {% render 'price', product: card_product, price_class: '' %}
           </div>
         </div>
-        {%- if show_quick_add -%}
+<!--         {%- if show_quick_add -%} -->
           <div class="quick-add">
             {%- assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id -%}
             {%- if card_product.has_only_default_variant or card_product.variants.size == 1 -%}
@@ -205,7 +205,7 @@
               </quick-add-modal>
             {%- endif -%}
           </div>
-        {%- endif -%}
+<!--         {%- endif -%} -->
         <div class="card__badge {{ settings.badge_position }}">
           {%- if card_product.available == false -%}
             <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
