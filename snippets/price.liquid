@@ -102,7 +102,7 @@
   {%- if show_badges -%}
     <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}" style="text-decoration: line-through; background-color: #ea5252; border: 2px solid white;">
 <!--       {{ 'products.product.on_sale' | t }} -->
-      {{ compare_at_price | money }}
+      {{ compare_at_price | money | replace: "CA ", "" }}
     </span>
 
     <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}">
