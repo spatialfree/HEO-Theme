@@ -69,7 +69,7 @@
       </span>
     </div>
     <div style="display: flex; flex-direction: column;">
-      <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.wholesale_price' | t }}</span>
+      <span class="visually-hidden visually-hidden--inline">{{ 'product.metafields.custom.wholesale_price' | t }}</span>
       <span class="price-item price-item--wholesale" style="font-weight: normal; line-height: 3.4rem; {%- if product.metafields.custom.wholesale_price == nil -%}opacity: 0;{%- endif -%}">
         Wholesale: {{ wholesale | replace: "CA", "" }}
       </span>
