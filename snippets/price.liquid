@@ -51,7 +51,7 @@
       </span>
     </div>
     <div class="price__sale">
-      {%- unless product.price_varies == false and product.compare_at_price_varies %}
+<!--       {%- unless product.price_varies == false and product.compare_at_price_varies %}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span>
           <s class="price-item price-item--regular">
@@ -62,10 +62,10 @@
             {% endif %}
           </s>
         </span>
-      {%- endunless -%}
+      {%- endunless -%} -->
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
       <span class="price-item price-item--sale price-item--last">
-        {{ money_price }}
+        {%- if product.metafields.custom.wholesale_price != nil -%}Retail:&nbsp;{%- endif -%}{{ money_price }}
       </span>
     </div>
     <div style="display: flex; flex-direction: column;">
