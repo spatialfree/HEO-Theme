@@ -234,7 +234,7 @@
         cart_change_url: '{{ routes.cart_change_url }}',
         cart_update_url: '{{ routes.cart_update_url }}',
         predictive_search_url: '{{ routes.predictive_search_url }}'
-      };
+      }
 
       window.cartStrings = {
         error: `{{ 'sections.cart.cart_error' | t }}`,
@@ -252,6 +252,15 @@
         shareSuccess: `{{ 'general.share.success_message' | t }}`,
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
+      }
+
+      function toggleHelp() {
+        var x = document.getElementById("helpWholesale")
+        if (x.style.display === "none") {
+          x.style.display = "block"
+        } else {
+          x.style.display = "none"
+        }
       }
     </script>
 
