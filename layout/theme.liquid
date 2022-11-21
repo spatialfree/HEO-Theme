@@ -254,12 +254,14 @@
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`,
       }
 
-      function toggleHelp() {
+      function toggleHelp(el) {
         var x = document.getElementById("helpWholesale")
         if (x.style.display === "none") {
           x.style.display = "block"
+          el.innerHTML = "x"
         } else {
           x.style.display = "none"
+          el.innerHTML = "?"
         }
       }
     </script>
