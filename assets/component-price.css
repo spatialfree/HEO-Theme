@@ -50,6 +50,7 @@
 
 .wholesale-btn {
   display: none;
+  user-select: none;
 }
 
 .price--large .wholesale-btn {
