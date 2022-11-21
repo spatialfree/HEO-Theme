@@ -286,6 +286,10 @@ body,
   background-color: rgb(var(--color-background));
 }
 
+input, textarea, button, select, div, a {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
 .background-secondary {
   background-color: rgba(var(--color-foreground), 0.04);
 }
