@@ -287,21 +287,21 @@
         "16513018788bc6d28d-0": {
           "type": "heading",
           "settings": {
-            "heading": "Join dōTERRA Save 25%",
+            "heading": "Join dōTERRA and Save 25%",
             "heading_size": "h1"
           }
         },
         "4f59414a-e834-4ec2-9ef9-b58932fb62b6": {
           "type": "text",
           "settings": {
-            "text": "Save 25% on all products by becoming a doTERRA Wholesale Customer",
+            "text": "Shop wholesale prices on all products. No monthly obligations, fees or minimum orders. Just shop and save when you want!",
             "text_style": "body"
           }
         },
         "16513018788bc6d28d-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Get Started!",
+            "button_label_1": "Sign Up",
             "button_link_1": "https:\/\/www.doterra.com\/CA\/en\/selectRegion\/13237",
             "button_style_secondary_1": false,
             "button_label_2": "",
