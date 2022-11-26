@@ -128,12 +128,6 @@
             "collection": "on-guard-products"
           }
         },
-        "16644407553dada8ff-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "doterra-u-s-products"
-          }
-        },
         "7dc5cb82-ede6-4541-a300-a5e7b0fe8515": {
           "type": "featured_collection",
           "settings": {
@@ -145,14 +139,20 @@
           "settings": {
             "collection": "zengest®products"
           }
+        },
+        "16644407553dada8ff-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "doterra-u-s-products"
+          }
         }
       },
       "block_order": [
         "16644407553dada8ff-0",
         "16644407553dada8ff-1",
-        "16644407553dada8ff-2",
         "7dc5cb82-ede6-4541-a300-a5e7b0fe8515",
-        "c4a6e1d4-b56c-4598-a327-047b04c5285d"
+        "c4a6e1d4-b56c-4598-a327-047b04c5285d",
+        "16644407553dada8ff-2"
       ],
       "settings": {
         "title": "Shop by Category",
