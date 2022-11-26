@@ -23,6 +23,7 @@
         },
         "92842091-9677-4e31-8806-a53b55e51fa8": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/doterra-Canada-new-Products-Kit.jpg",
             "heading": "Fall 2022 New Products",
