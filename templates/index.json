@@ -3,24 +3,6 @@
     "1658472394ff6d1fec": {
       "type": "slideshow",
       "blocks": {
-        "173a8352-e34d-403a-b515-edaf691999ee": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/doterra-Canada-MetaPWR-Products-Kit.jpg",
-            "heading": "doTERRA MetaPWR",
-            "heading_size": "h1",
-            "subheading": "Metabolic Health System",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/doterra-metapwr",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "92842091-9677-4e31-8806-a53b55e51fa8": {
           "type": "slide",
           "settings": {
@@ -39,24 +21,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "1658472393e1147b2e-0": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/shipping-promo-wide-textless.png",
-            "heading": "Free Shipping",
-            "heading_size": "h1",
-            "subheading": "on any orders over $50",
-            "button_label": "Shop now",
-            "link": "shopify:\/\/collections\/best-selling-products",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "1658472393e1147b2e-1": {
           "type": "slide",
           "settings": {
@@ -72,6 +36,42 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "173a8352-e34d-403a-b515-edaf691999ee": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/doterra-Canada-MetaPWR-Products-Kit.jpg",
+            "heading": "doTERRA MetaPWR",
+            "heading_size": "h1",
+            "subheading": "Metabolic Health System",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/doterra-metapwr",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "1658472393e1147b2e-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shipping-promo-wide-textless.png",
+            "heading": "Free Shipping",
+            "heading_size": "h1",
+            "subheading": "on any orders over $50",
+            "button_label": "Shop now",
+            "link": "shopify:\/\/collections\/best-selling-products",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
             "text_alignment_mobile": "center"
           }
         },
@@ -95,10 +95,10 @@
         }
       },
       "block_order": [
-        "173a8352-e34d-403a-b515-edaf691999ee",
         "92842091-9677-4e31-8806-a53b55e51fa8",
-        "1658472393e1147b2e-0",
         "1658472393e1147b2e-1",
+        "173a8352-e34d-403a-b515-edaf691999ee",
+        "1658472393e1147b2e-0",
         "5129a209-ca1f-4a65-ae52-cb467985a75a"
       ],
       "settings": {
