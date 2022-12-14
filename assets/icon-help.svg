@@ -282,7 +282,7 @@
          id="feComposite9507" />
     </filter>
     <color-profile
-       id="color-profile55"
+       id="color-profile54"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
        name="sRGB-IEC61966-2.1" />
     <linearGradient
@@ -750,7 +750,7 @@
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile146" />
+       id="color-profile145" />
     <filter
        id="filter6404-9"
        inkscape:label="Noise Fill"
@@ -2120,8 +2120,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="9.3040284"
-     inkscape:cx="10.258009"
-     inkscape:cy="17.012863"
+     inkscape:cx="14.772183"
+     inkscape:cy="18.625068"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -2165,19 +2165,19 @@
      id="layer1"
      transform="translate(28,-908.70078)">
     <circle
-       style="opacity:1;fill:#fdfcfd;fill-opacity:1;stroke:#d19aca;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
+       style="opacity:1;fill:#fdfcfd;fill-opacity:1;stroke:#d19aca;stroke-width:2.01737571;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:normal"
        id="path1368"
        cx="-8"
        cy="928.70081"
-       r="5.4161015" />
+       r="10.926311" />
     <path
-       style="fill:none;stroke:#d19aca;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -8.0036087,926.26628 v -0.19011"
+       style="fill:none;stroke:#d19aca;stroke-width:2.01737571;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m -8.0072801,923.78945 v -0.38352"
        id="path1366"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#d19aca;stroke-width:1px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
-       d="m -7.9963913,928.14022 v 3.26511"
+       style="fill:none;stroke:#d19aca;stroke-width:2.01737571px;stroke-linecap:round;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -7.9927199,927.56989 v 6.58696"
        id="path1240"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
