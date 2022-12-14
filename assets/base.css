@@ -2604,7 +2604,8 @@ details[open] > .header__submenu {
 
 /* Header menu */
 .header__inline-menu {
-  margin-left: -1.2rem;
+  margin-left: auto;
+  margin-right: auto;
   grid-area: navigation;
   display: none;
 }
