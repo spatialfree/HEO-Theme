@@ -485,6 +485,10 @@
           </span>
         </a>
       {%- endif -%}
+      <a href="{{ section.settings.enroll_url }}" class="header__icon header__icon--account link focus-inset icon-wlabel">
+        {% render 'icon-help' %}
+        <span class="icon-label">Account</span>
+      </a>
       {%- if section.settings.show_enroll -%}
         <a href="{{ section.settings.enroll_url }}" class="header__icon header__icon--account link focus-inset icon-wlabel">
           {% render 'icon-account' %}
