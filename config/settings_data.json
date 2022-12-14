@@ -123,7 +123,7 @@
           "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/CA-logo_68db50b8-1f6d-48d4-a94a-2f467840fa4c.png",
           "logo_width": 160,
-          "logo_position": "top-center",
+          "logo_position": "top-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
