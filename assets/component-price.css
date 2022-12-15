@@ -51,12 +51,15 @@
 .wholesale-btn {
   display: none;
   user-select: none;
-  display: flex;
-  gap: 8px;
 }
 
 .price--large .wholesale-btn {
   display: unset;
+}
+
+.wholesale-btn {
+  display: flex;
+  gap: 8px;
 }
 
 @media screen and (min-width: 750px) {
