@@ -272,12 +272,12 @@
       function doterra(URL) {
         window.scrollTo(0, 0)
         $('body').css('overflow', hidden)
-        $('.doterra').show()
+        $('#doterra').show()
         setTimeout(function() { window.location = URL }, 1500)
       }
     </script>
 
-    <div class="doterra" style="display: none">
+    <div id="doterra" style="display: none">
       <img src="{{ 'CA-logo.svg' | asset_url }}" height="128px">
       <div>transferring to wholesale site</div>
       <div>...</div>
