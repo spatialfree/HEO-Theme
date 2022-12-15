@@ -270,11 +270,14 @@
       
       <!-- doterra transition -->
       function doterra(URL) {
-        // window.scrollTo(0, 0)
         $('html, body').scrollTop(0);
         $('body').css('overflow', 'hidden')
         $('#doterra').show()
-        setTimeout(function() { window.location = URL }, 1500)
+        setTimeout(function() {
+          $('#doterra').hide()
+          $('body').css('overflow', 'scroll')
+          window.location = URL
+        }, 1500)
       }
     </script>
 
