@@ -75,7 +75,7 @@
       </span>
       {%- if product.metafields.custom.wholesale_sku > 0 -%}
         <div class="wholesale-btn">
-          <a style="text-decoration: none;" target="_blank" href="https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1">
+          <a class="wholesale-link" style="text-decoration: none;" target="_blank" href="https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1">
             <div class="product-form__submit button" style="font-size: 14px; padding: 0 2rem; margin: 0; min-height: 36px;">Buy Wholesale</div>
           </a>
           <div class="product-form__submit button secondary button--secondary" onclick="toggleHelp(this)" style="font-size: 14px; padding: 0; margin: 0; min-height: 36px; min-width: auto; width: 36px;">?</div>
@@ -113,7 +113,7 @@
 </div>
 
 <script>
-  $('.wholesale-btn.a').click(function(e) {
+  $('.wholesale-link').click(function(e) {
     e.preventDefault();
     setTimeout(function(url) { window.location = url }, 5000, this.href);
   });
