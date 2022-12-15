@@ -85,7 +85,7 @@
           <h3 class="card__heading">
             <a href="{{ card_collection.url }}" class="full-unstyled-link">
               {%- if card_collection.title != blank -%}
-                {{- card_collection.title | escape | replace: "Products", "" -}}
+                {{- card_collection.title | escape | replace: "Products", "" | replace: "U.S.", "U.S. Products" -}}
               {%- else -%}
                 {{ 'onboarding.collection_title' | t }}
               {%- endif -%}
