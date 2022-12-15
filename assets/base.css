@@ -2292,6 +2292,11 @@ input[type='checkbox'] {
   width: auto;
 }
 
+.icon-label {
+  font-size: 11px;
+  padding: 0 1em;
+}
+
 #doterra-certified {
   font-size: 12px;
   margin: 1em auto;
