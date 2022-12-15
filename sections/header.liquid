@@ -70,9 +70,11 @@
   }
 
 {% unless section.settings.enable_sticky_header %}
-  #shopify-section-header {
-    position: sticky;
-    top: 0;
+  @media screen and (min-width: 750px) {
+    #shopify-section-header {
+      position: sticky;
+      top: 0;
+    }
   }
 {% endunless %}}
 </style>
