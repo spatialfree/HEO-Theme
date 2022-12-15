@@ -69,10 +69,12 @@
     }
   }
 
+{% if section.settings.enable_sticky_header %}
   #shopify-section-header {
     position: sticky;
     top: 0;
   }
+{% endif %}}
 </style>
 
 {%- style -%}
