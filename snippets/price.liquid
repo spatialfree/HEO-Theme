@@ -111,3 +111,13 @@
     </span>
   {%- endif -%}
 </div>
+
+<script>
+  function delay (URL) {
+    setTimeout( function() { window.location = URL }, 850 );
+  }
+  $('.wholesale-link').click(function (e) {
+    e.preventDefault()
+    setTimeout(function (url) { window.location = url }, 3000, this.href)
+  })
+</script>
