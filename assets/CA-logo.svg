@@ -2168,7 +2168,7 @@
     <g
        id="g1249">
       <path
-         style="fill:#c18dc2;fill-opacity:1;stroke:#d19aca;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         style="fill:#c18dc2;fill-opacity:1;stroke:#d19aca;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
          d="m 40.739359,925.49315 v 15.20682 H 63.41726 v -15.20682 h 1.570008 v -2.12188 l -12.970294,-8.2504 -13.022073,8.2504 v 2.12188 z"
          id="path1243"
          inkscape:connector-curvature="0"
