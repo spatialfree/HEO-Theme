@@ -112,12 +112,13 @@
   {%- endif -%}
 </div>
 
+<div class="doterra" style="display: none">
+  transfering to wholesale doterra website
+</div>
+
 <script>
   function delay (URL) {
-    setTimeout( function() { window.location = URL }, 850 );
+    setTimeout( function() { window.location = URL }, 1500 );
+    
   }
-  $('.wholesale-link').click(function (e) {
-    e.preventDefault()
-    setTimeout(function (url) { window.location = url }, 3000, this.href)
-  })
 </script>
