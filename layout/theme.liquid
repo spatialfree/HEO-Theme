@@ -265,10 +265,9 @@
         }
       }
 
-      $('.wholesale-link').click(function(e) {
-        e.preventDefault()
-        setTimeout(function(url) { window.location = url }, 5000, this.href)
-      })
+      function delayOpen (URL) {
+        setTimeout( function() { window.location = URL }, 850 )
+      }
     </script>
 
     {%- if settings.predictive_search_enabled -%}
