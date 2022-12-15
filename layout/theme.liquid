@@ -270,7 +270,10 @@
       
       <!-- doterra transition -->
       function doterra(URL) {
-        setTimeout( function() { window.location = URL }, 850 )
+        window.scrollTo(0, 0)
+        $('body').css('overflow', hidden)
+        $('.doterra').show()
+        setTimeout(function() { window.location = URL }, 1500)
       }
     </script>
 
@@ -294,6 +297,7 @@
         flex-flow: column;
         background: rgb(255,255,255);
         background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,255,255,0.7567401960784313) 100%);
+        user-select: none;
       }
     
       .doterra img {
