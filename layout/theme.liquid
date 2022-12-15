@@ -271,7 +271,7 @@
       <!-- doterra transition -->
       function doterra(URL) {
         $('html, body').scrollTop(0);
-        $('body').css('overflow', 'hidden')
+        // $('body').css('overflow', 'hidden')
         $('#doterra').show()
         setTimeout(function() {
           window.location = URL
@@ -287,6 +287,7 @@
     
     <style>
       #doterra {
+        overflow: hidden;
         z-index: 128;
         position: absolute;
         top: 0;
