@@ -54,10 +54,6 @@
 }
 
 .price--large .wholesale-btn {
-  display: unset;
-}
-
-.wholesale-btn {
   display: flex;
   gap: 8px;
 }
