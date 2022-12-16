@@ -114,7 +114,7 @@
           {%- endif -%}
         </div>
         <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}">
-          <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}" {% if block.settings.bg_override %}style="background-color: {{ block.settings.bg_color }}"{% endif %}}>
+          <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}" {% if block.settings.bg_override %}style="background-color: {{ block.settings.bg_color }}{{ block.settings }}"{% endif %}}>
             {%- if block.settings.heading != blank -%}
               <h2 class="banner__heading {{ block.settings.heading_size }}">{{ block.settings.heading | escape }}</h2>
             {%- endif -%}
@@ -472,10 +472,19 @@
           "default": false
         },
         {
-          "type": "color_background",
+          "type": "color",
           "id": "bg_color",
           "label": "BG Color",
           "default": "#ffffff"
+        },
+        {
+          "type": "range",
+          "id": "bg_opacity",
+          "min": 0,
+          "max": 1,
+          "step": 0.1,
+          "label": "BG Opacity",
+          "default": 1.0
         },
         {
           "type": "header",
