@@ -2961,4 +2961,5 @@ td a {
 .boxed {
   border: 1px solid #ececec;
   padding: 0.5rem 1rem;
+  margin: 1rem auto;
 }
