@@ -291,12 +291,6 @@
       "limit": 5,
       "settings": [
         {
-          "type": "color",
-          "id": "body_text",
-          "label": "Body text",
-          "default": "#000000"
-        },
-        {
           "type": "image_picker",
           "id": "image",
           "label": "t:sections.slideshow.blocks.slide.settings.image.label"
@@ -470,6 +464,18 @@
           "default": "background-1",
           "label": "t:sections.all.colors.label",
           "info": "t:sections.slideshow.blocks.slide.settings.color_scheme.info"
+        },
+        {
+          "type": "checkbox",
+          "id" : "bg_override",
+          "label": "Custom BG Color",
+          "default": false
+        },
+        {
+          "type": "color",
+          "id": "bg_color",
+          "label": "BG Color",
+          "default": "#000000"
         },
         {
           "type": "header",
