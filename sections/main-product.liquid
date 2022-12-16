@@ -417,18 +417,17 @@
                   </div>
                   <br>
                 {%- endif -%}
-
-                {%- if product.metafields.custom.wholesale_sku > 0 -%}
-                  <div class="wholesale-btn">
-                    <div onclick="doterra('https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1')">
-                      <div class="product-form__submit button" style="font-size: 14px; padding: 0 2rem; margin: 0; min-height: 36px;">Buy Wholesale</div>
-                    </div>
-                  </div>
-                {%- endif -%}
             
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
                   <div class="product-form__buttons" style="width: 50%;">
+                    {%- if product.metafields.custom.wholesale_sku > 0 -%}
+                      <div class="wholesale-btn">
+                        <div onclick="doterra('https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1')">
+                          <div class="product-form__submit button" style="font-size: 14px; padding: 0 2rem; margin: 0; min-height: 36px;">Buy Wholesale</div>
+                        </div>
+                      </div>
+                    {%- endif -%}
                     <button
                       type="submit"
                       name="add"
