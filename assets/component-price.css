@@ -48,11 +48,6 @@
   letter-spacing: 0.13rem;
 }
 
-.wholesale-btn {
-  display: none;
-  user-select: none;
-}
-
 .price--large .wholesale-btn {
   display: flex;
   gap: 8px;
