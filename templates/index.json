@@ -15,9 +15,13 @@
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
+            "text_box_opacity": 0,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "inverse",
+            "bg_override": true,
+            "bg_color": "#2c9171",
+            "bg_opacity": 0.7,
             "text_alignment_mobile": "center"
           }
         },
@@ -33,9 +37,13 @@
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
+            "text_box_opacity": 0,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-2",
+            "bg_override": false,
+            "bg_color": "#ffffff",
+            "bg_opacity": 1,
             "text_alignment_mobile": "center"
           }
         },
@@ -51,9 +59,13 @@
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
+            "text_box_opacity": 0,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-2",
+            "bg_override": false,
+            "bg_color": "#ffffff",
+            "bg_opacity": 1,
             "text_alignment_mobile": "center"
           }
         },
@@ -69,9 +81,13 @@
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
+            "text_box_opacity": 0,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
+            "bg_override": false,
+            "bg_color": "#ffffff",
+            "bg_opacity": 1,
             "text_alignment_mobile": "center"
           }
         },
@@ -87,9 +103,13 @@
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
+            "text_box_opacity": 0,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
+            "bg_override": false,
+            "bg_color": "#ffffff",
+            "bg_opacity": 1,
             "text_alignment_mobile": "center"
           }
         }
