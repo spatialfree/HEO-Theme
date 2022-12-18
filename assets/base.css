@@ -2958,10 +2958,12 @@ td a {
   width: 128px;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
 .boxed {
   border: 1px solid #ececec;
   padding: 0.5rem 1rem;
   margin: 0.5rem auto;
   background-color: white;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
   font-size: 13px;
 }
