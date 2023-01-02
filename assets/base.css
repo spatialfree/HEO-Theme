@@ -2485,8 +2485,10 @@ menu-drawer + .header__search {
   }
 }
 
-.link--text a[href="/pages/doterra-wholesale-membership"] {
-  font-weight: bold;
+.link--text {
+  a[href="/pages/doterra-wholesale-membership"] {
+    font-weight: bold;
+  }
 }
 
 .no-js .predictive-search {
