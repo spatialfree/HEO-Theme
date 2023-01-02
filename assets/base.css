@@ -2485,6 +2485,10 @@ menu-drawer + .header__search {
   }
 }
 
+a[href^="https://ca.home-essential-oils.com/pages/doterra-wholesale-membership"] {
+  font-weight: bold;
+}
+
 .no-js .predictive-search {
   display: none;
 }
