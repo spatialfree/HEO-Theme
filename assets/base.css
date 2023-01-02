@@ -2324,6 +2324,10 @@ input[type='checkbox'] {
     display: none !important;
   }
 
+  #help-desktop {
+    display: none;
+  }
+
   .cart-count-bubble {
     bottom: 1.2rem;
   }
