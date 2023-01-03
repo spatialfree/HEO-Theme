@@ -52,8 +52,10 @@
                 </small>
               </div>
             {%- else -%}
-              <div href="https://ca.home-essential-oils.com/pages/doterra-wholesale-membership">
-                Become a doTERRA Wholesale Member and Save {{ cart.total_price | times: 0.25 | money_with_currency }} on this order
+              <div>
+                Become a doTERRA Wholesale Member and 
+                <a href="https://ca.home-essential-oils.com/pages/doterra-wholesale-membership">Save</a> 
+                {{ cart.total_price | times: 0.25 | money_with_currency }} on this order
               </div>
               <div class="cart__ctas" {{ block.shopify_attributes }}>
                 <noscript>
