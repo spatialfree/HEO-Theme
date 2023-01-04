@@ -24,14 +24,8 @@
 <cart-items class="page-width{% if cart == empty %} is-empty{% else %} section-{{ section.id }}-padding{% endif %}">
   <div class="title-wrapper-with-link">
     <h1 class="title title--primary">{{ 'sections.cart.title' | t }}</h1>
+
     
-    <div style="" class="js-contents">
-      Become a doTERRA Wholesale Member and
-      <br>
-      <a href="https://ca.home-essential-oils.com/pages/doterra-wholesale-membership" style="color: rgb(var(--color-link));">Save</a> 
-      {{ cart.total_price | times: 0.25 | money_with_currency }} on this order
-      <br><br>
-    </div>
   </div>
 
   <div class="cart__warnings">
@@ -51,6 +45,13 @@
   <form action="{{ routes.cart_url }}" class="cart__contents critical-hidden" method="post" id="cart">
     <div class="cart__items" id="main-cart-items" data-id="{{ section.id }}">
       <div class="js-contents">
+        <div style="">
+          Become a doTERRA Wholesale Member and
+          <br>
+          <a href="https://ca.home-essential-oils.com/pages/doterra-wholesale-membership" style="color: rgb(var(--color-link));">Save</a> 
+          {{ cart.total_price | times: 0.25 | money_with_currency }} on this order
+          <br><br>
+        </div>
         {%- if cart != empty -%}
           <table class="cart-items">
             <thead>
