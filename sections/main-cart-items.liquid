@@ -45,12 +45,14 @@
   <form action="{{ routes.cart_url }}" class="cart__contents critical-hidden" method="post" id="cart">
     <div class="cart__items" id="main-cart-items" data-id="{{ section.id }}">
       <div class="js-contents">
-        <div style="">
-          Become a doTERRA Wholesale Member and
-          <br>
-          <a href="https://ca.home-essential-oils.com/pages/doterra-wholesale-membership" style="color: rgb(var(--color-link));">Save</a> 
-          {{ cart.total_price | times: 0.25 | money_with_currency }} on this order
-          <br><br>
+        <div style="
+          width: fit-content;
+          border: 1px solid #efefef;
+          padding: 2rem 3rem;
+          margin-bottom: 3rem;
+        ">
+          <div style="font-weight: bold;">Save {{ cart.total_price | times: 0.25 | money_with_currency }} on this order</div>      
+          <a href="https://ca.home-essential-oils.com/pages/doterra-wholesale-membership" style="color: rgb(var(--color-link));">Become a doTERRA Wholesale Member</a>
         </div>
         {%- if cart != empty -%}
           <table class="cart-items">
