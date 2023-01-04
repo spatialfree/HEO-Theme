@@ -24,8 +24,9 @@
                   <h3 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h3>
                   <p class="totals__subtotal-value">{{ cart.total_price | money_with_currency }}</p>
                 </div>
+            
                 <div style="text-align: right; margin-top: 2rem;">
-                  <b>Shipping</b>&nbsp;&nbsp;FREE {%- if cart.total_price < 5000 -%}(with orders over $50){%- endif -%}</p>
+                  Shipping: FREE {%- if cart.total_price < 5000 -%}(with orders over $50){%- endif -%}
                 </div>
 
                 <div>
