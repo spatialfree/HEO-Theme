@@ -25,7 +25,7 @@
                   <p class="totals__subtotal-value">{{ cart.total_price | money_with_currency }}</p>
                 </div>
             
-                <div style="text-align: right; margin-top: 2rem;">
+                <div class="shipping">
                   Shipping: FREE&nbsp;{%- if cart.total_price < 5000 -%}<b>(with orders over $50)</b>{%- endif -%}<br>
                   Taxes: Included<br><br>
                 </div>
