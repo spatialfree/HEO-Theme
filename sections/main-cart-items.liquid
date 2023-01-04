@@ -24,7 +24,14 @@
 <cart-items class="page-width{% if cart == empty %} is-empty{% else %} section-{{ section.id }}-padding{% endif %}">
   <div class="title-wrapper-with-link">
     <h1 class="title title--primary">{{ 'sections.cart.title' | t }}</h1>
-    <a href="{{ routes.all_products_collection_url }}" class="underlined-link">{{ 'general.continue_shopping' | t }}</a>
+<!--     <a href="{{ routes.all_products_collection_url }}" class="underlined-link">{{ 'general.continue_shopping' | t }}</a> -->
+    <div style="text-align: right; font-size: 14px;">
+      Become a doTERRA Wholesale Member and
+      <br>
+      <a href="https://ca.home-essential-oils.com/pages/doterra-wholesale-membership" style="color: rgb(var(--color-link));">Save</a> 
+      {{ cart.total_price | times: 0.25 | money_with_currency }} on this order
+      <br><br>
+    </div>
   </div>
 
   <div class="cart__warnings">
