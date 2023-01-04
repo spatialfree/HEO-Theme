@@ -52,13 +52,6 @@
                 </small>
               </div>
             {%- else -%}
-              <div style="text-align: right; font-size: 14px;">
-                Become a doTERRA Wholesale Member and
-                <br>
-                <a href="https://ca.home-essential-oils.com/pages/doterra-wholesale-membership" style="color: rgb(var(--color-link));">Save</a> 
-                {{ cart.total_price | times: 0.25 | money_with_currency }} on this order
-                <br><br>
-              </div>
               <div class="cart__ctas" {{ block.shopify_attributes }}>
                 <noscript>
                   <button type="submit" class="cart__update-button button button--secondary" form="cart">
