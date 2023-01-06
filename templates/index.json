@@ -94,12 +94,12 @@
         "92842091-9677-4e31-8806-a53b55e51fa8": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/doterra-Canada-holidays.jpg",
-            "heading": "Holiday Offers",
+            "image": "shopify:\/\/shop_images\/doterra-new-products-canada.jpg",
+            "heading": "New Products",
             "heading_size": "h1",
-            "subheading": "great gifts for you and them",
+            "subheading": "SuperMint, MetaPWR and more!",
             "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/holiday-products-2021",
+            "link": "shopify:\/\/collections\/new-products",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
