@@ -3,6 +3,28 @@
     "1658472394ff6d1fec": {
       "type": "slideshow",
       "blocks": {
+        "92842091-9677-4e31-8806-a53b55e51fa8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/doterra-new-products-canada.jpg",
+            "heading": "New Products",
+            "heading_size": "h1",
+            "subheading": "SuperMint, MetaPWR and more!",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/new-products",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_box_opacity": 0,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "inverse",
+            "bg_override": true,
+            "bg_color": "#2c9171",
+            "bg_opacity": 0.7,
+            "text_alignment_mobile": "center"
+          }
+        },
         "5129a209-ca1f-4a65-ae52-cb467985a75a": {
           "type": "slide",
           "settings": {
@@ -90,36 +112,14 @@
             "bg_opacity": 0,
             "text_alignment_mobile": "center"
           }
-        },
-        "92842091-9677-4e31-8806-a53b55e51fa8": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/doterra-new-products-canada.jpg",
-            "heading": "New Products",
-            "heading_size": "h1",
-            "subheading": "SuperMint, MetaPWR and more!",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/new-products",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_box_opacity": 0,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "inverse",
-            "bg_override": true,
-            "bg_color": "#2c9171",
-            "bg_opacity": 0.7,
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "92842091-9677-4e31-8806-a53b55e51fa8",
         "5129a209-ca1f-4a65-ae52-cb467985a75a",
         "1658472393e1147b2e-1",
         "173a8352-e34d-403a-b515-edaf691999ee",
-        "1658472393e1147b2e-0",
-        "92842091-9677-4e31-8806-a53b55e51fa8"
+        "1658472393e1147b2e-0"
       ],
       "settings": {
         "layout": "full_bleed",
