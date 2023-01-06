@@ -25,25 +25,25 @@
             "text_alignment_mobile": "center"
           }
         },
-        "5129a209-ca1f-4a65-ae52-cb467985a75a": {
+        "173a8352-e34d-403a-b515-edaf691999ee": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_doterra-Canada-toothpaste_1.jpg",
-            "heading": "Free On Guard Toothpaste",
+            "image": "shopify:\/\/shop_images\/doterra-Canada-metapwr-system.png",
+            "heading": "MetaPWR System",
             "heading_size": "h1",
-            "subheading": "with any $125 order",
-            "button_label": "Learn How",
-            "link": "shopify:\/\/pages\/current-promotions",
+            "subheading": "create optimal metabolic health",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/doterra-metapwr",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
             "text_box_opacity": 0,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
+            "color_scheme": "accent-1",
             "bg_override": true,
-            "bg_color": "#ffffff",
-            "bg_opacity": 0,
+            "bg_color": "#e98544",
+            "bg_opacity": 0.8,
             "text_alignment_mobile": "center"
           }
         },
@@ -69,25 +69,25 @@
             "text_alignment_mobile": "center"
           }
         },
-        "173a8352-e34d-403a-b515-edaf691999ee": {
+        "5129a209-ca1f-4a65-ae52-cb467985a75a": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/doterra-Canada-metapwr-system.png",
-            "heading": "MetaPWR System",
+            "image": "shopify:\/\/shop_images\/Copy_of_doterra-Canada-toothpaste_1.jpg",
+            "heading": "Free On Guard Toothpaste",
             "heading_size": "h1",
-            "subheading": "create optimal metabolic health",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/doterra-metapwr",
+            "subheading": "with any $125 order",
+            "button_label": "Learn How",
+            "link": "shopify:\/\/pages\/current-promotions",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
             "text_box_opacity": 0,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "accent-1",
+            "color_scheme": "background-1",
             "bg_override": true,
-            "bg_color": "#e98544",
-            "bg_opacity": 0.8,
+            "bg_color": "#ffffff",
+            "bg_opacity": 0,
             "text_alignment_mobile": "center"
           }
         },
@@ -116,9 +116,9 @@
       },
       "block_order": [
         "92842091-9677-4e31-8806-a53b55e51fa8",
-        "5129a209-ca1f-4a65-ae52-cb467985a75a",
-        "1658472393e1147b2e-1",
         "173a8352-e34d-403a-b515-edaf691999ee",
+        "1658472393e1147b2e-1",
+        "5129a209-ca1f-4a65-ae52-cb467985a75a",
         "1658472393e1147b2e-0"
       ],
       "settings": {
