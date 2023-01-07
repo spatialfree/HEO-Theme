@@ -26,7 +26,7 @@
                 </div>
             
                 <div class="shipping">
-                  Shipping: FREE&nbsp;{%- if cart.total_price < 5000 -%}<b>(with orders over $50)</b>{%- endif -%}<br>
+                  Shipping: {%- if cart.total_price < 5000 -%}CA $7.99 (FREE shipping with orders over $50){%- else -%}FREE{%- endif -%}<br>
                   Taxes: Included<br><br>
                 </div>
 
