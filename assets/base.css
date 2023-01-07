@@ -2976,3 +2976,8 @@ td a {
   font-family: 'Atkinson Hyperlegible', sans-serif;
   font-size: 13px;
 }
+
+.collapsed {
+  transform: scaleY(0);
+}
+
