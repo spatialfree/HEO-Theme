@@ -2978,6 +2978,6 @@ td a {
 }
 
 .collapsed {
-  transform: scaleY(0);
+  transform: scaleY(0) translate(0, -144px);
 }
 
