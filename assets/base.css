@@ -2977,7 +2977,3 @@ td a {
   font-size: 13px;
 }
 
-.collapsed {
-  transform: scaleY(0) translate(0, -144px);
-}
-
