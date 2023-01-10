@@ -2485,7 +2485,7 @@ menu-drawer + .header__search {
   }
 }
 
-li a[href="/pages/doterra-wholesale-membership"] {
+header li a[href="/pages/doterra-wholesale-membership"] {
   font-weight: bold;
   color: #bd8bca;
 }
