@@ -278,8 +278,8 @@
     </script>
 
     <div id="doterra" style="display: none">
-      <div style="max-width: 400px;">
-        <img src="{{ 'icon-close.svg' | asset_url }}" height="32px" style="cursor: pointer; position: absolute; right: 0; top: 0; margin: 2rem;" onclick="$('#doterra').hide()">
+      <div style="width: 100%; max-width: 400px; text-align: right;">
+        <img src="{{ 'icon-close.svg' | asset_url }}" height="32px" style="cursor: pointer;" onclick="$('#doterra').hide()">
       </div>
       <section>
         <img src="{{ 'o.png' | asset_url }}" height="100px">
@@ -296,7 +296,13 @@
             There is a one-time enrollment fee of $42. Waive the fee by choosing a different starter collection or by purchasing 150 PV worth of products.
           </div>
         </div>
+        <br>
+        <br>
+        <br>
       </section>
+      <div>
+        &nbsp;
+      </div>
     </div>
     
     <style>
@@ -310,7 +316,7 @@
         right: 0;
         padding: 2rem;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         align-items: center;
         flex-flow: column;
         text-align: center;
