@@ -269,7 +269,8 @@
         // $('body').css('overflow', 'hidden')
         $('#doterra').show()
         $('#doterra-ok').click(function () {
-          $('#doterra-ok').css('animation', 'action 0.5s infinite alternate')
+          // $('#doterra-ok').css('animation', 'action 0.5s infinite alternate')
+          $(this).html('...')
           window.location = URL
         })
       }
@@ -328,11 +329,15 @@
       #doterra img {
 /*         animation: action 1s infinite alternate; */
       }
+
+      .collapsed {
+        transform: scaleY(0) translate(0, -144px);
+      }
       
-      @keyframes action {
+/*       @keyframes action {
           0% { transform: translateY(0); }
           100% { transform: translateY(-4px); }
-      }
+      } */
     </style>
 
     {%- if settings.predictive_search_enabled -%}
