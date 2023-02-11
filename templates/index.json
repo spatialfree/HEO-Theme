@@ -309,7 +309,7 @@
         "description": "<p>Shipped from the U.S. to Canada. All prices included free shipping.<\/p>",
         "show_description": false,
         "description_style": "body",
-        "collection": "doterra-u-s-products",
+        "collection": "top-u-s-products",
         "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": false,
