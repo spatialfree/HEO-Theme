@@ -306,7 +306,7 @@
       "settings": {
         "title": "Top U.S. Products",
         "heading_size": "h1",
-        "description": "<p>Shipped from the U.S. to Canada. All prices included free shipping.<\/p>",
+        "description": "<p>Shipped from the U.S. to Canada. Free shipping included.<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "top-u-s-products",
