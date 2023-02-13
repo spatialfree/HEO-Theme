@@ -282,7 +282,7 @@
          id="feComposite9507" />
     </filter>
     <color-profile
-       id="color-profile2049"
+       id="color-profile7556"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
        name="sRGB-IEC61966-2.1" />
     <linearGradient
@@ -750,7 +750,7 @@
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile2140" />
+       id="color-profile7647" />
     <filter
        id="filter6404-9"
        inkscape:label="Noise Fill"
@@ -2120,16 +2120,16 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="4"
-     inkscape:cx="128.75"
-     inkscape:cy="17.625"
+     inkscape:cx="125.75"
+     inkscape:cy="17.875"
      inkscape:document-units="px"
      inkscape:current-layer="g1249"
      showgrid="false"
      units="px"
      borderlayer="true"
      showguides="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1080"
+     inkscape:window-width="1052"
+     inkscape:window-height="1076"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -2183,7 +2183,7 @@
          inkscape:connector-curvature="0" />
       <text
          xml:space="preserve"
-         style="font-size:16px;line-height:0.6;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#000000;fill-opacity:1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
+         style="font-size:16px;line-height:0.6;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#354657;fill-opacity:1;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
          x="71.289124"
          y="929.24573"
          id="text1229"><tspan
@@ -2195,7 +2195,7 @@
            x="71.289124"
            y="938.8457"
            id="tspan1285"
-           style="font-size:8px">essential oils</tspan></text>
+           style="font-size:8px;fill:#354657;fill-opacity:1">essential oils</tspan></text>
     </g>
   </g>
 </svg>
