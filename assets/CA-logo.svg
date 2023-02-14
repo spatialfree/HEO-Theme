@@ -282,7 +282,7 @@
          id="feComposite9507" />
     </filter>
     <color-profile
-       id="color-profile849"
+       id="color-profile782"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
        name="sRGB-IEC61966-2.1" />
     <linearGradient
@@ -750,7 +750,7 @@
     <color-profile
        name="sRGB-IEC61966-2.1"
        xlink:href="C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm"
-       id="color-profile940" />
+       id="color-profile873" />
     <filter
        id="filter6404-9"
        inkscape:label="Noise Fill"
@@ -2120,16 +2120,16 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="4"
-     inkscape:cx="126.125"
-     inkscape:cy="18.375"
+     inkscape:cx="112.625"
+     inkscape:cy="7.875"
      inkscape:document-units="px"
      inkscape:current-layer="g1249"
      showgrid="false"
      units="px"
      borderlayer="true"
      showguides="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1080"
+     inkscape:window-width="1052"
+     inkscape:window-height="1076"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -2182,10 +2182,10 @@
          id="path1258"
          inkscape:connector-curvature="0" />
       <g
-         aria-label="home
-essential oils"
+         aria-label="home essential oils"
          id="text1229"
-         style="font-size:16px;line-height:0.6;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#354657;stroke-width:5;stroke-linecap:round;stroke-linejoin:round">
+         style="font-size:16px;line-height:0.6;font-family:Cantarell;-inkscape-font-specification:Cantarell;fill:#354657;stroke-width:5;stroke-linecap:round;stroke-linejoin:round"
+         transform="matrix(1.1480114,0,0,1.1480114,-11.195206,-137.38028)">
         <path
            d="m 77.881124,929.24573 h 1.28 v -5.056 c 0,-1.712 -1.136,-2.816 -2.864,-2.816 -1.12,0 -2.224,0.48 -3.04,1.424 l 0.304,0.816 c 0.64,-0.752 1.488,-1.12 2.384,-1.12 1.248,0 1.936,0.704 1.936,1.952 z m -5.264,0 h 1.28 v -11.824 h -1.28 z"
            id="path715" />
