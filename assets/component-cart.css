@@ -167,7 +167,6 @@ cart-items {
 .cart__dynamic-checkout-buttons {
   max-width: 14rem;
   margin: 0 auto;
-  margin-right: 0px;
 }
 
 .cart__blocks > * + * {
@@ -209,7 +208,7 @@ cart-items {
   }
 
   .cart__dynamic-checkout-buttons {
-    margin-right: auto;
+    margin-right: 0px;
   }
 
   .tax-note {
