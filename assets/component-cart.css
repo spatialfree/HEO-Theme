@@ -157,6 +157,8 @@ cart-items {
   height: 64px;
   margin: 0 auto;
   margin-right: 0px;
+  font-weight: 800;
+  font-size: 22px;
 }
 
 .cart__ctas > *:not(noscript:first-child) + * {
