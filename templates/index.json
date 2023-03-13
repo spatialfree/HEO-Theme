@@ -341,14 +341,14 @@
         "4f59414a-e834-4ec2-9ef9-b58932fb62b6": {
           "type": "text",
           "settings": {
-            "text": "Join doTERRA and save 25%, all the time, any time. No obligations",
+            "text": "Join doTERRA and shop 25% off all the time No monthly obligations",
             "text_style": "body"
           }
         },
         "16513018788bc6d28d-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Create Account",
+            "button_label_1": "Join Today!",
             "button_link_1": "https:\/\/www.doterra.com\/CA\/en\/selectRegion\/13237",
             "button_style_secondary_1": false,
             "button_label_2": "",
