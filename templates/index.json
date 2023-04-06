@@ -1,130 +1,355 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "1658472394ff6d1fec": {
+      "type": "slideshow",
       "blocks": {
-        "6d53e233-bacb-4480-bd1c-ae81f7832eb3": {
-          "type": "heading",
+        "173a8352-e34d-403a-b515-edaf691999ee": {
+          "type": "slide",
           "settings": {
-            "heading": "Cómo inscribirse",
-            "heading_size": "medium"
+            "image": "shopify:\/\/shop_images\/doterra-Canada-metapwr-system.png",
+            "heading": "MetaPWR System",
+            "heading_size": "h1",
+            "subheading": "create optimal metabolic health",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/doterra-metapwr",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_box_opacity": 0,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "bg_override": true,
+            "bg_color": "#e98544",
+            "bg_opacity": 0.8,
+            "text_alignment_mobile": "center"
           }
         },
-        "954d8e55-e6ab-4730-be17-c6ea5be707c7": {
-          "type": "buttons",
+        "1658472393e1147b2e-1": {
+          "type": "slide",
           "settings": {
-            "button_label_1": "Seleccione su país",
-            "button_link_1": "shopify:\/\/pages\/como-comprar-productos-doterra",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "image": "shopify:\/\/shop_images\/doterra-Canada-US-Productxs.jpg",
+            "heading": "U.S. Products",
+            "heading_size": "h1",
+            "subheading": "now available in Canada",
+            "button_label": "Shop Now",
+            "link": "https:\/\/ca.home-essential-oils.com\/collections\/doterra-u-s-products",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_box_opacity": 0,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-2",
+            "bg_override": true,
+            "bg_color": "#f3f3f3",
+            "bg_opacity": 0.7,
+            "text_alignment_mobile": "center"
           }
         },
-        "359269cd-418d-4174-b922-17f9a8f0f2e1": {
-          "type": "text",
+        "92842091-9677-4e31-8806-a53b55e51fa8": {
+          "type": "slide",
           "settings": {
-            "text": "Inscríbase para comprar directamente de doTERRA a precios de mayorista"
+            "image": "shopify:\/\/shop_images\/doterra-new-products-canada.jpg",
+            "heading": "New Products",
+            "heading_size": "h1",
+            "subheading": "SuperMint, MetaPWR and more!",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/new-products",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_box_opacity": 0,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "inverse",
+            "bg_override": true,
+            "bg_color": "#2c9171",
+            "bg_opacity": 0.7,
+            "text_alignment_mobile": "center"
+          }
+        },
+        "5129a209-ca1f-4a65-ae52-cb467985a75a": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Copy_of_doterra-Canada-toothpaste_1.jpg",
+            "heading": "Free On Guard Toothpaste",
+            "heading_size": "h1",
+            "subheading": "with any $125 order",
+            "button_label": "Learn How",
+            "link": "shopify:\/\/pages\/current-promotions",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_box_opacity": 0,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "bg_override": true,
+            "bg_color": "#ffffff",
+            "bg_opacity": 0,
+            "text_alignment_mobile": "center"
+          }
+        },
+        "1658472393e1147b2e-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/shipping-promo-wide-textless.png",
+            "heading": "Free Shipping",
+            "heading_size": "h1",
+            "subheading": "on any orders over $50",
+            "button_label": "Shop now",
+            "link": "shopify:\/\/collections\/best-selling-products",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_box_opacity": 0,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-2",
+            "bg_override": true,
+            "bg_color": "#bd8bca",
+            "bg_opacity": 0,
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "6d53e233-bacb-4480-bd1c-ae81f7832eb3",
-        "954d8e55-e6ab-4730-be17-c6ea5be707c7",
-        "359269cd-418d-4174-b922-17f9a8f0f2e1"
+        "173a8352-e34d-403a-b515-edaf691999ee",
+        "1658472393e1147b2e-1",
+        "92842091-9677-4e31-8806-a53b55e51fa8",
+        "5129a209-ca1f-4a65-ae52-cb467985a75a",
+        "1658472393e1147b2e-0"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/free-membership.jpg",
-        "image_height": "small",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "flex-start",
-        "show_text_box": false,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "dots",
+        "auto_rotate": true,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "doTERRA Promotions Slildeshow"
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "16644407558be18696": {
+      "type": "collection-list",
       "blocks": {
-        "heading": {
+        "16644407553dada8ff-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "deep-blue®-products"
+          }
+        },
+        "16644407553dada8ff-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "on-guard-products"
+          }
+        },
+        "7dc5cb82-ede6-4541-a300-a5e7b0fe8515": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "adaptiv-products"
+          }
+        },
+        "c4a6e1d4-b56c-4598-a327-047b04c5285d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "zengest®products"
+          }
+        },
+        "16644407553dada8ff-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "doterra-u-s-products"
+          }
+        }
+      },
+      "block_order": [
+        "16644407553dada8ff-0",
+        "16644407553dada8ff-1",
+        "7dc5cb82-ede6-4541-a300-a5e7b0fe8515",
+        "c4a6e1d4-b56c-4598-a327-047b04c5285d",
+        "16644407553dada8ff-2"
+      ],
+      "settings": {
+        "title": "Shop by Category",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/breathe-thumbnail.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/best-doterra-essential-oils-for-clear-breathing"
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/digestion-thumbnail.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/best-doterra-essential-oils-for-doterra-digestion"
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sleep-thumbnail.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/best-doterra-essential-oils-for-sleep"
+          }
+        },
+        "d0679242-6070-4281-a7b7-59d545d09a1a": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/muscles-thumbnail.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/best-doterra-essential-oils-for-muscles-joints"
+          }
+        },
+        "19e415db-477e-44b3-9416-ca660b07c779": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/immune-thumbnail.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/best-doterra-essential-oils-to-boost-immune-system"
+          }
+        },
+        "4ea4d6ab-8e65-4d7e-abd2-78530883611e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/29x5-1600x276-calming-anxious-feelings-us-en-web.webp",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/collections\/best-doterra-essential-oils-for-stress-management"
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3",
+        "d0679242-6070-4281-a7b7-59d545d09a1a",
+        "19e415db-477e-44b3-9416-ca660b07c779",
+        "4ea4d6ab-8e65-4d7e-abd2-78530883611e"
+      ],
+      "settings": {
+        "title": "Shop By Health Topic",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "View All",
+        "button_link": "shopify:\/\/pages\/oils-by-health-concern",
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 64
+      }
+    },
+    "16513048140b475ee3": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Sellers",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-selling-products",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 72
+      }
+    },
+    "c681df01-5ec2-4158-a52c-22bc5d2f3040": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Top U.S. Imported Products",
+        "heading_size": "h1",
+        "description": "<p>Shipped from the U.S. to Canada. Free shipping included.<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "top-u-s-products",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1651301878a509b284": {
+      "type": "image-banner",
+      "blocks": {
+        "16513018788bc6d28d-0": {
           "type": "heading",
           "settings": {
-            "heading": "¡Bienvenido!",
+            "heading": "Join dōTERRA",
             "heading_size": "h1"
           }
         },
-        "text": {
+        "4f59414a-e834-4ec2-9ef9-b58932fb62b6": {
           "type": "text",
           "settings": {
-            "text": "<p>Proporcionamos los aceites esenciales y productos más puros y de la más alta calidad para empoderar a ti y tus seres queridos con la salud y el bienestar.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "16510092283f60c961": {
-      "type": "multicolumn",
-      "blocks": {
-        "1651009228dbf04db8-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Plants.png",
-            "title": "¿Qué Son Aceites Esenciales?",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "Aprende Más",
-            "link": "shopify:\/\/pages\/que-son-aceites-esenciales"
+            "text": "Join doTERRA as a wholesale member and shop 25% off all the time No monthly obligations.",
+            "text_style": "body"
           }
         },
-        "1651009228dbf04db8-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/safety-course.jpg",
-            "title": "¿Cómo Usar los Aceites Esenciales?",
-            "text": "<p>No necesita un título en química o una amplia capacitación para saber cómo usar los aceites esenciales de manera efectiva.<\/p>",
-            "link_label": "Aprender Más",
-            "link": "shopify:\/\/pages\/que-son-aceites-esenciales"
-          }
-        }
-      },
-      "block_order": [
-        "1651009228dbf04db8-1",
-        "1651009228dbf04db8-0"
-      ],
-      "settings": {
-        "title": "",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "swipe_on_mobile": true
-      }
-    },
-    "1651007253341ec544": {
-      "type": "image-banner",
-      "blocks": {
-        "9d6b7b3d-d1cf-4d75-aa88-0ac0b6a483e8": {
-          "type": "heading",
-          "settings": {
-            "heading": "Los 10 Aceites Más Populares",
-            "heading_size": "medium"
-          }
-        },
-        "1651007253c22e1b9d-2": {
+        "16513018788bc6d28d-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Aprende Más",
-            "button_link_1": "shopify:\/\/pages\/los-10-aceites-mas-populares",
+            "button_label_1": "Join Today!",
+            "button_link_1": "https:\/\/www.doterra.com\/CA\/en\/selectRegion\/13237",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -133,65 +358,31 @@
         }
       },
       "block_order": [
-        "9d6b7b3d-d1cf-4d75-aa88-0ac0b6a483e8",
-        "1651007253c22e1b9d-2"
+        "16513018788bc6d28d-0",
+        "4f59414a-e834-4ec2-9ef9-b58932fb62b6",
+        "16513018788bc6d28d-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Untitled_design_83.png",
+        "image": "shopify:\/\/shop_images\/doterra-emprender.png",
+        "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_text_box_position": "flex-start",
+        "desktop_content_position": "middle-center",
         "show_text_box": true,
-        "image_overlay_opacity": 0,
-        "color_scheme": "background-2",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "1648519157685828d3": {
-      "type": "image-banner",
-      "blocks": {
-        "164851915779571a28-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Seguridad de Aceites Esencials",
-            "heading_size": "medium"
-          }
-        },
-        "164851915779571a28-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Aprende Más",
-            "button_link_1": "shopify:\/\/pages\/seguridad-de-aceite-esencial",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "164851915779571a28-0",
-        "164851915779571a28-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/safety-tips.jpg",
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_text_box_position": "center",
-        "show_text_box": false,
-        "image_overlay_opacity": 0,
+        "desktop_content_alignment": "center",
         "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "16510092283f60c961",
-    "1651007253341ec544",
-    "1648519157685828d3"
+    "1658472394ff6d1fec",
+    "16644407558be18696",
+    "multicolumn",
+    "16513048140b475ee3",
+    "c681df01-5ec2-4158-a52c-22bc5d2f3040",
+    "1651301878a509b284"
   ]
 }
