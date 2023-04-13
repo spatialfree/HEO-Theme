@@ -50,12 +50,12 @@
         "92842091-9677-4e31-8806-a53b55e51fa8": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/doterra-new-products-canada.jpg",
-            "heading": "New Products",
+            "image": "shopify:\/\/shop_images\/doterra-Canada-mothers-day.jpg",
+            "heading": "Mother's Day Kit",
             "heading_size": "h1",
-            "subheading": "SuperMint, MetaPWR and more!",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/new-products",
+            "subheading": "Perfect gift for mom",
+            "button_label": "Shop",
+            "link": "shopify:\/\/products\/doterra-mothers-day-blooming-trio",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
@@ -64,7 +64,7 @@
             "image_overlay_opacity": 0,
             "color_scheme": "inverse",
             "bg_override": true,
-            "bg_color": "#2c9171",
+            "bg_color": "#dd1d1d",
             "bg_opacity": 0.7,
             "text_alignment_mobile": "center"
           }
