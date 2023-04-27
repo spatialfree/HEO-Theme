@@ -6,7 +6,6 @@
         "173a8352-e34d-403a-b515-edaf691999ee": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/doterra-Canada-metapwr-system.png",
             "heading": "MetaPWR System",
             "heading_size": "h1",
             "subheading": "create optimal metabolic health",
@@ -28,7 +27,6 @@
         "1658472393e1147b2e-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/doterra-Canada-US-Productxs.jpg",
             "heading": "U.S. Products",
             "heading_size": "h1",
             "subheading": "now available in Canada",
@@ -50,7 +48,6 @@
         "92842091-9677-4e31-8806-a53b55e51fa8": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/doterra-new-products-canada.jpg",
             "heading": "New Products",
             "heading_size": "h1",
             "subheading": "SuperMint, MetaPWR and more!",
@@ -72,7 +69,6 @@
         "5129a209-ca1f-4a65-ae52-cb467985a75a": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_doterra-Canada-toothpaste_1.jpg",
             "heading": "Free On Guard Toothpaste",
             "heading_size": "h1",
             "subheading": "with any $125 order",
@@ -94,7 +90,6 @@
         "1658472393e1147b2e-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/shipping-promo-wide-textless.png",
             "heading": "Free Shipping",
             "heading_size": "h1",
             "subheading": "on any orders over $50",
@@ -137,31 +132,37 @@
         "16644407553dada8ff-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "deep-blue®-products"
+            "collection": "doterra-metapwr-products"
           }
         },
         "16644407553dada8ff-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "on-guard-products"
+            "collection": "doterra-deep-blue-products"
           }
         },
         "7dc5cb82-ede6-4541-a300-a5e7b0fe8515": {
           "type": "featured_collection",
           "settings": {
-            "collection": "adaptiv-products"
+            "collection": "doterra-on-guard-products"
           }
         },
         "c4a6e1d4-b56c-4598-a327-047b04c5285d": {
           "type": "featured_collection",
           "settings": {
-            "collection": "zengest®products"
+            "collection": "doterra-digestzen-products"
           }
         },
         "16644407553dada8ff-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "doterra-u-s-products"
+            "collection": "doterra-breathe-products"
+          }
+        },
+        "c6349ebe-60db-470c-9979-42e82882ab19": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "doterra-adaptiv-products"
           }
         }
       },
@@ -170,7 +171,8 @@
         "16644407553dada8ff-1",
         "7dc5cb82-ede6-4541-a300-a5e7b0fe8515",
         "c4a6e1d4-b56c-4598-a327-047b04c5285d",
-        "16644407553dada8ff-2"
+        "16644407553dada8ff-2",
+        "c6349ebe-60db-470c-9979-42e82882ab19"
       ],
       "settings": {
         "title": "Shop by Category",
@@ -191,7 +193,6 @@
         "column1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/breathe-thumbnail.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -201,7 +202,6 @@
         "column2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/digestion-thumbnail.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -211,7 +211,6 @@
         "column3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sleep-thumbnail.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -221,7 +220,6 @@
         "d0679242-6070-4281-a7b7-59d545d09a1a": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/muscles-thumbnail.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -231,7 +229,6 @@
         "19e415db-477e-44b3-9416-ca660b07c779": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/immune-thumbnail.png",
             "title": "",
             "text": "",
             "link_label": "",
@@ -241,7 +238,6 @@
         "4ea4d6ab-8e65-4d7e-abd2-78530883611e": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/29x5-1600x276-calming-anxious-feelings-us-en-web.webp",
             "title": "",
             "text": "",
             "link_label": "",
