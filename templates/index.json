@@ -53,7 +53,7 @@
         "1658472393e1147b2e-0"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "medium",
         "slider_visual": "dots",
         "auto_rotate": true,
