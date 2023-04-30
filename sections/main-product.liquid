@@ -441,13 +441,13 @@
                         </div>
                     </button>
                     {%- if product.metafields.custom.wholesale_sku > 0 -%}
-<!--                       <a href="https://www.doterra.com/CA/en/selectRegion/13237" style="text-decoration: none;"> -->
+                      <a href="https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1" style="text-decoration: none;">
+<!--                           onclick="doterra('https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1')" -->
                         <div 
                           class="wholesale-btn product-form__submit button button--full-width"
-                          onclick="doterra('https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1')"
                           style="text-align: center; background-color: white; color: rgb(var(--color-button));"
                         >Buy at Wholesale</div>
-<!--                       </a> -->
+                      </a>
                     {%- endif -%}
                     {%- if block.settings.show_dynamic_checkout -%}
                       {{ form | payment_button }}
