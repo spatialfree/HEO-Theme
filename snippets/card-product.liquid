@@ -204,8 +204,13 @@
                 </div>          
               </quick-add-modal>
             {%- endif -%}
+            <div style="
+              text-align: center;
+              font-size: 1.2em;
+              font-weight: 700;
+              background-color: white;
+              color: rgb(var(--color-button));"></div>
           </div>
-          <div style="grid-row-start: 5;"></div>
         {%- endif -%}
         <div class="card__badge {{ settings.badge_position }}">
           {%- if card_product.available == false -%}
