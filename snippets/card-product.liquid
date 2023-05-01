@@ -206,14 +206,16 @@
             {%- endif -%}
 
             {%- if card_product.metafields.custom.wholesale_sku > 0 -%}
-              <div class="button" style="display: none;
-                margin-top: 10px;
-                text-align: center;
-                font-size: 1.2em;
-                font-weight: 700;
-                background-color: white;
-                color: rgb(var(--color-button));">Buy Wholesale</div>
-            </div>
+              <a href="https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ card_product.metafields.custom.wholesale_sku }}=1" style="text-decoration: none;">
+                <div class="button" style="display: none;
+                  margin-top: 10px;
+                  text-align: center;
+                  font-size: 1.2em;
+                  font-weight: 700;
+                  background-color: white;
+                  color: rgb(var(--color-button));">Buy Wholesale</div>
+              </div>
+            </a>
           {%- endif -%}
         {%- endif -%}
         <div class="card__badge {{ settings.badge_position }}">
