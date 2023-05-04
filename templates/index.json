@@ -29,10 +29,10 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/doterra-Canada-US-Productxs.jpg",
-            "heading": "U.S. Products",
+            "heading": "doTERRA U.S. Products in Canada",
             "heading_size": "h1",
-            "subheading": "now available in Canada",
-            "button_label": "Shop Now",
+            "subheading": "Free shipping included",
+            "button_label": "Shop",
             "link": "https:\/\/ca.home-essential-oils.com\/collections\/doterra-u-s-products",
             "button_style_secondary": false,
             "box_align": "middle-left",
@@ -64,7 +64,7 @@
             "image_overlay_opacity": 0,
             "color_scheme": "accent-2",
             "bg_override": false,
-            "bg_color": "#fff",
+            "bg_color": "#ffffff",
             "bg_opacity": 0.6,
             "text_alignment_mobile": "center"
           }
