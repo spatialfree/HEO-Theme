@@ -3,25 +3,25 @@
     "1658472394ff6d1fec": {
       "type": "slideshow",
       "blocks": {
-        "92842091-9677-4e31-8806-a53b55e51fa8": {
+        "173a8352-e34d-403a-b515-edaf691999ee": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/doterra-Canada-mothers-day.jpg",
-            "heading": "Mother's Day Kit",
+            "image": "shopify:\/\/shop_images\/doterra-Canada-metapwr-system.png",
+            "heading": "MetaPWR System",
             "heading_size": "h1",
-            "subheading": "Perfect gift for mom",
-            "button_label": "Shop",
-            "link": "shopify:\/\/products\/doterra-mothers-day-blooming-trio",
+            "subheading": "create optimal metabolic health",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/collections\/doterra-metapwr",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
             "text_box_opacity": 0,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "inverse",
+            "color_scheme": "accent-1",
             "bg_override": true,
-            "bg_color": "#dd1d1d",
-            "bg_opacity": 0.7,
+            "bg_color": "#e98544",
+            "bg_opacity": 0.8,
             "text_alignment_mobile": "center"
           }
         },
@@ -47,25 +47,25 @@
             "text_alignment_mobile": "center"
           }
         },
-        "173a8352-e34d-403a-b515-edaf691999ee": {
+        "92842091-9677-4e31-8806-a53b55e51fa8": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/doterra-Canada-metapwr-system.png",
-            "heading": "MetaPWR System",
+            "image": "shopify:\/\/shop_images\/doterra-emprender.png",
+            "heading": "Join and Shop Wholesale",
             "heading_size": "h1",
-            "subheading": "create optimal metabolic health",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/collections\/doterra-metapwr",
+            "subheading": "Membership free with any purchase",
+            "button_label": "Join",
+            "link": "shopify:\/\/products\/doterra-mothers-day-blooming-trio",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
             "text_box_opacity": 0,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "accent-1",
+            "color_scheme": "inverse",
             "bg_override": true,
-            "bg_color": "#e98544",
-            "bg_opacity": 0.8,
+            "bg_color": "#dd1d1d",
+            "bg_opacity": 0.7,
             "text_alignment_mobile": "center"
           }
         },
@@ -115,9 +115,9 @@
         }
       },
       "block_order": [
-        "92842091-9677-4e31-8806-a53b55e51fa8",
-        "1658472393e1147b2e-1",
         "173a8352-e34d-403a-b515-edaf691999ee",
+        "1658472393e1147b2e-1",
+        "92842091-9677-4e31-8806-a53b55e51fa8",
         "5129a209-ca1f-4a65-ae52-cb467985a75a",
         "1658472393e1147b2e-0"
       ],
