@@ -168,6 +168,9 @@
   font-size: 16px;
   font-weight: 900;
   letter-spacing: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .card__heading:last-child {
