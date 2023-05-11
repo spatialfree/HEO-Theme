@@ -167,10 +167,13 @@
   font-size: 16px;
   font-weight: 900;
   letter-spacing: 0;
-  width: 175px;
+}
+
+.card__heading a {
+  text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  text-overflow: ellipsis;
+  width: 196px;
 }
 
 .card__heading:last-child {
