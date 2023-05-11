@@ -205,18 +205,18 @@
               </quick-add-modal>
             {%- endif -%}
 
-            {%- if card_product.metafields.custom.wholesale_sku > 0 -%}
-              <a href="https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ card_product.metafields.custom.wholesale_sku }}=1" style="text-decoration: none;">
-                <div class="button" style="
-                  margin-top: 10px;
-                  text-align: center;
-                  font-size: 1.2em;
-                  font-weight: 700;
-                  background-color: white;
-                  color: rgb(var(--color-button));">Buy Wholesale</div>
-              </div>
-            </a>
-          {%- endif -%}
+            
+            <a href="https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ card_product.metafields.custom.wholesale_sku }}=1" style="text-decoration: none;">
+              <div class="button" style="
+                {%- if card_product.metafields.custom.wholesale_sku > 0 -%}opacity: 1;{%- endif -%}
+                margin-top: 10px;
+                text-align: center;
+                font-size: 1.2em;
+                font-weight: 700;
+                background-color: white;
+                color: rgb(var(--color-button));">Buy Wholesale</div>
+            </div>
+          </a>
         {%- endif -%}
         <div class="card__badge {{ settings.badge_position }}">
           {%- if card_product.available == false -%}
