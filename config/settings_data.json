@@ -104,7 +104,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Free shipping on all order over $75",
+              "text": "Free Shipping on all orders over $75 CAD",
               "color_scheme": "accent-1",
               "link": ""
             }
