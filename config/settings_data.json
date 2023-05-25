@@ -103,10 +103,9 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "background-1",
+              "text": "Free Shipping on $75 Orders",
+              "color_scheme": "accent-1",
               "link": ""
             }
           }
