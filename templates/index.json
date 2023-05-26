@@ -6,12 +6,12 @@
         "173a8352-e34d-403a-b515-edaf691999ee": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/doterra-Canada-metapwr-system.png",
-            "heading": "doTERRA MetaPWR System",
+            "image": "shopify:\/\/shop_images\/Canada-doterra-free-membership_1.jpg",
+            "heading": "10% Off Citronella",
             "heading_size": "h1",
-            "subheading": "Optimize your weight and metabolism",
-            "button_label": "Shop",
-            "link": "shopify:\/\/collections\/doterra-metapwr",
+            "subheading": "For home and outdoors",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/products\/citronella",
             "button_style_secondary": false,
             "box_align": "middle-left",
             "show_text_box": true,
@@ -20,7 +20,7 @@
             "image_overlay_opacity": 0,
             "color_scheme": "accent-1",
             "bg_override": true,
-            "bg_color": "#e98544",
+            "bg_color": "#b6bc1e",
             "bg_opacity": 0.8,
             "text_alignment_mobile": "center"
           }
@@ -93,9 +93,8 @@
         },
         "1658472393e1147b2e-0": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/shipping-promo-wide-textless.png",
+            "image": "shopify:\/\/shop_images\/Canada--doterra-free-shipping_2.jpg",
             "heading": "Free Shipping",
             "heading_size": "h1",
             "subheading": "Orders over $50",
