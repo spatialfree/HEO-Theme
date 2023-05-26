@@ -50,21 +50,21 @@
         "92842091-9677-4e31-8806-a53b55e51fa8": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/doterra-emprender.png",
+            "image": "shopify:\/\/shop_images\/Canada-doterra-free-membership.jpg",
             "heading": "Free doTERRA Membership",
             "heading_size": "h1",
-            "subheading": "Free wholesale membership with any purchase",
+            "subheading": "Shop all products at wholesale year round",
             "button_label": "Join & Save 25%",
             "link": "https:\/\/ca.home-essential-oils.com\/pages\/doterra-wholesale-membership",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "box_align": "middle-center",
             "show_text_box": true,
             "text_box_opacity": 0,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "bg_override": false,
-            "bg_color": "#ffffff",
+            "color_scheme": "accent-1",
+            "bg_override": true,
+            "bg_color": "#354657",
             "bg_opacity": 0.6,
             "text_alignment_mobile": "center"
           }
