@@ -3,28 +3,6 @@
     "1658472394ff6d1fec": {
       "type": "slideshow",
       "blocks": {
-        "173a8352-e34d-403a-b515-edaf691999ee": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Canada-doterra-free-membership_1.jpg",
-            "heading": "10% Off Citronella",
-            "heading_size": "h1",
-            "subheading": "For home and outdoors",
-            "button_label": "Shop Now",
-            "link": "shopify:\/\/products\/citronella",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_box_opacity": 0,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-1",
-            "bg_override": true,
-            "bg_color": "#b6bc1e",
-            "bg_opacity": 0.8,
-            "text_alignment_mobile": "center"
-          }
-        },
         "1658472393e1147b2e-1": {
           "type": "slide",
           "settings": {
@@ -66,6 +44,28 @@
             "bg_override": true,
             "bg_color": "#354657",
             "bg_opacity": 0.6,
+            "text_alignment_mobile": "center"
+          }
+        },
+        "173a8352-e34d-403a-b515-edaf691999ee": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Canada-doterra-free-membership_1.jpg",
+            "heading": "10% Off Citronella",
+            "heading_size": "h1",
+            "subheading": "For home and outdoors",
+            "button_label": "Shop Now",
+            "link": "shopify:\/\/products\/citronella",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": true,
+            "text_box_opacity": 0,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "bg_override": true,
+            "bg_color": "#b6bc1e",
+            "bg_opacity": 0.8,
             "text_alignment_mobile": "center"
           }
         },
@@ -115,9 +115,9 @@
         }
       },
       "block_order": [
-        "173a8352-e34d-403a-b515-edaf691999ee",
         "1658472393e1147b2e-1",
         "92842091-9677-4e31-8806-a53b55e51fa8",
+        "173a8352-e34d-403a-b515-edaf691999ee",
         "5129a209-ca1f-4a65-ae52-cb467985a75a",
         "1658472393e1147b2e-0"
       ],
