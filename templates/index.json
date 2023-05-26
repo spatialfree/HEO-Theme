@@ -252,7 +252,7 @@
       "settings": {
         "title": "U.S. Products",
         "heading_size": "h1",
-        "description": "<p>Shipped from the U.S. to Canada. Free shipping included.<\/p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "doterra-u-s-products",
