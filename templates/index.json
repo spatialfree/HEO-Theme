@@ -95,9 +95,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Canada--doterra-free-shipping_3.jpg",
-            "heading": "Free & Fast Shipping",
-            "heading_size": "h1",
-            "subheading": "Orders over $75",
+            "heading": "Free Shipping",
+            "heading_size": "h0",
+            "subheading": "On orders over $75",
             "button_label": "Shop",
             "link": "shopify:\/\/collections\/best-selling-products",
             "button_style_secondary": true,
@@ -107,9 +107,9 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "accent-1",
-            "bg_override": true,
+            "bg_override": false,
             "bg_color": "#bd8bca",
-            "bg_opacity": 0,
+            "bg_opacity": 0.3,
             "text_alignment_mobile": "center"
           }
         }
