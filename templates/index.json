@@ -250,12 +250,12 @@
     "c681df01-5ec2-4158-a52c-22bc5d2f3040": {
       "type": "featured-collection",
       "settings": {
-        "title": "U.S. Products",
+        "title": "Most Popular U.S. Products",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "doterra-u-s-products",
+        "collection": "popular-u-s-products",
         "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": false,
