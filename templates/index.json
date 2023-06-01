@@ -212,6 +212,33 @@
         "padding_bottom": 72
       }
     },
+    "c681df01-5ec2-4158-a52c-22bc5d2f3040": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Most Popular U.S. Products",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "popular-u-s-products",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -301,33 +328,6 @@
         "padding_bottom": 64
       }
     },
-    "c681df01-5ec2-4158-a52c-22bc5d2f3040": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Most Popular U.S. Products",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "popular-u-s-products",
-        "products_to_show": 5,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1651301878a509b284": {
       "type": "image-banner",
       "blocks": {
@@ -381,8 +381,8 @@
     "1658472394ff6d1fec",
     "16644407558be18696",
     "16513048140b475ee3",
-    "multicolumn",
     "c681df01-5ec2-4158-a52c-22bc5d2f3040",
+    "multicolumn",
     "1651301878a509b284"
   ]
 }
