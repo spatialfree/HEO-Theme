@@ -1123,7 +1123,7 @@ summary::-webkit-details-marker {
   }
 
   .grid--peek .grid__item {
-    min-width: 64%;
+    min-width: 196px;
   }
 
   .grid--peek.slider .grid__item:first-of-type {
