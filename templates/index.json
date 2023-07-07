@@ -138,7 +138,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/breathe-thumbnail.png",
-            "title": "Digestive",
+            "title": "Respiratory",
             "text": "",
             "link_label": "",
             "link": "shopify:\/\/collections\/best-doterra-essential-oils-for-clear-breathing"
@@ -148,7 +148,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/digestion-thumbnail.png",
-            "title": "",
+            "title": "Digestive",
             "text": "",
             "link_label": "",
             "link": "shopify:\/\/collections\/best-doterra-essential-oils-for-doterra-digestion"
@@ -158,7 +158,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/sleep-thumbnail.png",
-            "title": "",
+            "title": "Sleep",
             "text": "",
             "link_label": "",
             "link": "shopify:\/\/collections\/best-doterra-essential-oils-for-sleep"
@@ -168,7 +168,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/muscles-thumbnail.png",
-            "title": "",
+            "title": "Muscles & Joints",
             "text": "",
             "link_label": "",
             "link": "shopify:\/\/collections\/best-doterra-essential-oils-for-muscles-joints"
@@ -178,7 +178,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/immune-thumbnail.png",
-            "title": "",
+            "title": "Immune Support",
             "text": "",
             "link_label": "",
             "link": "shopify:\/\/collections\/best-doterra-essential-oils-to-boost-immune-system"
@@ -188,7 +188,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/29x5-1600x276-calming-anxious-feelings-us-en-web.webp",
-            "title": "",
+            "title": "Emotional Health",
             "text": "",
             "link_label": "",
             "link": "shopify:\/\/collections\/best-doterra-essential-oils-for-stress-management"
@@ -217,7 +217,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 36
       }
     },
     "16644407558be18696": {
