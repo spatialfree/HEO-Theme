@@ -131,114 +131,6 @@
         "accessibility_info": "doTERRA Promotions Slildeshow"
       }
     },
-    "16644407558be18696": {
-      "type": "collection-list",
-      "blocks": {
-        "16644407553dada8ff-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "deep-blue®-products"
-          }
-        },
-        "16644407553dada8ff-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "on-guard-products"
-          }
-        },
-        "7dc5cb82-ede6-4541-a300-a5e7b0fe8515": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "doterra-metapwr"
-          }
-        },
-        "c4a6e1d4-b56c-4598-a327-047b04c5285d": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "zengest®products"
-          }
-        },
-        "16644407553dada8ff-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "doterra-u-s-products"
-          }
-        }
-      },
-      "block_order": [
-        "16644407553dada8ff-0",
-        "16644407553dada8ff-1",
-        "7dc5cb82-ede6-4541-a300-a5e7b0fe8515",
-        "c4a6e1d4-b56c-4598-a327-047b04c5285d",
-        "16644407553dada8ff-2"
-      ],
-      "settings": {
-        "title": "Shop by Category",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 5,
-        "color_scheme": "background-1",
-        "show_view_all": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "16513048140b475ee3": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "doTERRA Best Sellers",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "best-selling-products",
-        "products_to_show": 5,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 72
-      }
-    },
-    "c681df01-5ec2-4158-a52c-22bc5d2f3040": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Best Sellers (U.S. Products)",
-        "heading_size": "h1",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "popular-u-s-products",
-        "products_to_show": 5,
-        "columns_desktop": 5,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -328,6 +220,114 @@
         "padding_bottom": 64
       }
     },
+    "16644407558be18696": {
+      "type": "collection-list",
+      "blocks": {
+        "16644407553dada8ff-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "deep-blue®-products"
+          }
+        },
+        "16644407553dada8ff-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "on-guard-products"
+          }
+        },
+        "7dc5cb82-ede6-4541-a300-a5e7b0fe8515": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "doterra-metapwr"
+          }
+        },
+        "c4a6e1d4-b56c-4598-a327-047b04c5285d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "zengest®products"
+          }
+        },
+        "16644407553dada8ff-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "doterra-u-s-products"
+          }
+        }
+      },
+      "block_order": [
+        "16644407553dada8ff-0",
+        "16644407553dada8ff-1",
+        "7dc5cb82-ede6-4541-a300-a5e7b0fe8515",
+        "c4a6e1d4-b56c-4598-a327-047b04c5285d",
+        "16644407553dada8ff-2"
+      ],
+      "settings": {
+        "title": "Shop by Category",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16513048140b475ee3": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "doTERRA Best Sellers",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "best-selling-products",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "c681df01-5ec2-4158-a52c-22bc5d2f3040": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Best Sellers (U.S. Products)",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "popular-u-s-products",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "1651301878a509b284": {
       "type": "image-banner",
       "blocks": {
@@ -379,10 +379,10 @@
   },
   "order": [
     "1658472394ff6d1fec",
+    "multicolumn",
     "16644407558be18696",
     "16513048140b475ee3",
     "c681df01-5ec2-4158-a52c-22bc5d2f3040",
-    "multicolumn",
     "1651301878a509b284"
   ]
 }
