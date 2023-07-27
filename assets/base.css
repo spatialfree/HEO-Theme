@@ -2250,6 +2250,8 @@ input[type='checkbox'] {
   .header:not(.header--middle-left) .header__inline-menu {
     margin-top: 11rem;
     background: linear-gradient(0deg, #ffffffcc, transparent);
+    margin-left: unset;
+    margin-right: unset;
   }
 }
 
