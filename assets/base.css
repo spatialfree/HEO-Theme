@@ -1677,7 +1677,7 @@ details[open] > .share-button__fallback {
   z-index: 1;
   
   box-shadow: 0px 2px 18px rgb(0 0 0 / 10%);
-  border: 1px solid #dfdfdf;
+  border: 1px solid #ffffffcc;
 }
 
 .select__select {
