@@ -314,7 +314,7 @@
                   autocapitalize="off"
                   spellcheck="false"
                 {%- endif -%}
-                style="background-color: #ffffffcc"
+                style="background-color: #ffffffcc;"
               >
               <label class="field__label" for="Search-In-Modal">Search Products, Collections, Keywords...</label>
               <input type="hidden" name="options[prefix]" value="last">
@@ -391,7 +391,10 @@
     {%- if section.settings.menu != blank -%}
       {%- if section.settings.menu_type_desktop == 'dropdown' -%}
         <nav class="header__inline-menu">
-          <ul class="list-menu list-menu--inline" role="list">
+          <ul class="list-menu list-menu--inline" role="list" style="
+            display: flex;
+            justify-content: space-around;
+          ">
             {%- for link in section.settings.menu.links -%}
               <li>
                 {%- if link.links != blank -%}
