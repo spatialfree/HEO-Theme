@@ -2248,7 +2248,7 @@ input[type='checkbox'] {
   }
 
   .header:not(.header--middle-left) .header__inline-menu {
-    margin-top: 11rem;
+    margin-top: 13rem;
     background: linear-gradient(0deg, #ffffff80, transparent);
     margin-left: unset;
     margin-right: unset;
