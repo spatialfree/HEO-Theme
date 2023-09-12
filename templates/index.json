@@ -301,15 +301,15 @@
         "padding_bottom": 0
       }
     },
-    "16513048140b475ee3": {
+    "76f1760f-c935-42a6-90b1-e1309b0f3752": {
       "type": "featured-collection",
       "settings": {
-        "title": "Best Selling Products",
+        "title": "Best Selling Essential Oils",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "best-selling-products",
+        "collection": "best-selling-essential-oils",
         "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": false,
@@ -328,15 +328,15 @@
         "padding_bottom": 36
       }
     },
-    "76f1760f-c935-42a6-90b1-e1309b0f3752": {
+    "16513048140b475ee3": {
       "type": "featured-collection",
       "settings": {
-        "title": "Best Selling Essential Oils",
+        "title": "Best Selling Products",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "best-selling-essential-oils",
+        "collection": "best-selling-products",
         "products_to_show": 5,
         "columns_desktop": 5,
         "full_width": false,
@@ -409,8 +409,8 @@
     "multicolumn",
     "16644407558be18696",
     "c681df01-5ec2-4158-a52c-22bc5d2f3040",
-    "16513048140b475ee3",
     "76f1760f-c935-42a6-90b1-e1309b0f3752",
+    "16513048140b475ee3",
     "1651301878a509b284"
   ]
 }
