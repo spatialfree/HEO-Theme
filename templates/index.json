@@ -330,9 +330,8 @@
     },
     "76f1760f-c935-42a6-90b1-e1309b0f3752": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "Featured collection",
+        "title": "Best Selling Essential Oils",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
