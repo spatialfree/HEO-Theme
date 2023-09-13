@@ -104,7 +104,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Free Shipping on orders over CA $75",
+              "text": "Free Shipping with $75 orders",
               "color_scheme": "accent-1",
               "link": ""
             }
