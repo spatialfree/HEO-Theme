@@ -2249,9 +2249,10 @@ input[type='checkbox'] {
 
   .header:not(.header--middle-left) .header__inline-menu {
     margin-top: 1rem;
-    background: linear-gradient(0deg, #ffffff80, transparent);
+    background: #fff;
+    border-radius: 18px 18px 0 0;
     margin-left: unset;
-    margin-right: unset;
+    margin-right: unset;   
   }
 }
 
