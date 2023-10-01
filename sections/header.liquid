@@ -113,6 +113,15 @@
     background-size: cover;
     background-position: center;
 ">
+  <div style="
+    display: block;
+    position: absolute;
+    width: 256px;
+    /* height: 32px; */
+    top: 0;
+    bottom: 0;
+    background-image: url({{ 'home.svg' | asset_url }}); 
+  "></div>
   <header class="header header--{{ section.settings.logo_position }} page-width{% if section.settings.menu != blank %} header--has-menu{% endif %}">
     <div style="display: flex; align-items: center;">
       {%- if section.settings.menu != blank -%}
