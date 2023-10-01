@@ -369,9 +369,9 @@
 
 
     {%- if request.page_type == 'index' -%}
-      <h1 class="header__heading" style="opacity: 0">
+      <h1 class="header__heading">
     {%- endif -%}
-        <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset" style="padding: 0; text-align: center; width: 64px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+        <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset" style="opacity: 0; padding: 0; text-align: center; width: 64px; display: flex; align-items: center; justify-content: center; flex-direction: column;">
           {% comment %} {%- if section.settings.logo != blank -%}
             {%- assign image_size_2x = section.settings.logo_width | times: 2 | at_most: 5760 -%}
             <img srcset="{{ section.settings.logo | image_url: width: section.settings.logo_width }} 1x, {{ section.settings.logo | image_url: width: image_size_2x }} 2x"
