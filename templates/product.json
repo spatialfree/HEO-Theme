@@ -131,7 +131,6 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -156,6 +155,7 @@
         "column-0",
         "column-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -197,14 +197,14 @@
         "16584735765b6323a2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Shop Wholesale. Save 25%",
+            "heading": "Shop 25% Off All Products",
             "heading_size": "h1"
           }
         },
         "16584735765b6323a2-1": {
           "type": "text",
           "settings": {
-            "text": "Set up a wholesale account.",
+            "text": "Open a FREE doTERRA Membership today.",
             "text_style": "body"
           }
         },
