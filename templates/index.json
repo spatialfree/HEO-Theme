@@ -262,7 +262,7 @@
         "16644407553dada8ff-2"
       ],
       "settings": {
-        "title": "Shop by Brand Names",
+        "title": "Shop by Product Line",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 5,
@@ -304,7 +304,7 @@
     "76f1760f-c935-42a6-90b1-e1309b0f3752": {
       "type": "featured-collection",
       "settings": {
-        "title": "Best Selling Essential Oils",
+        "title": "Best Selling Oils",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
