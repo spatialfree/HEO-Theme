@@ -50,12 +50,12 @@
         "173a8352-e34d-403a-b515-edaf691999ee": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/canada-doterra-special-offers_1.jpg",
-            "heading": "doTERRA Special Discounts",
+            "image": "shopify:\/\/shop_images\/doterra-Canada-new-products.jpg",
+            "heading": "New doTERRA Products",
             "heading_size": "h1",
-            "subheading": "and Limited Time Offers",
+            "subheading": "Unleash Your Tomorrow",
             "button_label": "Shop Now",
-            "link": "https:\/\/ca.home-essential-oils.com\/collections\/limited-time-offers",
+            "link": "shopify:\/\/products\/doterra-new-products-convention-kit",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -64,7 +64,7 @@
             "image_overlay_opacity": 0,
             "color_scheme": "inverse",
             "bg_override": true,
-            "bg_color": "#b6bc1e",
+            "bg_color": "#354657",
             "bg_opacity": 0.8,
             "text_alignment_mobile": "center"
           }
