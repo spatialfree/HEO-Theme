@@ -204,14 +204,14 @@
         "16584735765b6323a2-1": {
           "type": "text",
           "settings": {
-            "text": "Open a FREE doTERRA membership today.",
-            "text_style": "body"
+            "text": "FREE doTERRA membership this month!",
+            "text_style": "subtitle"
           }
         },
         "16584735765b6323a2-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop & Enroll Today",
+            "button_label_1": "Shop & Enroll",
             "button_link_1": "https:\/\/ca.home-essential-oils.com\/pages\/doterra-wholesale-membership",
             "button_style_secondary_1": false,
             "button_label_2": "",
