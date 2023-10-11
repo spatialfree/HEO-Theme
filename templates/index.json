@@ -3,25 +3,25 @@
     "1658472394ff6d1fec": {
       "type": "slideshow",
       "blocks": {
-        "173a8352-e34d-403a-b515-edaf691999ee": {
+        "1658472393e1147b2e-1": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_doterra-Canada-new-products_2.jpg",
-            "heading": "Browse New Products",
+            "image": "shopify:\/\/shop_images\/doterra-harvest-spice-canada.jpg",
+            "heading": "Harvest Spice is Back",
             "heading_size": "h1",
-            "subheading": "Unleash Your Tomorrow",
+            "subheading": "Enjoy the cozy aroma of Autumn",
             "button_label": "Shop",
-            "link": "https:\/\/ca.home-essential-oils.com\/collections\/new-products",
+            "link": "https:\/\/ca.home-essential-oils.com\/products\/doterra-harvest-spice-blend",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "middle-left",
             "show_text_box": true,
             "text_box_opacity": 0,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "inverse",
+            "color_scheme": "background-2",
             "bg_override": true,
-            "bg_color": "#354657",
-            "bg_opacity": 0.8,
+            "bg_color": "#f3f3f3",
+            "bg_opacity": 0.7,
             "text_alignment_mobile": "center"
           }
         },
@@ -47,25 +47,25 @@
             "text_alignment_mobile": "center"
           }
         },
-        "1658472393e1147b2e-1": {
+        "173a8352-e34d-403a-b515-edaf691999ee": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/doterra-harvest-spice-canada.jpg",
-            "heading": "Harvest Spice is Back",
+            "image": "shopify:\/\/shop_images\/Copy_of_doterra-Canada-new-products_2.jpg",
+            "heading": "New Products",
             "heading_size": "h1",
-            "subheading": "Enjoy the cozy aroma of Autumn",
+            "subheading": "Unleash Your Tomorrow",
             "button_label": "Shop",
-            "link": "https:\/\/ca.home-essential-oils.com\/products\/doterra-harvest-spice-blend",
+            "link": "https:\/\/ca.home-essential-oils.com\/collections\/new-products",
             "button_style_secondary": false,
-            "box_align": "middle-left",
+            "box_align": "middle-center",
             "show_text_box": true,
             "text_box_opacity": 0,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "background-2",
+            "color_scheme": "inverse",
             "bg_override": true,
-            "bg_color": "#f3f3f3",
-            "bg_opacity": 0.7,
+            "bg_color": "#354657",
+            "bg_opacity": 0.8,
             "text_alignment_mobile": "center"
           }
         },
@@ -115,9 +115,9 @@
         }
       },
       "block_order": [
-        "173a8352-e34d-403a-b515-edaf691999ee",
-        "92842091-9677-4e31-8806-a53b55e51fa8",
         "1658472393e1147b2e-1",
+        "92842091-9677-4e31-8806-a53b55e51fa8",
+        "173a8352-e34d-403a-b515-edaf691999ee",
         "5129a209-ca1f-4a65-ae52-cb467985a75a",
         "1658472393e1147b2e-0"
       ],
