@@ -532,7 +532,7 @@
         <span class="icon-label">Help</span>
       </a>
       {%- if section.settings.show_enroll -%}
-        <div class="header__icon header__icon--account link focus-inset icon-wlabel">
+        <div onclick="elbyid('accpop').show()" class="header__icon header__icon--account link focus-inset icon-wlabel">
           {% render 'icon-account' %}
           <span class="icon-label">Account</span>
         </div>
@@ -560,6 +560,16 @@
       {% endif %}
     </div>
   </header>
+
+  <dialog id="accpop">
+    <p>Greetings, one and all!</p>
+    <form method="dialog">
+      <button onclick="elbyid('accpop').close()">OK</button>
+    </form>
+  </dialog>
+
+  
+  
   <div style="margin-bottom: 1rem; margin-top: 1rem" id="search-mobile" class="search-modal__content{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} search-modal__content-top{% else %} search-modal__content-bottom{% endif %}" tabindex="-1">
     {%- if settings.predictive_search_enabled -%}
       <predictive-search class="search-modal__form" data-loading-text="{{ 'accessibility.loading' | t }}">
