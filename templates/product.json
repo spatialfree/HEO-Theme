@@ -131,7 +131,6 @@
     },
     "multicolumn": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -156,6 +155,7 @@
         "column-0",
         "column-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -226,7 +226,7 @@
         "16584735765b6323a2-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/shipping-promo-enroll_8ffefefe-72bd-437e-abcf-4273921e2b73.png",
+        "image": "shopify:\/\/shop_images\/shipping-promo-enroll.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
