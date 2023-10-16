@@ -532,10 +532,10 @@
         <span class="icon-label">Help</span>
       </a>
       {%- if section.settings.show_enroll -%}
-        <a class="header__icon header__icon--account link focus-inset icon-wlabel">
+        <div class="header__icon header__icon--account link focus-inset icon-wlabel">
           {% render 'icon-account' %}
           <span class="icon-label">Account</span>
-        </a>
+        </div>
       {%- endif -%}
 	    {% if section.settings.show_cart %}
         <a href="{{ routes.cart_url }}" class="header__icon header__icon--cart link focus-inset icon-wlabel" id="cart-icon-bubble">
