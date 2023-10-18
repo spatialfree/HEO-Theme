@@ -54,7 +54,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Product Safety",
-            "icon": "clipboard",
+            "icon": "heart",
             "content": "<p>Follow the directions printed on the label or this page. Do not use the product in a way not intended. If you have concerns, discontinue use or contact doTERRA 1-800-411-8151. Enroll in the free <a href=\"https:\/\/training.doterra.com\/p\/essential-oil-safety-course\" target=\"_blank\" title=\"https:\/\/training.doterra.com\/p\/essential-oil-safety-course\">doTERRA Safety Course<\/a> to learn more.<\/p>",
             "page": ""
           }
@@ -63,7 +63,7 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Product Education",
-            "icon": "apple",
+            "icon": "clipboard",
             "content": "<p>Learn how to use doTERRA essential oils and products in our <a href=\"https:\/\/shop.home-essential-oils.com\/pages\/Help-Center\" title=\"Help Center\">help center<\/a>. Download the <em>Modern Essentials<\/em> app for detailed health protocols and applications. Available on <a href=\"https:\/\/play.google.com\/store\/apps\/details?id=com.aromatools.meplus&pli=1\" target=\"_blank\" title=\"https:\/\/play.google.com\/store\/apps\/details?id=com.aromatools.meplus&pli=1\">Android<\/a> and <a href=\"https:\/\/www.bing.com\/ck\/a?!&&p=ba391e86a3bad5d7JmltdHM9MTY5NzU4NzIwMCZpZ3VpZD0yMzViNGY5Ni0xN2MzLTY5ZjktMTUzNS01ZGQzMTY2NDY4YmEmaW5zaWQ9NTI2MA&ptn=3&hsh=3&fclid=235b4f96-17c3-69f9-1535-5dd3166468ba&psq=modern+essentials+app&u=a1aHR0cHM6Ly9hcHBzLmFwcGxlLmNvbS91cy9hcHAvbW9kZXJuLWVzc2VudGlhbHMtcGx1cy9pZDEzOTEwODQ1NjA&ntb=1\" target=\"_blank\" title=\"https:\/\/www.bing.com\/ck\/a?!&&p=ba391e86a3bad5d7JmltdHM9MTY5NzU4NzIwMCZpZ3VpZD0yMzViNGY5Ni0xN2MzLTY5ZjktMTUzNS01ZGQzMTY2NDY4YmEmaW5zaWQ9NTI2MA&ptn=3&hsh=3&fclid=235b4f96-17c3-69f9-1535-5dd3166468ba&psq=modern+essentials+app&u=a1aHR0cHM6Ly9hcHBzLmFwcGxlLmNvbS91cy9hcHAvbW9kZXJuLWVzc2VudGlhbHMtcGx1cy9pZDEzOTEwODQ1NjA&ntb=1\">iPhone<\/a><\/p>",
             "page": ""
           }
