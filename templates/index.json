@@ -267,12 +267,12 @@
         "16513018788bc6d28d-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Join Today!",
-            "button_link_1": "https:\/\/www.doterra.com\/CA\/en\/selectRegion\/13237",
+            "button_label_1": "Join & Save 25%",
+            "button_link_1": "https:\/\/doterra.me\/AzPwFE",
             "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label_2": "Learn More",
+            "button_link_2": "shopify:\/\/pages\/how-to-become-a-doterra-member",
+            "button_style_secondary_2": true
           }
         }
       },
