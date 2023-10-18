@@ -208,7 +208,7 @@
       "settings": {
         "title": "Exclusives",
         "heading_size": "h1",
-        "description": "<p>Pick up exclusive doTERRA essential oils and products only found here, while supplies last.<\/p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "monthly-specials",
