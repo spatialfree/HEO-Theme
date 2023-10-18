@@ -136,7 +136,7 @@
         "777efcbc-c080-47cf-874a-72e9b68bda8b"
       ],
       "settings": {
-        "title": "Shop By Topic",
+        "title": "By Health Topic",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 5,
@@ -206,7 +206,7 @@
     "c681df01-5ec2-4158-a52c-22bc5d2f3040": {
       "type": "featured-collection",
       "settings": {
-        "title": "Exclusives",
+        "title": "Exclusive Oils",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
