@@ -82,7 +82,7 @@
           "settings": {
             "heading": "Shipping Information",
             "icon": "truck",
-            "content": "<p>Get FREE standard shipping on orders over $50. Get FREE express shipping on orders over $100. Rates are calculated at checkout. Orders are typically processed the same day and shipped out the next. For more information and our international shipping options, view our <a href=\"https:\/\/shop.home-essential-oils.com\/policies\/shipping-policy\">Shipping Policy<\/a>.<\/p>",
+            "content": "<p>Get FREE shipping on orders over $50. Get FREE express shipping on orders over $100. Rates are calculated at checkout. Orders are typically processed the same day and shipped out the next. For more information or to see international shipping options view our <a href=\"https:\/\/shop.home-essential-oils.com\/policies\/shipping-policy\">Shipping Policy<\/a>.<\/p>",
             "page": ""
           }
         },
