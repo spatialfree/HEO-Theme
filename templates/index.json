@@ -91,7 +91,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
-        "padding_bottom": 0
+        "padding_bottom": 36
       }
     },
     "530a4228-d17e-402d-958d-113aad8867ba": {
@@ -200,7 +200,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
-        "padding_bottom": 72
+        "padding_bottom": 36
       }
     },
     "c681df01-5ec2-4158-a52c-22bc5d2f3040": {
