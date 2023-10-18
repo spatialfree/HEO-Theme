@@ -262,7 +262,7 @@
         "16644407553dada8ff-2"
       ],
       "settings": {
-        "title": "Shop by Product Line",
+        "title": "Proprietary Blends",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 5,
@@ -331,7 +331,7 @@
     "16513048140b475ee3": {
       "type": "featured-collection",
       "settings": {
-        "title": "Top Selling Products",
+        "title": "Best Selling Products",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
