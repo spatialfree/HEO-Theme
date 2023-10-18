@@ -97,7 +97,7 @@
     "16513048140b475ee3": {
       "type": "featured-collection",
       "settings": {
-        "title": "Best Sellers",
+        "title": "Best Selling Products",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -162,7 +162,6 @@
         "5647999b-160f-4560-974e-b35e6acf7405",
         "777efcbc-c080-47cf-874a-72e9b68bda8b"
       ],
-      "disabled": true,
       "settings": {
         "title": "Shop By Health Topic",
         "heading_size": "h1",
