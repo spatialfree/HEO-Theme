@@ -45,7 +45,7 @@
         - div.price__sale: Displayed when a variant is a sale
     {%- endcomment -%}
     <div class="price__regular">
-      <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
+      <span class="visually-hidden visually-hidden--inline">vcvxcvxcv{{ 'products.product.price.regular_price' | t }}</span>
       <span class="price-item price-item--regular">
         {%- if product.metafields.custom.wholesale_price != nil -%}Retail:&nbsp;{%- endif -%}{{ money_price }}
       </span>
@@ -64,7 +64,7 @@
         </span>
       {%- endunless -%} -->
       <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
-      <span class="price-item price-item--sale price-item--last">aernhtearsh
+      <span class="price-item price-item--sale price-item--last">
         {%- if product.metafields.custom.wholesale_price != nil -%}Retail:&nbsp;{%- endif -%}{{ money_price }}
       </span>
     </div>
