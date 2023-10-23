@@ -19,6 +19,7 @@
 
   assign compare_at_price = target.compare_at_price
   assign price = target.price | default: 1999
+  assign savings = price | minus: products.product.price.sale_price 
   assign available = target.available | default: false
   assign money_price = price | money
   if settings.currency_code_enabled
@@ -93,6 +94,8 @@
     <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}" style="text-decoration: line-through; color: var(--color-base-text); background-color: white; border: none">
 <!--       {{ 'products.product.on_sale' | t }} -->
       {{ compare_at_price | money | replace: "USD ", "" }}
+
+      <span>{{ }}</span>
     </span>
 
     <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}">
