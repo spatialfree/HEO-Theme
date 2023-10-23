@@ -90,7 +90,7 @@
     </small>
   </div>
   {%- if show_badges -%}
-    <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}" style="text-decoration: line-through; background-color: #fff; border: none">
+    <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}" style="text-decoration: line-through; color: var(--color-base-text); background-color: white; border: none">
 <!--       {{ 'products.product.on_sale' | t }} -->
       {{ compare_at_price | money | replace: "USD ", "" }}
     </span>
