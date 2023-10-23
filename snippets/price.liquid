@@ -96,7 +96,7 @@
       {{ compare_at_price | money | replace: "USD ", "" }}
     </span>
 
-    <span>{{ savings | money }}</span>
+    <span>SAVE {{ savings | money }}</span>
 
     <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}">
       {{ 'products.product.sold_out' | t }}
