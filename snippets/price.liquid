@@ -45,7 +45,7 @@
         - div.price__sale: Displayed when a variant is a sale
     {%- endcomment -%}
     <div class="price__regular">
-      <span class="visually-hidden visually-hidden--inline">vcvxcvxcv{{ 'products.product.price.regular_price' | t }}</span>
+      <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
       <span class="price-item price-item--regular">
         {%- if product.metafields.custom.wholesale_price != nil -%}Retail:&nbsp;{%- endif -%}{{ money_price }}
       </span>
@@ -93,6 +93,7 @@
     <span class="badge price__badge-sale color-{{ settings.sale_badge_color_scheme }}" style="text-decoration: line-through; background-color: #ea5252; border: 2px solid white;">
 <!--       {{ 'products.product.on_sale' | t }} -->
       {{ compare_at_price | money | replace: "USD ", "" }}
+      rstrstrstr
     </span>
 
     <span class="badge price__badge-sold-out color-{{ settings.sold_out_badge_color_scheme }}">
