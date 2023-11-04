@@ -81,7 +81,7 @@
       </div>
     </div>
     {% if settings.card_style == 'card' or card_collection.featured_image %} 
-      <div class="card__content" style="align-items: start; margin-top: 1.5rem; {%- if card_collection.description == blank and unless show_desc -%}height: 0;{%- endif -%}">
+      <div class="card__content" style="align-items: start; margin-top: 1.5rem; {%- unless card_collection.description != blank and show_desc -%}height: 0;{%- endunless -%}">
         <div class="card__information">
           <h3 class="card__heading">
             <a href="{{ card_collection.url }}" class="full-unstyled-link">
