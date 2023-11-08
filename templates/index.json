@@ -101,7 +101,7 @@
             "button_label": "Shop",
             "link": "shopify:\/\/collections\/best-selling-products",
             "button_style_secondary": true,
-            "box_align": "middle-center",
+            "box_align": "middle-left",
             "show_text_box": true,
             "text_box_opacity": 0,
             "text_alignment": "center",
