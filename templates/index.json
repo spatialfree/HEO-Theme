@@ -97,7 +97,7 @@
             "image": "shopify:\/\/shop_images\/Canada--doterra-free-shipping_3.jpg",
             "heading": "Free & Fast Shipping",
             "heading_size": "h1",
-            "subheading": "On $75 orders",
+            "subheading": "Orders over $75",
             "button_label": "Shop",
             "link": "shopify:\/\/collections\/best-selling-products",
             "button_style_secondary": true,
