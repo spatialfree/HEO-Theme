@@ -1421,9 +1421,7 @@ button.shopify-payment-button__button--unbranded {
   .button.loading {
     color: rgb(var(--color-foreground));
     width: 200%;
-  }
-    .button--full-width {
-    width: 200%;
+    white-space: nowrap;
   }
 }
 
