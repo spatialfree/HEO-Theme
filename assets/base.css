@@ -1409,7 +1409,7 @@ button.shopify-payment-button__button--unbranded {
 
 .button--full-width {
   display: flex;
-  width: 200%;
+  width: 100%;
 }
 
 .button.loading {
@@ -1420,6 +1420,9 @@ button.shopify-payment-button__button--unbranded {
 @media screen and (forced-colors: active) {
   .button.loading {
     color: rgb(var(--color-foreground));
+    width: 200%;
+  }
+    .button--full-width {
     width: 200%;
   }
 }
