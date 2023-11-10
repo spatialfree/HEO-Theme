@@ -197,7 +197,7 @@
         "16584735765b6323a2-0": {
           "type": "heading",
           "settings": {
-            "heading": "Shop 25% off",
+            "heading": "Save 25%",
             "heading_size": "h1"
           }
         },
@@ -211,7 +211,7 @@
         "16584735765b6323a2-2": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop & Enroll",
+            "button_label_1": "Join & Shop Wholesale",
             "button_link_1": "https:\/\/doterra.me\/7UWW4v",
             "button_style_secondary_1": false,
             "button_label_2": "",
