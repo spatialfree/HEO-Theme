@@ -448,13 +448,13 @@
                           style="text-align: center; background-color: white; color: rgb(var(--color-button));"
                         >Start Wholesale Cart*</div>
                       </a>
-                      <p>*Free doTERRA wholesale membership included.</p>
-                      <hr>
                     {%- endif -%}
                     {%- if block.settings.show_dynamic_checkout -%}
                       {{ form | payment_button }}
                     {%- endif -%}
                   </div>
+                  <p>*Free doTERRA wholesale membership included.</p>
+                      <hr>
                 {%- endform -%}
               </product-form>
 
