@@ -1241,6 +1241,8 @@ summary::-webkit-details-marker {
 @media screen and (min-width: 990px) {
   .media--cropped {
     padding-bottom: 63%;
+    .customer button {
+  padding: 0 3rem;
   }
 }
 
