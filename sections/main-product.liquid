@@ -448,12 +448,13 @@
                           style="text-align: center; background-color: white; color: rgb(var(--color-button));"
                         >Buy Wholesale*</div>
                       </a>
+                    <p style="font-size: 14px;color: #BD8BCA; font-weight:bold;"> *Wholesale membership included, save $42.</p>
                     {%- endif -%}
                     {%- if block.settings.show_dynamic_checkout -%}
                       {{ form | payment_button }}
                     {%- endif -%}
                   </div>
-                  <p style="font-size: 14px;color: #BD8BCA; font-weight:bold;"> *Wholesale membership included, save $42.</p>
+                  
                       <hr>
                 {%- endform -%}
               </product-form>
