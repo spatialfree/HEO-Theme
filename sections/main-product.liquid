@@ -439,15 +439,14 @@
                             <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
                           </svg>
                         </div>
-                    </button>
-                    <br>
+                    </button>                    
                     {%- if product.metafields.custom.wholesale_sku > 0 -%}
                       <a href="https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1" style="text-decoration: none;">
 <!--                           onclick="doterra('https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1')" -->
                         <div 
                           class="wholesale-btn product-form__submit button button--full-width"
                           style="text-align: center; background-color: white; color: rgb(var(--color-button));"
-                        >Buy Wholesale*</div>
+                        >Buy Wholesale*</div><br>
                       </a>
                     <p style="font-size: 14px;color: #BD8BCA; font-weight:bold;"> *Free wholesale membership included</p>
                     {%- endif -%}
