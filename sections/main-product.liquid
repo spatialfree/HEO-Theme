@@ -448,13 +448,13 @@
                           style="text-align: center; background-color: white; color: rgb(var(--color-button));"
                         >Shop Wholesale</div>
                       </a>
-                     <p style="font-size: 14px;color: #BD8BCA; font-weight:bold;">&nbsp</p>
+                     
                     {%- endif -%}
                     {%- if block.settings.show_dynamic_checkout -%}
                       {{ form | payment_button }}
                     {%- endif -%}
                   </div>
-                  
+                  <p style="font-size: 14px;color: #BD8BCA; font-weight:bold;">&nbsp</p>
                       <hr>
                 {%- endform -%}
               </product-form>
