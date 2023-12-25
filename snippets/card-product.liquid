@@ -206,7 +206,7 @@
               </quick-add-modal>
             {%- endif -%}
 
-            {%- if card_product.metafields.custom.wholesale_sku < 1 -%}
+            {%- if card_product.metafields.custom.wholesale_url.size > 0 -%}
               <!-- <a href="{{ card_product.metafields.custom.wholesale_url }}" style="text-decoration: none;">
                 <div 
                   class="wholesale-btn product-form__submit button button--full-width"
@@ -222,7 +222,7 @@
                   font-weight: 700;
                   background-color: white;
                   color: rgb(var(--color-button));">
-                  Buy Wholesal
+                  Buy Wholesale
                 </div>
               </a>
             {%- else -%}
