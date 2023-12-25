@@ -279,18 +279,25 @@
 
       window.onload = () => {
         var iframes = document.getElementsByTagName('iframe');
-        for(var i = 0; i < iframes.length; i++) {
+        for (var i = 0; i < iframes.length; i++) {
           if (iframes[i].src.includes("youtube")) {
-            // $(iframes[i]).wrap("<div class="vid-container"></div>");
-            // js way
-            // create a div: document.createElement()
-            // fill its innerHTML from original element
-            // use insertbefore to insert new before the original
-            // use .remove() to remove the original.
+            // Create a div element
+            var div = document.createElement('div');
+            // Set a class for the new div (optional)
+            div.className = 'vid-container';
             
+            // Wrap the iframe inside the new div
+            div.appendChild(iframes[i].cloneNode(true)); // Clone the iframe
+            
+            // Insert the new div before the original iframe
+            iframes[i].parentNode.insertBefore(div, iframes[i]);
+            
+            // Remove the original iframe
+            iframes[i].remove();
           }
         }
       }
+
       
       
     </script>
