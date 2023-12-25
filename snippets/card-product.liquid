@@ -206,14 +206,14 @@
               </quick-add-modal>
             {%- endif -%}
 
-            {%- if product.metafields.custom.wholesale_sku < 1 -%}
+            {%- if card_product.metafields.custom.wholesale_sku < 1 -%}
               <!-- <a href="{{ product.metafields.custom.wholesale_url }}" style="text-decoration: none;">
                 <div 
                   class="wholesale-btn product-form__submit button button--full-width"
                   style="text-align: center; background-color: white; color: rgb(var(--color-button));"
                 >Shop Wholesale</div>
               </a> -->
-              <a href="{{ product.metafields.custom.wholesale_url }}" style="text-decoration: none;">
+              <a href="{{ card_product.metafields.custom.wholesale_url }}" style="text-decoration: none;">
                 <div class="button" style="
                   
                   margin-top: 10px;
