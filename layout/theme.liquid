@@ -281,8 +281,13 @@
         var iframes = document.getElementsByTagName('iframe');
         for(var i = 0; i < iframes.length; i++) {
           if (iframes[i].src.includes("youtube")) {
-            console.log($(iframes[i]))
-            $(iframes[i]).wrap("<div class="vid-container"></div>");
+            // $(iframes[i]).wrap("<div class="vid-container"></div>");
+            // js way
+            // create a div: document.createElement()
+            // fill its innerHTML from original element
+            // use insertbefore to insert new before the original
+            // use .remove() to remove the original.
+            
           }
         }
       }
