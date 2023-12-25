@@ -237,6 +237,10 @@ html.no-js .no-js-hidden {
   .page-width-tablet {
     padding: 0 5rem;
   }
+
+  .product-form__buttons {
+    width: 50%;
+  }
 }
 
 @media screen and (min-width: 990px) {
