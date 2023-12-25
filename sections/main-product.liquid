@@ -440,7 +440,24 @@
                           </svg>
                         </div>
                     </button>   
-
+                    {%- if product.metafields.custom.wholesale_url.size > 0 -%}
+                      <a href="{{ product.metafields.custom.wholesale_url }}" style="text-decoration: none;">
+                        <div 
+                          class="wholesale-btn product-form__submit button button--full-width"
+                          style="text-align: center; background-color: white; color: rgb(var(--color-button));"
+                        >Shop Wholesale</div>
+                      </a>
+                    {%- else -%}
+                      {%- if product.metafields.custom.wholesale_sku > 0 -%}
+                        <a href="https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1" style="text-decoration: none;">
+  <!--                           onclick="doterra('https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1')" -->
+                          <div 
+                            class="wholesale-btn product-form__submit button button--full-width"
+                            style="text-align: center; background-color: white; color: rgb(var(--color-button));"
+                          >Shop Wholesale</div>
+                        </a>
+                      {%- endif -%}
+                    {%- endif -%}
                     {%- if block.settings.show_dynamic_checkout -%}
                       {{ form | payment_button }}
                     {%- endif -%}
