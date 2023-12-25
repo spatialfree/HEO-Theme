@@ -281,6 +281,7 @@
         var iframes = document.getElementsByTagName('iframe');
         for(var i = 0; i < iframes.length; i++) {
           if (iframes[i].src.includes("youtube")) {
+            $(iframes[i]).wrap("<div class="vid-container"></div>");
             console.log(iframes[i])
           }
         }
