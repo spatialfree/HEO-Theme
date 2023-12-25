@@ -287,16 +287,14 @@
             div.className = 'vid-container';
             
             // Wrap the iframe inside the new div
-            div.appendChild(iframes[i].cloneNode(true)); // Clone the iframe
+            div.appendChild(iframes[i]);
             
             // Insert the new div before the original iframe
             iframes[i].parentNode.insertBefore(div, iframes[i]);
-            
-            // Remove the original iframe
-            iframes[i].remove();
           }
         }
       }
+
 
       
       
