@@ -206,7 +206,7 @@
               </quick-add-modal>
             {%- endif -%}
 
-            {%- if product.metafields.custom.wholesale_url.size > 0 -%}
+            {%- if product.metafields.custom.wholesale_url.size > 1 -%}
               <!-- <a href="{{ product.metafields.custom.wholesale_url }}" style="text-decoration: none;">
                 <div 
                   class="wholesale-btn product-form__submit button button--full-width"
@@ -227,7 +227,7 @@
                 </div>
               </a>
             {%- else -%}
-              {%- if product.metafields.custom.wholesale_sku > 0 -%}
+              <!-- {%- if product.metafields.custom.wholesale_sku > 0 -%} -->
                 <!-- <a href="https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1" style="text-decoration: none;">
                   <div 
                     class="wholesale-btn product-form__submit button button--full-width"
@@ -247,7 +247,7 @@
                     Buy Wholesale
                   </div>
                 </a>
-              {%- endif -%}
+              <!-- {%- endif -%} -->
             {%- endif -%}
           </div>
         {%- endif -%}
