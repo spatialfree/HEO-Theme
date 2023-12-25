@@ -281,6 +281,7 @@
         var iframes = document.getElementsByTagName('iframe');
         for(var i = 0; i < iframes.length; i++) {
           let src = iframes[i].attr("src")
+          console.log(src)
           if (src.includes("youtube")) {
             console.log(iframes[i])
           }
