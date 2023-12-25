@@ -280,11 +280,9 @@
       window.onload = () => {
         var iframes = document.getElementsByTagName('iframe');
         for(var i = 0; i < iframes.length; i++) {
-          console.log(iframes[i].src)
-          // console.log(src)
-          // if (src.includes("youtube")) {
-          //   console.log(iframes[i])
-          // }
+          if (iframes[i].src.includes("youtube")) {
+            console.log(iframes[i])
+          }
         }
       }
       
