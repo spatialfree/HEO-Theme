@@ -206,20 +206,49 @@
               </quick-add-modal>
             {%- endif -%}
 
-            
-            <a href="https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ card_product.metafields.custom.wholesale_sku }}=1" style="text-decoration: none;">
-              <div class="button" style="
-                opacity: 0;
-                {%- if card_product.metafields.custom.wholesale_sku > 0 -%}opacity: 1;{%- endif -%}
-                margin-top: 10px;
-                text-align: center;
-                font-size: 1.2em;
-                font-weight: 700;
-                background-color: white;
-                color: rgb(var(--color-button));">
-                Buy Wholesale
-            </div>
-          </a>
+            {%- if product.metafields.custom.wholesale_url.size > 0 -%}
+              <!-- <a href="{{ product.metafields.custom.wholesale_url }}" style="text-decoration: none;">
+                <div 
+                  class="wholesale-btn product-form__submit button button--full-width"
+                  style="text-align: center; background-color: white; color: rgb(var(--color-button));"
+                >Shop Wholesale</div>
+              </a> -->
+              <a href="{{ product.metafields.custom.wholesale_url }}" style="text-decoration: none;">
+                <div class="button" style="
+                  opacity: 0;
+                  {%- if card_product.metafields.custom.wholesale_sku > 0 -%}opacity: 1;{%- endif -%}
+                  margin-top: 10px;
+                  text-align: center;
+                  font-size: 1.2em;
+                  font-weight: 700;
+                  background-color: white;
+                  color: rgb(var(--color-button));">
+                  Buy Wholesale
+                </div>
+              </a>
+            {%- else -%}
+              {%- if product.metafields.custom.wholesale_sku > 0 -%}
+                <!-- <a href="https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ product.metafields.custom.wholesale_sku }}=1" style="text-decoration: none;">
+                  <div 
+                    class="wholesale-btn product-form__submit button button--full-width"
+                    style="text-align: center; background-color: white; color: rgb(var(--color-button));"
+                  >Shop Wholesale</div>
+                </a> -->
+                <a href="https://www.doterra.com/CA/en/create-cart/enrollment?OwnerID=13237&salesOrg=CAOTG&acctType=WC&60218439=1&{{ card_product.metafields.custom.wholesale_sku }}=1" style="text-decoration: none;">
+                  <div class="button" style="
+                    opacity: 0;
+                    {%- if card_product.metafields.custom.wholesale_sku > 0 -%}opacity: 1;{%- endif -%}
+                    margin-top: 10px;
+                    text-align: center;
+                    font-size: 1.2em;
+                    font-weight: 700;
+                    background-color: white;
+                    color: rgb(var(--color-button));">
+                    Buy Wholesale
+                  </div>
+                </a>
+              {%- endif -%}
+            {%- endif -%}
           </div>
         {%- endif -%}
         <div class="card__badge {{ settings.badge_position }}">
