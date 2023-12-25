@@ -278,7 +278,13 @@
       elbyid = (id) => document.getElementById(id)
 
       window.onload = () => {
-        console.log("TEST")
+        var iframes = document.getElementsByTagName('iframe');
+        for(var i = 0; i < iframes.length; i++) {
+          // if(iframes[i].type.toLowerCase() == 'text') {
+          //     alert(iframes[i].value);
+          // }
+          console.log(iframes[i])
+        }
       }
       
       
