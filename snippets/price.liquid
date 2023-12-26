@@ -74,7 +74,7 @@
       <span class="visually-hidden visually-hidden--inline">{{ 'product.metafields.custom.wholesale_price' | t }}</span>
       {%- if product.metafields.custom.wholesale_url.size > 0-%}
         <span class="price-item price-item--wholesale" style="font-weight: normal; line-height: 3.4rem; {%- if product.metafields.custom.wholesale_price == nil -%}opacity: 0;{%- endif -%}">
-        Wholesale:US {{ wholesale | replace: "CA", "" }}
+        Wholesale: US {{ wholesale | replace: "CA", "" }}
       </span>
       {%- else -%}
       <span class="price-item price-item--wholesale" style="font-weight: normal; line-height: 3.4rem; {%- if product.metafields.custom.wholesale_price == nil -%}opacity: 0;{%- endif -%}">
