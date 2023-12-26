@@ -76,10 +76,11 @@
         <span class="price-item price-item--wholesale" style="font-weight: normal; line-height: 3.4rem; {%- if product.metafields.custom.wholesale_price == nil -%}opacity: 0;{%- endif -%}">
         Wholesale:US {{ wholesale | replace: "CA", "" }}
       </span>
-      {%- endif -%}
+      {%- else -%}
       <span class="price-item price-item--wholesale" style="font-weight: normal; line-height: 3.4rem; {%- if product.metafields.custom.wholesale_price == nil -%}opacity: 0;{%- endif -%}">
         Wholesale: {{ wholesale | replace: "CA", "" }}
       </span>
+      {%- endif -%}
     </div>
     <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
       <span class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</span>
