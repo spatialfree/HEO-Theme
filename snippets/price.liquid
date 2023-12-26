@@ -78,7 +78,7 @@
       </span>
       {%- else -%}
       <span class="price-item price-item--wholesale" style="font-weight: normal; line-height: 3.4rem; {%- if product.metafields.custom.wholesale_price == nil -%}opacity: 0;{%- endif -%}">
-        Wholesale: {{ wholesale | replace: "CA", "" }}
+        Wholesale: CA {{ wholesale | replace: "CA", "" }}
       </span>
       {%- endif -%}
     </div>
