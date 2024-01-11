@@ -3,6 +3,28 @@
     "1658472394ff6d1fec": {
       "type": "slideshow",
       "blocks": {
+        "92842091-9677-4e31-8806-a53b55e51fa8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/canada-free-doterra-membership.jpg",
+            "heading": "Setup a FREE doTERRA Membership",
+            "heading_size": "h1",
+            "subheading": "Shop 25% off year-round",
+            "button_label": "Learn More",
+            "link": "https:\/\/ca.home-essential-oils.com\/pages\/doterra-wholesale-membership",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_box_opacity": 0,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "bg_override": true,
+            "bg_color": "#354657",
+            "bg_opacity": 0.6,
+            "text_alignment_mobile": "center"
+          }
+        },
         "1658472393e1147b2e-1": {
           "type": "slide",
           "settings": {
@@ -22,28 +44,6 @@
             "bg_override": true,
             "bg_color": "#f3f3f3",
             "bg_opacity": 0.7,
-            "text_alignment_mobile": "center"
-          }
-        },
-        "92842091-9677-4e31-8806-a53b55e51fa8": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/canada-free-doterra-membership.jpg",
-            "heading": "Free doTERRA Membership",
-            "heading_size": "h1",
-            "subheading": "Shop 25% off all products",
-            "button_label": "Learn More",
-            "link": "https:\/\/ca.home-essential-oils.com\/pages\/doterra-wholesale-membership",
-            "button_style_secondary": true,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_box_opacity": 0,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-1",
-            "bg_override": true,
-            "bg_color": "#354657",
-            "bg_opacity": 0.6,
             "text_alignment_mobile": "center"
           }
         },
@@ -97,7 +97,7 @@
             "image": "shopify:\/\/shop_images\/Canada--doterra-free-shipping_3.jpg",
             "heading": "Free & Fast Shipping",
             "heading_size": "h1",
-            "subheading": "On orders over $75",
+            "subheading": "Orders over $75",
             "button_label": "Shop",
             "link": "shopify:\/\/collections\/best-selling-products",
             "button_style_secondary": true,
@@ -115,8 +115,8 @@
         }
       },
       "block_order": [
-        "1658472393e1147b2e-1",
         "92842091-9677-4e31-8806-a53b55e51fa8",
+        "1658472393e1147b2e-1",
         "173a8352-e34d-403a-b515-edaf691999ee",
         "5129a209-ca1f-4a65-ae52-cb467985a75a",
         "1658472393e1147b2e-0"
