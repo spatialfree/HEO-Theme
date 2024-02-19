@@ -145,8 +145,8 @@
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "f31d3f96-7ee3-4586-8997-15e384c2f857": {
@@ -172,8 +172,8 @@
         "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     },
     "16513048140b475ee3": {
@@ -199,8 +199,8 @@
         "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     },
     "c681df01-5ec2-4158-a52c-22bc5d2f3040": {
@@ -226,8 +226,8 @@
         "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 20,
-        "padding_bottom": 20
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     },
     "47f88658-02dd-47de-a2b4-92fc5510ee7a": {
@@ -244,8 +244,8 @@
         "show_date": false,
         "show_author": false,
         "show_view_all": true,
-        "padding_top": 12,
-        "padding_bottom": 12
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     },
     "1651301878a509b284": {
