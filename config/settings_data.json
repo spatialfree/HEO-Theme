@@ -150,11 +150,20 @@
               "heading": "Home Essential Oils",
               "subtext": "<p>Shop all your favorite doTERRA essential oils and products at lowest retail price.<\/p>"
             }
+          },
+          "image_hXEkUR": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/doterra_Wellness_Assesment.jpg",
+              "image_width": 200,
+              "alignment": "center"
+            }
           }
         },
         "block_order": [
           "footer-0",
-          "footer-2"
+          "footer-2",
+          "image_hXEkUR"
         ],
         "settings": {
           "color_scheme": "background-1",
