@@ -95,9 +95,9 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Canada_Banner_1.jpg",
-            "heading": "Free Shipping and Fast Delivery",
+            "heading": "Recharge your Electrolytes",
             "heading_size": "h1",
-            "subheading": "Recharge with Essential Oils, Minerals, Electrolytes",
+            "subheading": "Powerful combination of essential oils and deep ocean minerals",
             "button_label": "Shop",
             "link": "https:\/\/ca.home-essential-oils.com\/products\/doterra-metapwr-recharge-wild-strawberry",
             "button_style_secondary": true,
@@ -107,9 +107,9 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "accent-1",
-            "bg_override": false,
+            "bg_override": true,
             "bg_color": "#bd8bca",
-            "bg_opacity": 0.3,
+            "bg_opacity": 0.7,
             "text_alignment_mobile": "center"
           }
         }
