@@ -3,6 +3,28 @@
     "1658472394ff6d1fec": {
       "type": "slideshow",
       "blocks": {
+        "92842091-9677-4e31-8806-a53b55e51fa8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/canada-free-doterra-membership.jpg",
+            "heading": "Setup a Free doTERRA Membership",
+            "heading_size": "h1",
+            "subheading": "Save $42 and shop 25% off year-round. No obligations",
+            "button_label": "Learn More",
+            "link": "https:\/\/ca.home-essential-oils.com\/pages\/doterra-wholesale-membership",
+            "button_style_secondary": true,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_box_opacity": 0,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-1",
+            "bg_override": true,
+            "bg_color": "#354657",
+            "bg_opacity": 0.6,
+            "text_alignment_mobile": "center"
+          }
+        },
         "173a8352-e34d-403a-b515-edaf691999ee": {
           "type": "slide",
           "settings": {
@@ -29,7 +51,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/Canada_Banner_1.jpg",
-            "heading": "Recharge your Electrolytes",
+            "heading": "Recharge your Cells",
             "heading_size": "h1",
             "subheading": "Powerful combination of essential oils and deep ocean minerals",
             "button_label": "Shop",
@@ -69,28 +91,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "92842091-9677-4e31-8806-a53b55e51fa8": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/canada-free-doterra-membership.jpg",
-            "heading": "Setup a Free doTERRA Membership",
-            "heading_size": "h1",
-            "subheading": "Save $42 and shop 25% off year-round. No obligations",
-            "button_label": "Learn More",
-            "link": "https:\/\/ca.home-essential-oils.com\/pages\/doterra-wholesale-membership",
-            "button_style_secondary": true,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_box_opacity": 0,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-1",
-            "bg_override": true,
-            "bg_color": "#354657",
-            "bg_opacity": 0.6,
-            "text_alignment_mobile": "center"
-          }
-        },
         "5129a209-ca1f-4a65-ae52-cb467985a75a": {
           "type": "slide",
           "settings": {
@@ -115,10 +115,10 @@
         }
       },
       "block_order": [
+        "92842091-9677-4e31-8806-a53b55e51fa8",
         "173a8352-e34d-403a-b515-edaf691999ee",
         "1658472393e1147b2e-0",
         "1658472393e1147b2e-1",
-        "92842091-9677-4e31-8806-a53b55e51fa8",
         "5129a209-ca1f-4a65-ae52-cb467985a75a"
       ],
       "settings": {
