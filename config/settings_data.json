@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
@@ -95,7 +104,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "favicon": "shopify:\/\/shop_images\/favicon_585f23e9-9d19-4b83-aeeb-397b7306a47a.png",
+    "favicon": "shopify://shop_images/favicon_585f23e9-9d19-4b83-aeeb-397b7306a47a.png",
     "currency_code_enabled": true,
     "sections": {
       "announcement-bar": {
@@ -113,14 +122,13 @@
         "block_order": [
           "announcement-bar-0"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "header": {
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/CA-logo_68db50b8-1f6d-48d4-a94a-2f467840fa4c.png",
+          "logo": "shopify://shop_images/CA-logo_68db50b8-1f6d-48d4-a94a-2f467840fa4c.png",
           "logo_width": 160,
           "logo_position": "top-left",
           "menu": "main-menu",
@@ -129,7 +137,7 @@
           "enable_sticky_header": false,
           "show_cart": true,
           "show_enroll": true,
-          "enroll_url": "shopify:\/\/pages\/doterra-wholesale-membership",
+          "enroll_url": "shopify://pages/doterra-wholesale-membership",
           "margin_bottom": 0
         }
       },
@@ -148,7 +156,7 @@
             "disabled": true,
             "settings": {
               "heading": "Home Essential Oils",
-              "subtext": "<p>Shop all your favorite doTERRA essential oils and products at lowest retail price.<\/p>"
+              "subtext": "<p>Shop all your favorite doTERRA essential oils and products at lowest retail price.</p>"
             }
           }
         },
@@ -183,9 +191,14 @@
         }
       }
     },
-    "content_for_index": [
-
-    ]
+    "content_for_index": [],
+    "blocks": {
+      "5182184951224911228": {
+        "type": "shopify://apps/rapid-search/blocks/script/bd827795-feaa-41a8-9219-2b83f238aa7d",
+        "disabled": false,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Default": {
@@ -301,8 +314,7 @@
           "block_order": [
             "announcement-bar-0"
           ],
-          "settings": {
-          }
+          "settings": {}
         },
         "header": {
           "type": "header",
@@ -337,7 +349,7 @@
               "type": "text",
               "settings": {
                 "heading": "Our mission",
-                "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+                "subtext": "<p>Share contact information, store details, and brand content with your customers.</p>"
               }
             }
           },
