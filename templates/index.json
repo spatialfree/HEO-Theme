@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "1658472394ff6d1fec": {
@@ -6,12 +15,12 @@
         "1658472393e1147b2e-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/shipping-promo-wide-textless.png",
+            "image": "shopify://shop_images/shipping-promo-wide-textless.png",
             "heading": "Free Shipping",
             "heading_size": "h1",
             "subheading": "on any orders over $50",
             "button_label": "Shop now",
-            "link": "shopify:\/\/collections\/best-selling-products",
+            "link": "shopify://collections/best-selling-products",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": true,
@@ -100,7 +109,7 @@
         "template--16726291022037__530a4228-d17e-402d-958d-113aad8867ba-1682596811da37a067-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "best-doterra-essential-oils-for-sleep"
+            "collection": "doterra-sleep-solutions"
           }
         },
         "template--16726291022037__530a4228-d17e-402d-958d-113aad8867ba-1682596811da37a067-1": {
@@ -269,10 +278,10 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Join & Save 25%",
-            "button_link_1": "https:\/\/doterra.me\/AzPwFE",
+            "button_link_1": "https://doterra.me/AzPwFE",
             "button_style_secondary_1": false,
             "button_label_2": "Learn More",
-            "button_link_2": "shopify:\/\/pages\/how-to-become-a-doterra-member",
+            "button_link_2": "shopify://pages/how-to-become-a-doterra-member",
             "button_style_secondary_2": true
           }
         }
@@ -283,7 +292,7 @@
         "16513018788bc6d28d-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/doterra-emprender.png",
+        "image": "shopify://shop_images/doterra-emprender.png",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
